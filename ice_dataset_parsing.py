@@ -13,6 +13,7 @@ def clean_html(text):
     paragraphs = html_parser.find_all('p')
 
     cleaned_text = '\n'.join(p.get_text().strip() for p in paragraphs)
+    cleaned_text = cleaned_text.replace('\xa0', ' ')
 
     return cleaned_text
 
@@ -39,19 +40,22 @@ if __name__ == "__main__":
 
     # dataset is multi-task, so emotion label is isolated
     er_train = train_data.filter(lambda ds: ds['task_type'] == 'Tilfinning')
+    print(len(er_train))
+    print(len(train_data))
 
     # Remove html from info
-    cleaned_data = er_train.map(lambda dataset: {
+    cleaned_er_data = er_train.map(lambda dataset: {
         'blog_text': clean_html(dataset['blog_text']),
         'comment_body': clean_html(dataset['comment_body']),
         'previous_comments': clean_comment_history(dataset['previous_comments'])
     })
 
-    cleaned_data.save_to_disk('../datasets/ERC/icelandic/ice_and_fire_ER')
+    cleaned_er_data.save_to_disk('datasets/ERC/icelandic/ice_and_fire_ER')
 
     # repeat for Sentiment Analysis data
     # dataset is multi-task, so sentiment analysis label is isolated
     sa_train = train_data.filter(lambda ds: ds['task_type'] == 'Lyndi')
+
 
     cleaned_sa_data = sa_train.map(lambda dataset: {
         'blog_text': clean_html(dataset['blog_text']),
@@ -59,5 +63,5 @@ if __name__ == "__main__":
         'previous_comments': clean_comment_history(dataset['previous_comments'])
     })
 
-    cleaned_data.save_to_disk('../datasets/SA/icelandic/ice_and_fire_SA')
+    cleaned_sa_data.save_to_disk('datasets/SA/icelandic/ice_and_fire_SA')
 

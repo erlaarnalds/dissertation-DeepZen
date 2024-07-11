@@ -1,0 +1,7 @@
+Model, Class, Accuracy, Precision, Recall, F1
+SenticNet, Positive, 0.46, 0.53, 0.23, 0.32
+SenticNet, Negative, 0.46, 0.30, 0.04, 0.06
+SenticNet, Neutral, 0.46, 0.46, 0.88, 0.60
+GPT-4o, Positive, 0.72, 0.93, 0.53, 0.67
+GPT-4o, Negative, 0.72, 0.72, 0.78, 0.75
+GPT-4o, Neutral, 0.72, 0.68, 0.76, 0.72
