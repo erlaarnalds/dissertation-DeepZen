@@ -1,6 +1,6 @@
 # huggingface-cli login
 # pip install datasets
-from datasets import load_dataset
+from datasets_local import load_dataset
 from bs4 import BeautifulSoup
 import numpy as np
 

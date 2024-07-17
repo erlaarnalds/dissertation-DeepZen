@@ -1,0 +1,70 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ice_and_fire",
+  "dataset_size": 87001575,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/hafsteinn/ice_and_fire@9d5d1cd41817356da6451bd08fd703555b8fceca/ice_and_fire_huggingface_dataset.csv": {
+      "num_bytes": 87763188,
+      "checksum": null
+    }
+  },
+  "download_size": 87763188,
+  "features": {
+    "annotator_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "task_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "show_blog_post": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "show_preceding_comments": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "blog_title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "blog_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "comment_body": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "previous_comments": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 174764763,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 87001575,
+      "num_examples": 8720,
+      "dataset_name": "ice_and_fire"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
