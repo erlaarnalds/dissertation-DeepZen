@@ -1,7 +1,6 @@
 # unrelated testing folder
 testing/
-datasets_local/senticnet_en/
-datasets_local/senticnet_is/
+datasets_local/
 
 .DS_Store
 **/.DS_Store
