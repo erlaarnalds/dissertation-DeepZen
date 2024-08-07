@@ -1,0 +1,837 @@
+utterance, prediction, true label
+Snippet: Ég mæli líka með hvítlaukshnútunum .
+Aspect: hvítlaukshnútar, positive, positive
+Snippet: Ég varð fyrir miklum vonbrigðum með þjónustu þeirra og mat.
+Aspect: matur, negative, negative
+Snippet: Það lítur ekki mikið út að utan, en um leið og þú gengur inn er allt annað andrúmsloft.
+Aspect: andrúmsloft, positive, positive
+Snippet: Herbergið er glæsilegt rými á tveimur hæðum og langi barinn fullkominn fyrir drykk.
+Aspect: Drykkur, positive, neutral
+Snippet: Kokkurinn Vincenzo, alltaf til staðar ef þú þarft á honum að halda, er algjör hæfileiki og alvöru Rómverji.
+Aspect: Kokkur, positive, positive
+Snippet: Sömuleiðis ef þér líkar við mjög þunna skorpu eða mjög stórar sneiðar þá gæti Nick og Joe&#39;s ekki verið uppáhaldið þitt.
+Aspect: þunn skorpa, neutral, negative
+Snippet: Prófaðu klárlega calamari, hvaða pasta sem er, eða jafnvel steikina.
+Aspect: steik, positive, positive
+Snippet: Barþjónarnir og stjórnendurnir eru mjög indælir og innréttingarnar eru mjög þægilegar og afslappaðar, allt á meðan þær eru töff.
+Aspect: barþjónar, positive, positive
+Snippet: Samlokur, hamborgarar og salöt, eins og sítrónu-klæddur cobb, eru klassísk velgengni.
+Aspect: salöt, positive, positive
+Snippet: Til viðbótar við frábærar pylsur, er DOTP með dásamlegar morgunverðarsamlokur sem innihalda, auk frábærra hluta eins og tatortotta og enska muffins, dýrindis svínakjötsvöru úr NJ sem þekkjum okkur Jersey stelpur og stráka sem Taylor skinku.
+Aspect: Enskar muffins, positive, positive
+Snippet: Engar grænar baunir, engin egg, engin ansjósudressing, engar nicoise ólífur, enginn rauðlaukur.
+Aspect: ansjósu dressing, neutral, neutral
+Snippet: Matseðillinn er áhugaverður og nokkuð sanngjarnt verð.
+Aspect: verðlagðar, positive, positive
+Snippet: Í uppáhaldi má nefna: kartöfluspínatgnocchi og lambið.
+Aspect: : kartöfluspínatgnocchi, positive, positive
+Snippet: Grænmetisrisottóið mitt var brennt og brennda bragðið tók algjörlega yfir matinn.
+Aspect: grænmetis risotto, negative, negative
+Snippet: Það er gott að fara þangað í drykki ef þú vilt ekki verða fullur því þú verður heppinn ef þú getur fengið þér einn drykk á klukkustund að þjónustan er svo slæm.
+Aspect: drykki, negative, neutral
+Snippet: Flestar samlokurnar eru búnar til með sojamajónesi sem er reyndar nokkuð gott.
+Aspect: sojamajónes, positive, positive
+Snippet: Starfsfólk er móttækilegt og tryggir að þú sért ánægður.
+Aspect: Starfsfólk, positive, positive
+Snippet: Ég hafði svo sannarlega líka gaman af matnum.
+Aspect: matur, positive, positive
+Snippet: Réttir sem táknaðir eru „Roy&#39;s Classics“ (merktir á matseðlinum með stjörnum) eru sannreyndar uppskriftir, svo sem mahi mahi með makadamíuskorpu, eða lúmskur sæt hunangs-sinnepsnautakjöt.
+Aspect: uppskriftir, positive, positive
+Snippet: Maturinn er ekki bara ekta heldur er starfsfólkið hér nánast utan báts, það er ungt og hippið og veit hvað það er að gera þegar kemur að mat og víni.
+Aspect: vín, positive, positive
+Snippet: Öndin þeirra hér er líka alveg ljúffeng.
+Aspect: önd, positive, positive
+Snippet: Maturinn var næstum alltaf FRÁBÆR.
+Aspect: matur, positive, positive
+Snippet: Þjónustan er nokkuð góð.
+Aspect: þjónusta, positive, positive
+Snippet: Mér finnst kjötbollu-parmurinn góður.
+Aspect: kjötbollur parm, positive, positive
+Snippet: Þjónustan er frábær (kannski jafnvel jaðarnöldur en maður fær allavega athygli), eftirréttir eru frábærir og kaffið er svo mjög gott ...
+Aspect: eftirrétti, positive, positive
+Snippet: Við vorum mjög hrifin af matnum og verðmæti.
+Aspect: gildi, positive, positive
+Snippet: Þeir sérhæfa sig í smoothies og ferskum safi.
+Aspect: ferskum safi, positive, positive
+Snippet: Það er vonbrigði að dásamlegt Saketini þeirra hefur verið tekið af barseðlinum.
+Aspect: barseðill, negative, negative
+Snippet: Boðið er upp á rétti eins og heitar lummur og Egg McMuffin samlokuna í morgunmat.
+Aspect: Egg McMuffin samloka, neutral, neutral
+Snippet: Ég get sagt að vefjurnar, hamborgararnir og salötin hafi verið fersk, bragðgóð og mangó margaretan á $ 9 var VEL peninganna virði.
+Aspect: , hamborgarar, positive, positive
+Snippet: Ef þú ert að leita að því að smakka frábæran indverskan mat og vilt góða þjónustu skaltu endilega heimsækja Curry Leaf.
+Aspect: Indverskur matur, positive, positive
+Snippet: Ég fæ mér venjulega víetnömsku nautakjötsnúðlusúpu.
+Aspect: Víetnömsk nautakjötsnúðlusúpa, positive, neutral
+Snippet: nokkrum sinnum og sætti sig við slæma framkomu þjónanna, vitandi að starf þeirra er ekki auðvelt.
+Aspect: þjónar, negative, negative
+Snippet: Nokkuð vonbrigði vínlisti (aðeins nýir árgangar.
+Aspect: vínlista, negative, negative
+Snippet: Hins vegar er þjónustan alveg hræðileg.
+Aspect: þjónusta, negative, negative
+Snippet: þetta er samt einn af uppáhalds veitingastöðum mínum á svæðinu, maturinn er ódýr en mjög góður (kimono rækju sérstakur var frábær) og hefur frábæra stemningu.
+Aspect: andrúmsloft, positive, positive
+Snippet: 15% þjórfé bætt sjálfkrafa við reikninginn.
+Aspect: % þokkabót, neutral, negative
+Snippet: Skreytingin er það sem kom mér inn um dyrnar í upphafi.
+Aspect: skraut, positive, positive
+Snippet: Matargerð er talin vera asísk samruna - stenst ekki reikninginn.
+Aspect: innheimt, neutral, negative
+Snippet: Þjónustan er virkilega hröð og vinaleg og verðmætin eru frábær.
+Aspect: gildi, positive, positive
+Snippet: þjónustufólkið er mjög vingjarnlegt, ef þú ert ekki dónalegur eða vandlátur ... máltíðin okkar á Leon um síðustu helgi var frábær - .
+Aspect: máltíð, positive, positive
+Snippet: Allt álegg er svo ferskt að þú myndir halda að það væri með sinn eigin grænmetisgarð og skorpan er svo fullkomin að maður hugsar í raun um hvernig það var búið til.
+Aspect: álegg, positive, positive
+Snippet: Ég hef aldrei á ævinni sent til baka mat áður en ég varð einfaldlega að gera það og þjónninn ræddi við mig um þetta.
+Aspect: þjónn, neutral, negative
+Snippet: Þeir eru með heimabakað pasta af öllum gerðum - ég mæli með gnocchi - namm!
+Aspect: heimabakað pasta, positive, positive
+Snippet: Í uppáhaldi allra tíma má nefna Big Mac, Chicken McNuggets, Filet-O-Fish samloku og McDonald&#39;s frægar franskar kartöflur; Léttari valkostir eins og salöt í forréttum eru einnig fáanlegir.
+Aspect: , Filet-O-Fish samloka, positive, positive
+Snippet: Innréttingin og andrúmsloftið var virkilega rómantískt.
+Aspect: stemning, positive, positive
+Snippet: Glæsilegur og skapandi matseðill My Chelsea inniheldur nútímalega vestræna japanska rétti eins og Foie Gras Unagi Napolean, hamborgarasteik í japönskum stíl, kryddað þorskhrognaspagettí, svartan þorsk með misóbotni og lambalæri í svartri trufflusósu, svo eitthvað sé nefnt. .
+Aspect: Foie Gras Unagi Napolean, neutral, neutral
+Snippet: Ekki vegna þess að ég væri ólétt en maturinn hér er alltaf ljúffengur.
+Aspect: matur, positive, positive
+Snippet: Hins vegar, þar sem við erum matgæðingar, urðum við fyrir miklum vonbrigðum með matinn.
+Aspect: matur, negative, negative
+Snippet: Ferskt grænmeti, alls kyns álegg frá Mið-Austurlöndum, ostur og falafel, súpa, fiskur, hrísgrjón, rótargrænmeti, hrísgrjónablanda, eitthvað spínat, lambakebab, ostur baclava ... svoooo mikið fooood, og allt þetta ljúffengt.
+Aspect: falafel, positive, positive
+Snippet: Myndirðu einhvern tíma trúa því að þegar þú kvartar yfir klukkutíma bið, þegar þeir segja þér að það verði 20-30 mínútur, segi framkvæmdastjórinn barþjóninum að hella niður drykkjunum sem þú varst að borga fyrir?
+Aspect: framkvæmdastjóri, negative, negative
+Snippet: Gæði kjötsins voru á pari við matvöruverslunina þína á staðnum.
+Aspect: gæði kjötsins, negative, negative
+Snippet: Maturinn var góður í heildina.
+Aspect: matur, positive, positive
+Snippet: Þeir eru með mjög góðan kjúkling með avókadó og góðan túnfisk líka.
+Aspect: kjúklingur með avókadó, positive, positive
+Snippet: Maturinn er furðu góður og innréttingin fín.
+Aspect: skraut, neutral, positive
+Snippet: Staðurinn er hreinn og ef þér líkar við sálarmat, þá er þetta staðurinn til að vera á!
+Aspect: sálarmat, positive, positive
+Snippet: Algjörlega versta þjónusta sem ég hef upplifað og maturinn var undir meðallagi (þegar þeir gáfu fólki í raun og veru máltíðirnar sem það pantaði).
+Aspect: matur, negative, negative
+Snippet: Maturinn er góður, teriyaki mæli ég með.
+Aspect: matur, positive, positive
+Snippet: Prófaðu klárlega calamari, hvaða pasta sem er, eða jafnvel steikina.
+Aspect: calamari, positive, positive
+Snippet: Getur verið svolítið upptekið á álagstímum vegna stærðarinnar.
+Aspect: stærð, neutral, negative
+Snippet: Frá erbazzone emiliana til mostarda á ostadisknum, réttirnir á þessum veitingastað eru allir meðhöndlaðir af nákvæmni.
+Aspect: diskar, positive, positive
+Snippet: Það var stutt síðan og ég gleymdi hversu ljúffengar crepes geta verið.
+Aspect: crepes, positive, positive
+Snippet: Ég kom að ferskum og bjóst við frábærri máltíð og allt sem ég fékk var lítill svo-svo matur framreiddur á veitingastað sem var bara svo ískalt að við gátum ekki notið þess að borða.
+Aspect: borið fram, negative, neutral
+Snippet: Vertu viss um að prófa reyktan silung... Lambakótilettur, kálfakótilettur, kanína, kartöflugratínið, áfram og áfram og áfram...
+Aspect: , Kanína, neutral, positive
+Snippet: Ég fór á Common Stock í brunch og ég var svo hrifinn.
+Aspect: brunch, positive, neutral
+Snippet: Algjörlega versta þjónusta sem ég hef upplifað og maturinn var undir meðallagi (þegar þeir gáfu fólki í raun og veru máltíðirnar sem það pantaði).
+Aspect: máltíðir, negative, neutral
+Snippet: Þjónustan var hræðilega hæg (staðurinn var aðeins hálffullur) og bros hefði verið gott ...
+Aspect: þjónusta, negative, negative
+Snippet: Skammtarnir eru mjög stórir og þjónustan frábær !!
+Aspect: skömmtum, positive, positive
+Snippet: BTW, þjónustan er mjög góð.
+Aspect: þjónusta, positive, positive
+Snippet: Dásamlegur matseðill, hlýtt aðlaðandi andrúmsloft, frábær þjónusta, MATURINN lætur mig koma aftur!
+Aspect: þjónusta, positive, positive
+Snippet: nýr hamborgari með sérstakri sósu er í lagi - allavega betri en big mac !
+Aspect: Big Mac, negative, negative
+Snippet: Sósan er bragðmikil og bragðmikil og skorpan góð og stökk.
+Aspect: sósu, positive, positive
+Snippet: Óaðlaðandi lýsingin gerði það að verkum að mig langaði til að kýla, maturinn var of dýrur, það var hræðilegasta diskópoppdúett sem kom fram - og escargotið mitt leit út fyrir að skríða af diskinum.
+Aspect: diskó popp dúett, negative, negative
+Snippet: Maturinn er ljúffengur og barinn hefur frábæra stemningu.
+Aspect: matur, positive, positive
+Snippet: Frá upphafi tóku á móti okkur vingjarnlegt starfsfólk og þægileg bílastæði við Chelsea Piers gerðu okkur auðvelt að komast að bátnum.
+Aspect: bílastæði, positive, positive
+Snippet: Hröð afgreiðsla, frábær matur, sanngjarnt verð og vinaleg þjónusta sameinast um að tryggja ánægjulegan mat.
+Aspect: endurhöggva, neutral, positive
+Snippet: Þjónustan er hins vegar eitthvað undir matargæðum (hræðilegir barþjónar) og viðskiptavinirnir eru að mestu röggsamir og háværir ferðamenn (þetta gæti útskýrt slæmt viðhorf starfsfólksins) sem er hlaðið fyrir. AC/DC tónleikar eða Knicks leik .
+Aspect: gæði matar, positive, positive
+Snippet: Flestar samlokurnar eru búnar til með sojamajónesi sem er reyndar nokkuð gott.
+Aspect: samlokur, positive, positive
+Snippet: Hröð afgreiðsla, frábær matur, sanngjarnt verð og vinaleg þjónusta sameinast um að tryggja ánægjulegan mat.
+Aspect: afhendir, positive, positive
+Snippet: Næringarmenn halda sig við salöt eða láta undan grænmetisréttum.
+Aspect: salöt, neutral, positive
+Snippet: Grænmetisrisottóið mitt var brennt og brennda bragðið tók algjörlega yfir matinn.
+Aspect: bragð, negative, negative
+Snippet: En máltíðirnar voru hræðilegar.
+Aspect: máltíðir, negative, negative
+Snippet: Búðu til máltíð með hliðarpöntunum eins og Amazin&#39; Greens salötum, Buffalo Chicken Kickers og Cinna Stix.
+Aspect: Amazin&#39; grænt salöt, neutral, neutral
+Snippet: Já, þeir eru aðeins dýrari en venjulegir, en aftur á móti, það er maturinn þeirra líka.
+Aspect: matur, positive, positive
+Snippet: Tískuvínúrvalið nær yfir fjölbreytt úrval án þess að vera þröngvað.
+Aspect: tískuverslun úrval af vínum, positive, neutral
+Snippet: Andrúmsloftið tekur þig á þann stað, staðinn sem marga dreymir um.
+Aspect: andrúmsloft, positive, positive
+Snippet: Gestgjafi og gestgjafi voru frekar dónalegir.
+Aspect: Gestgjafi, negative, negative
+Snippet: Hvort sem þú velur ísblandaða mokka eða heita hvíta mokka þá ertu viss um að vera mjög ánægður.
+Aspect: heitt hvítt mokka, positive, positive
+Snippet: Náinn en heillandi innrétting með einstaklega vinalegri og umhyggjusamri þjónustu.
+Aspect: innri, positive, positive
+Snippet: Það er borðað með svörtu ediki og rifnum engifer.
+Aspect: rifið engifer, neutral, neutral
+Snippet: Réttir sem táknaðir eru „Roy&#39;s Classics“ (merktir á matseðlinum með stjörnum) eru sannreyndar uppskriftir, svo sem mahi mahi með makadamíuskorpu, eða lúmskur sæt hunangs-sinnepsnautakjöt.
+Aspect: macadamia-skorpu skammtar, positive, positive
+Snippet: Allt of mikill peningur fyrir svona hræðilega máltíð.
+Aspect: máltíð, negative, negative
+Snippet: Matargerð er talin vera asísk samruna - stenst ekki reikninginn.
+Aspect: reikning, negative, negative
+Snippet: Prófaðu rósarúlluna (ekki á matseðlinum).
+Aspect: matseðill, neutral, neutral
+Snippet: Gestgjafinn (eigandinn) og netþjónar eru persónulegir og umhyggjusamir.
+Aspect: gestgjafi (eigandi, positive, positive
+Snippet: Hefði getað fengið betra fyrir 1/3 af verðinu í Chinatown.
+Aspect: verð, negative, negative
+Snippet: Forréttir eru í lagi en þjónustan er hæg.
+Aspect: þjónusta, negative, negative
+Snippet: Ég var sveltandi og litlu skammtarnir voru að gera mig brjálaðan!
+Aspect: skömmtum, negative, negative
+Snippet: Þú getur borðað sælkeramat á skyndibitaverði.
+Aspect: matur, positive, positive
+Snippet: Best er að panta af grillinu (Churrasco og Ribs).
+Aspect: grill, positive, positive
+Snippet: Caeser salatið var frábært.
+Aspect: Caesar salat, positive, positive
+Snippet: Prófaðu rif, snarkandi nautakjöt og paraðu það með kókoshrísgrjónum.
+Aspect: rifbein, neutral, positive
+Snippet: Í uppáhaldi allra tíma má nefna Big Mac, Chicken McNuggets, Filet-O-Fish samloku og McDonald&#39;s frægar franskar kartöflur; Léttari valkostir eins og salöt í forréttum eru einnig fáanlegir.
+Aspect: salöt í aðalrétti, neutral, neutral
+Snippet: Ef þú ert að leita að viðbjóðslegum dýrum mat með ögn af gettólandslagi ódýrt BX A$ $ er þetta staðurinn til að vera á !!
+Aspect: verðlagðar, negative, negative
+Snippet: Kjúklinga- og falafeldiskarnir voru ólýsanlegar samsetningar með fersku laufsalati.
+Aspect: kjúklinga og falafel diska, positive, neutral
+Snippet: Maturinn er ekki bara ekta heldur er starfsfólkið hér nánast utan báts, það er ungt og hippið og veit hvað það er að gera þegar kemur að mat og víni.
+Aspect: matur, positive, positive
+Snippet: Við fengum fullt af frábærum mat, víni og eftirréttum.
+Aspect: matur, positive, positive
+Snippet: Maturinn er í alla staði góður, rúllurnar yfirleitt frábærar og sushi/sashimi ekki alveg á sama stigi.
+Aspect: rúllur, positive, positive
+Snippet: maturinn er ljúffengur og mjög mælt með því.
+Aspect: matur, positive, positive
+Snippet: Það var skemmtilega þröngt, þjónustan var yndisleg, garðurinn yndislegur, maturinn (frá forréttum til forrétta) var ljúffengur.
+Aspect: forréttir, positive, positive
+Snippet: Ég er ánægður með að ég gerði það þar sem maturinn var mjög góður og starfsfólkið vingjarnlegt, kurteist og skilvirkt.
+Aspect: matur, positive, positive
+Snippet: Einnig er starfsfólkið mjög umhyggjusamt og virkilega persónulegt.
+Aspect: starfsfólk, positive, positive
+Snippet: (Sashimi er skorið aðeins þunnt.
+Aspect: sashimi, neutral, negative
+Snippet: Tvær kvartanir - forréttaúrvalið þeirra lyktar, það væri gaman að fá mozzarellastangir á matseðilinn.
+Aspect: úrval forrétta, negative, negative
+Snippet: Að bíða í þrjár klukkustundir áður en við fáum forréttina okkar var líka dekur.
+Aspect: Bíður, negative, negative
+Snippet: Í Casablanca er boðið upp á dýrindis falafel, tabouleh, humus og annað Miðjarðarhafsljúfmeti, sem er allt mjög ódýrt.
+Aspect: Miðjarðarhafs yndi, positive, positive
+Snippet: Þessi staður er með undarlegasta matseðlinum og veitingastaðirnir reyna of mikið að búa til fínan mat.
+Aspect: matseðill, negative, negative
+Snippet: Þetta er bara góður matur, ekkert annað og það er það eina sem við viljum!
+Aspect: matur, positive, positive
+Snippet: Ég mæli með einhverjum af laxaréttunum þeirra ...
+Aspect: laxaréttir, positive, positive
+Snippet: Hvenær og í hvert skipti sem ég lendi í hverfinu mun ég fara á Sushi Rose fyrir ferskt sushi og frábæra skammta allt á sanngjörnu verði.
+Aspect: sushi, positive, positive
+Snippet: Þvílíkur munur, þjónustan var mjög hugguleg og maturinn betri en meðaltalið, en það sem stóð upp úr var svo kraftmikill og umfangsmikill bjórlisti.
+Aspect: matur, positive, positive
+Snippet: Óheppna konan við hliðina á okkur hélt að hún hefði pantað salat (þar á meðal að biðja um salatdressingu) og fékk í staðinn quesedilla.
+Aspect: salat sósa, neutral, neutral
+Snippet: heitir nú nikki sushi, sushi er í lagi.
+Aspect: , sushi, neutral, neutral
+Snippet: Ríkulega skreyttir, lífrænir grillaðir hamborgarar eru vinsælasti rétturinn, en falafel-umbúðir í Jerúsalemmarkaðsstíl og Miðjarðarhafssalöt - lagaðar með rófum, geitaosti og valhnetum - eru álíka ljúffengar.
+Aspect: , lífrænir grillaðir hamborgarar, positive, positive
+Snippet: Einnig eru kjúklingabaunir með rækjum (forréttur) guðdómlegar.
+Aspect: kjúklingabaunir með rækjum (forréttur, positive, positive
+Snippet: Þjónustan er frábær, súpan mín kemur alltaf góð og heit.
+Aspect: súpu, positive, positive
+Snippet: Það er aðeins opið í hádeginu en maturinn er svo góður!
+Aspect: matur, positive, positive
+Snippet: Réttir sem táknaðir eru „Roy&#39;s Classics“ (merktir á matseðlinum með stjörnum) eru sannreyndar uppskriftir, svo sem mahi mahi með makadamíuskorpu, eða lúmskur sæt hunangs-sinnepsnautakjöt.
+Aspect: Diskar, positive, positive
+Snippet: Frábær matur, frábært þjónustufólk, frábært andrúmsloft og það besta af öllu FRÁBÆR bjór!
+Aspect: bjór, positive, positive
+Snippet: Þó ég hafi flutt í miðbæinn reyni ég að koma eins oft og hægt er til að fá frábæran ódýran mat og kíkja í heimsókn til vinalegu starfsfólksins.
+Aspect: matur, positive, positive
+Snippet: Í mi burrito, hér var ekkert nema dökkur kjúklingur sem var eldaður í síðustu viku og hitaði bara upp í örbylgjuofni.
+Aspect: smakka, neutral, negative
+Snippet: Þessi bar hefur allt - frábæra drykki, flott andrúmsloft, frábæra þjónustu og ljúffengan mat.
+Aspect: matur, positive, positive
+Snippet: allt er ljúffengt, allt frá frábærri þjónustu hjá sætum þjónustustúlkum til einstaklega gróskumiks andrúmslofts.
+Aspect: andrúmsloft, positive, positive
+Snippet: ) Þetta er ekki besti japanski veitingastaðurinn í East Village , en hann er frekar traustur fyrir hóflegt verð og þess virði að endurtaka heimsóknir .
+Aspect: verð, positive, positive
+Snippet: Sanngjarnt verð með mjög fersku sushi.
+Aspect: verðlagðar, positive, positive
+Snippet: Pasta primavera var líka framúrskarandi, fullt af fersku grænmeti.
+Aspect: ferskt grænmeti, positive, positive
+Snippet: Góður matur á réttu verði, hvað meira er hægt að biðja um.
+Aspect: verð, positive, positive
+Snippet: og eigandinn er einfaldlega yndislegur og vingjarnlegur.
+Aspect: eiganda, positive, positive
+Snippet: Maturinn er frábær (mikið úrval, sanngjarnt verð) og drykkirnir eru mjög góðir.
+Aspect: matur, positive, positive
+Snippet: Krabbakökurnar eru ljúffengar og BBQ rifið var fullkomið.
+Aspect: krabbakökur, positive, positive
+Snippet: Hröð afgreiðsla, frábær matur, sanngjarnt verð og vinaleg þjónusta sameinast um að tryggja ánægjulegan mat.
+Aspect: verð, positive, positive
+Snippet: Þegar rétturinn kom var hann logandi af grænum chilli, örugglega ekki ætur manneskju.
+Aspect: fat, negative, negative
+Snippet: Til viðbótar við frábærar pylsur, er DOTP með dásamlegar morgunverðarsamlokur sem innihalda, fyrir utan frábæra hluti eins og tatortots og enskar muffins, dýrindis NJ-undirstaða svínakjötsvöru sem við þekkjum Jersey stelpur og stráka sem Taylor skinku.
+Aspect: morgunverðarsamlokur, positive, positive
+Snippet: Maturinn er frábær (mikið úrval, sanngjarnt verð) og drykkirnir eru mjög góðir.
+Aspect: drykki, positive, positive
+Snippet: Farðu með sértilboðin og vertu í burtu frá laxinum.
+Aspect: lax, negative, negative
+Snippet: Sashimi skammturinn er nógu stór til að gleðja flesta, en mér líkaði ekki sú staðreynd að þeir notuðu gervihumarkjöt.
+Aspect: Sashimi skammtur, positive, positive
+Snippet: Matur er frábær gæði fyrir gott veitingahúsverð.
+Aspect: verð, positive, positive
+Snippet: Maturinn er frábær (mikið úrval, sanngjarnt verð) og drykkirnir eru mjög góðir.
+Aspect: úrval, positive, positive
+Snippet: Ríkulega skreyttir, lífrænir grillaðir hamborgarar eru vinsælasti rétturinn, en falafel-umbúðir í Jerúsalemmarkaðsstíl og Miðjarðarhafssalöt - lagaðar með rófum, geitaosti og valhnetum - eru álíka ljúffengar.
+Aspect: Miðjarðarhafssalöt - lagskipt með rófum, geitaosti og valhnetum, positive, positive
+Snippet: BANANAPUÐDINGURINN sem þeir bera fram hefur ALDREI SÉÐ OFN, KRABBUKUKURNIR ERU MÍN OF SALTAÐIR OG EKKI KOMA MIG EKKI BYRJAÐ Á MJÖG feita MAC-INN OG OSTINN.
+Aspect: KRABBAKAKA, negative, negative
+Snippet: Dásamlegur matseðill, hlýtt aðlaðandi andrúmsloft, frábær þjónusta, MATURINN lætur mig koma aftur!
+Aspect: MATUR, positive, positive
+Snippet: En kvöldmaturinn hér veldur aldrei vonbrigðum, jafnvel þótt verðið sé aðeins of hátt.
+Aspect: kvöldmatur, positive, positive
+Snippet: Við héldum afmæli hér nýlega og maturinn og þjónustan var ótrúleg.
+Aspect: matur, positive, positive
+Snippet: Prófaðu heimabakað brauð.
+Aspect: heimabakað brauð, positive, positive
+Snippet: Við vorum svo ánægð með matinn okkar og vorum enn spenntari þegar við sáum reikninginn.
+Aspect: matur, positive, positive
+Snippet: Nenni aldrei - drykkirnir voru hræðilegir, en það var fólkið sem vinnur þar sem gerði þetta í raun að verstu upplifuninni við að borða.
+Aspect: fólk, negative, negative
+Snippet: Biðjið um hringborðið við hliðina á stóra glugganum.
+Aspect: kringlótt hornborð við hlið stóra gluggans, neutral, positive
+Snippet: Waldy&#39;s matreiðslumaður mælir alltaf með.
+Aspect: Kokkur, neutral, positive
+Snippet: Farðu bara inn og prófaðu besta franska matinn vestan við Daníel.
+Aspect: franskan mat, positive, positive
+Snippet: Þjónustan er hins vegar eitthvað undir matargæðum (hræðilegir barþjónar) og viðskiptavinirnir eru að mestu röggsamir og háværir ferðamenn (þetta gæti útskýrt slæmt viðhorf starfsfólksins) sem er hlaðið fyrir. AC/DC tónleikar eða Knicks leik .
+Aspect: barþjónar, negative, negative
+Snippet: Jafnvel þegar kokkurinn er ekki í húsinu er maturinn og þjónustan rétt á markinu.
+Aspect: þjónusta, positive, positive
+Snippet: Til að vera sanngjarn, maturinn er enn góður og þjónustan er fljótleg og gaumgæf þó að það sé yfirleitt mjög annasamt.
+Aspect: þjónusta, positive, positive
+Snippet: maturinn - ekki verðsins virði.
+Aspect: verð, negative, negative
+Snippet: Athugasemdir um steiktan mat eru réttar (fyrir neðan) en aðrir réttir, þar á meðal lambarétturinn og mörg salötin (avókadó rækjur) voru nokkuð góðir.
+Aspect: steiktur matur, negative, negative
+Snippet: Maturinn er í toppstandi, þjónustan alúð og andrúmsloftið frábært.
+Aspect: þjónusta, positive, positive
+Snippet: Rjómalöguð forréttur – taramasalata, eggaldinsalat og grísk jógúrt (með agúrku, dilli og hvítlauk) bragðast frábærlega þegar á heitum pítum.
+Aspect: -- tarasalata, neutral, positive
+Snippet: Besti eftirrétturinn, súkkulaði- og hnetusmjörsterta, er ekkert sérstaklega Hawaiian, en það er lítill heimur þegar kemur að sælgæti.
+Aspect: sælgæti, positive, neutral
+Snippet: Frábær veitingastaður og enn meiri matur!
+Aspect: matur, positive, positive
+Snippet: Súkkulaði hindberjakakan er himneskt - ekki of sæt heldur full af bragði.
+Aspect: bragð, positive, positive
+Snippet: Þú verður að prófa Odessa plokkfisk eða kanínuplokkfisk; salöt - allt gott ; og kompot er svo hressandi á heitum sumardegi (þeir gera það eins og mamma gerir, minnir mig mikið á heimilið).
+Aspect: ; salöt-allt, positive, positive
+Snippet: Ég hef farið á þennan veitingastað í mörg ár, áður fyrr var þjónustan í meðallagi og maturinn ósamkvæmur.
+Aspect: þjónusta, neutral, neutral
+Snippet: Ég mæli eindregið með því ekki bara vegna frábærrar matargerðar heldur einnig fyrir vingjarnlega eigendur og starfsfólk.
+Aspect: matargerð, positive, positive
+Snippet: Frá upphafi tóku á móti okkur vingjarnlegt starfsfólk og þægileg bílastæði við Chelsea Piers gerðu okkur auðvelt að komast að bátnum.
+Aspect: starfsmanna, positive, positive
+Snippet: Nýjungar eru alveg eins öruggar, allt frá einföldu Carinthia osta ravioli með villisveppum til kavíar-toppsstýrunnar, fallega samsett við skærgræna spínat-vodka sósu.
+Aspect: græn spínat-vodka sósa, positive, positive
+Snippet: Vertu með steiktu kjúklingana og þér líður vel.
+Aspect: steiktir kjúklingar, positive, positive
+Snippet: Tvær sóaðar steikur - þvílíkur glæpur!
+Aspect: steikur, negative, negative
+Snippet: Nýjungar eru alveg eins öruggar, allt frá einföldu Carinthia osta ravioli með villisveppum til kavíar-toppsins, sem passar fallega við skærgræna spínat-vodka sósu.
+Aspect: Carinthia ost ravioli með villisveppum, positive, positive
+Snippet: Jæja, það gerðist vegna þokkalauss stjórnanda og dónalegs barþjóns sem lét okkur bíða í 20 mínútur eftir drykkjum og sagði okkur svo að slaka á.
+Aspect: framkvæmdastjóri, negative, negative
+Snippet: Óheppilega konan við hliðina á okkur hélt að hún hefði pantað salat (þar á meðal að biðja um salatdressingu) og fékk í staðinn quesedilla.
+Aspect: quesedilla, neutral, neutral
+Snippet: Ég fór ekki þangað í mat svo ég get ekki tjáð mig.
+Aspect: matur, neutral, neutral
+Snippet: Óaðlaðandi lýsingin gerði það að verkum að mig langaði til að kýla, maturinn var of dýrur, það var hræðilegasta diskópoppdúett sem kom fram - og escargotið mitt leit út fyrir að skríða af diskinum.
+Aspect: lýsingu, negative, negative
+Snippet: Skreytingin var eins og við værum í Kaíró, reyndar er gatan hluti af því ævintýri.
+Aspect: skraut, positive, positive
+Snippet: Var ég búin að nefna að kaffið er FRÁBÆRT?
+Aspect: kaffi, positive, positive
+Snippet: Jafnvel fyrir tvo mjög svanga er nóg af mat eftir til að taka með heim (hann hitar líka mjög vel).
+Aspect: matur, positive, positive
+Snippet: Framkvæmdastjórinn sagði okkur síðan að við gætum pantað af hvaða matseðli sem við vildum en á þeim tíma vorum við orðin svo pirruð á þjóninum og veitingahúsinu að við leyfðum og fórum eitthvað annað.
+Aspect: framkvæmdastjóri, positive, neutral
+Snippet: &#39;&#39; Á matseðlinum eru kráarréttir - hamborgarar, steikur og smalabaka - og jafnvel portabella lasagna fyrir þá svörtu sauði sem eru þekktir sem &quot;grænmetisætur&quot;.
+Aspect: matseðill, neutral, neutral
+Snippet: fyrir um ellefu dollara færðu risastórt burrito (eða tacos), smjörlíki og eftirrétt.
+Aspect: burrito, positive, positive
+Snippet: Það er þess virði að taka leigubíl til Chelsea bara fyrir frábæran kvöldverð á My Chelsea.
+Aspect: kvöldmatur, positive, positive
+Snippet: Hvað geturðu sagt um stað þar sem þjónustustúlkan dregur fram rangan forrétt, ræðst síðan munnlega á 80 ára gamla ömmu þína og gefur henni vör við að senda það til baka (sem hún gerði kurteislega, við the vegur).
+Aspect: þjónustustúlka, negative, negative
+Snippet: neikvæðu umsagnirnar um borgarleit eru líklega frá öfundsjúkum samkeppnisveitingastöðum sem gera sér grein fyrir að þeir geta ekki keppt við allt jákvætt viðhorf Temple um rétta leið til að koma fram við viðskiptavini sína og afhenda hágæða mat.
+Aspect: matur, positive, positive
+Snippet: Prófaðu rif, snarkandi nautakjöt og paraðu það með kókoshrísgrjónum.
+Aspect: nautakjöt, positive, positive
+Snippet: Prófaðu örugglega taglierini með trufflum - það var ótrúlegt.
+Aspect: taglierini með trufflum, positive, positive
+Snippet: Þjónustan var góð og andrúmsloftið líka.
+Aspect: Þjónusta, positive, positive
+Snippet: Besti indverski maturinn sem ég hef borðað.
+Aspect: Indverskur matur, positive, positive
+Snippet: Átti frábæra reynslu á Trio ... starfsfólkið var notalegt; maturinn var bragðgóður og stór í skammtastærð - ég mæli eindregið með portobello/gorgonzola/pylsum forrétti og humarrisotto.
+Aspect: skammtastærð, positive, positive
+Snippet: Þeir eru með hveitiskorpupizzu úr mjög fersku og ljúffengu hráefni.
+Aspect: pizzur með hveiti, positive, positive
+Snippet: Maturinn er mjög góður og þjónustan frábær.
+Aspect: matur, positive, positive
+Snippet: Allir sem vinna þar (gestgjafinn, barþjónninn, þjónarnir) eru svo hjálpsamir.
+Aspect: barþjónn, positive, positive
+Snippet: Ég varð fyrir miklum vonbrigðum með þjónustu þeirra og mat.
+Aspect: þjónusta, negative, negative
+Snippet: Maturinn var mjög góður og það kom mér skemmtilega á óvart að sjá svo marga vegan valkosti.
+Aspect: matur, positive, positive
+Snippet: Maturinn er ljúffengur og barinn hefur frábæra stemningu.
+Aspect: stemning, positive, positive
+Snippet: Maturinn var skapandi eins og innréttingin og bæði virkuðu.
+Aspect: matur, positive, positive
+Snippet: Sósan er frábær (mjög fersk) með sköflum af alvöru mozzarella.
+Aspect: sósu, positive, positive
+Snippet: Framkvæmdastjórinn sagði okkur síðan að við gætum pantað af hvaða matseðli sem við vildum en á þeim tíma vorum við orðin svo pirruð á þjóninum og veitingahúsinu að við leyfðum og fórum eitthvað annað.
+Aspect: þjónn, negative, negative
+Snippet: Ég elska einfaldleikann og virðingu sem veitt var matnum, auk þess sem starfsfólkið var vinalegt og fróður.
+Aspect: matur, positive, positive
+Snippet: Maturinn er í raun ekki mjög góður og þjónustan er hræðileg.
+Aspect: matur, negative, negative
+Snippet: Mér líkar sérstaklega við mjúkskeljakrabbasamlokan þeirra með frönskum.
+Aspect: mjúkskeljakrabbasamloka með frönskum, positive, positive
+Snippet: Prófaðu rif, snarkandi nautakjöt og paraðu það með kókoshrísgrjónum.
+Aspect: kókos hrísgrjón, neutral, positive
+Snippet: Maturinn er í meðallagi: morgunmatur, súpur, salöt, samlokur o.s.frv.
+Aspect: , súpur, neutral, neutral
+Snippet: Afgreiðslufólkið er umhyggjusamt og vingjarnlegt og virðist alltaf glöð að sjá okkur og maturinn er dásamlegur, ef ekki ótrúlega skapandi.
+Aspect: afgreiðslufólk, positive, positive
+Snippet: Þjónustan er frábær og alltaf upplýsandi án lofts.
+Aspect: þjónusta, positive, positive
+Snippet: Meðal forrétta er klassískt eins og lasagna, fettuccine Alfredo og kjúklingur parmigiana.
+Aspect: Forréttir, neutral, neutral
+Snippet: Bæði fjöldi forrétta og pastatilboða var ótrúlegur.
+Aspect: forréttur, positive, positive
+Snippet: Meðal forrétta eru klassík eins og lasagna, fettuccine Alfredo og kjúklingur parmigiana.
+Aspect: lasagna, neutral, neutral
+Snippet: Frábær vínlisti og frábær kokteilamatseðill.
+Aspect: vínlista, positive, positive
+Snippet: Herbergið er svolítið látlaust en það er erfitt að gera svona lítinn stað spennandi og ég myndi ekki stinga upp á því sem ástæðu til að fara ekki.
+Aspect: herbergi, neutral, negative
+Snippet: Ég elska drykkina, sérstaklega lychee martini, og maturinn er líka MJÖG góður.
+Aspect: lychee martini, positive, positive
+Snippet: Köldu sesamnúðlurnar, sem eru ókeypis þegar þú pantar $10+, eru ljúffengar.
+Aspect: kaldar sesamnúðlur, positive, positive
+Snippet: Staðurinn er alveg yndislegur og maturinn ljúffengur.
+Aspect: staður, positive, positive
+Snippet: Mér fannst maturinn alveg jafn góður og eigandinn, Da Silvano, bara miklu ódýrari.
+Aspect: eiganda, positive, positive
+Snippet: Satay er einn af þessum uppáhalds stöðum í Washington þar sem þjónustan og maturinn er alltaf á peningunum.
+Aspect: matur, positive, positive
+Snippet: Happy hour er svo ódýrt, en það endurspeglar ekki þjónustuna eða andrúmsloftið.
+Aspect: gleðistund, positive, positive
+Snippet: Svo við sátum á barnum, barþjónninn virtist ekki vilja vera þar.
+Aspect: barþjónn, negative, negative
+Snippet: Og maturinn, maturinn mun láta þig koma aftur.
+Aspect: matur, positive, positive
+Snippet: Falafalinn var frekar ofeldaður og þurrkaður en kjúklingurinn var fínn.
+Aspect: kjúklingur, positive, positive
+Snippet: maturinn var miðlungs til að vera góður - innréttingin er lítil og í meðallagi - eigendurnir eru hópur af óþægilegum hlutum - svo dónalegur og kurteis að ég hleypti í raun og veru frá mér ljúft kjaft meðan ég borðaði.
+Aspect: innri, neutral, negative
+Snippet: En kvöldmaturinn hér veldur aldrei vonbrigðum, jafnvel þótt verðið sé aðeins yfir toppnum.
+Aspect: verð, negative, negative
+Snippet: Fyrir verðið sem þú borgar fyrir matinn hér, þá myndirðu búast við að hann væri að minnsta kosti á pari við aðra japanska veitingastaði.
+Aspect: matur, negative, negative
+Snippet: Þjónustan er frábær, engin bið og þú færð mikið fyrir verðið.
+Aspect: Þjónusta, positive, positive
+Snippet: á annasömum tímum mæli ég með því að þú pantir.
+Aspect: fyrirvara, neutral, neutral
+Snippet: Það er borðað með svörtu ediki og rifnum engifer.
+Aspect: svart edik, neutral, neutral
+Snippet: Mæli eindregið með ... Eins og fram hefur komið hef ég ekki borðað * á * veitingastaðnum heldur komið við þar til að sækja mat og það virðist vera mjög afslappandi staður ; líka, barinn lítur vel út.
+Aspect: bar, positive, positive
+Snippet: Haltu þig við hlutina sem staðurinn gerir best, bringur, rif, vængir, cajun rækjur eru góðar, ekki frábærar.
+Aspect: , vængi, positive, positive
+Snippet: Starfsfólkið er hrokafullt, verðið er hátt í Brooklyn.
+Aspect: starfsfólk, negative, negative
+Snippet: Satay er einn af þessum uppáhalds stöðum í Washington þar sem þjónustan og maturinn er alltaf á peningunum.
+Aspect: þjónusta, positive, positive
+Snippet: Ég var ferskur og bjóst við frábærri máltíð og allt sem ég fékk var lítill svo-svo matur framreiddur á veitingastað sem var bara svo ískaldur að við gátum ekki notið þess að borða.
+Aspect: máltíð, negative, negative
+Snippet: Svo fyrir mettandi og holla máltíð skaltu prófa.
+Aspect: máltíð, positive, positive
+Snippet: Við byrjuðum á hörpuskel og aspas og fengum líka mjúkskeljakrabbann sem og ostadiskinn .
+Aspect: mjúkskeljakrabbi, positive, neutral
+Snippet: Virðist ekki vera reynt að sýna og gæði matarins.
+Aspect: sýning og gæði matarins, negative, negative
+Snippet: Andrúmsloftið er leiðinlegt.
+Aspect: Andrúmsloft, negative, negative
+Snippet: Maturinn er alltaf ferskur og heitur - tilbúinn til að borða!
+Aspect: Matur, positive, positive
+Snippet: Hreint og beint, ekkert sem kemur á óvart, mjög almennilegur japanskur matur.
+Aspect: Japanskur matur, positive, positive
+Snippet: Snilld þeirra á pizzu er heitt, en fullt af bragði.
+Aspect: bragð, positive, positive
+Snippet: Það verður troðfullt í hádeginu en það eru fullt af sætum fyrir aftan og allir sem vinna þar eru svo góðir.
+Aspect: sæti, positive, positive
+Snippet: Maturinn var framúrskarandi og þjónustan í toppstandi.
+Aspect: þjónusta, positive, positive
+Snippet: Þjónustan er hins vegar hnökralaus eða tveir fyrir neðan gæði matarins (hræðilegir barþjónar) og viðskiptavinirnir eru að mestu leyti röggsamir og háværir ferðamenn (þetta gæti útskýrt slæmt viðhorf starfsmanna) AC/DC tónleikar eða Knicks leik .
+Aspect: starfsfólk, negative, negative
+Snippet: Jamm, kjúklingurinn er frábær hérna.
+Aspect: kjúklingur, positive, positive
+Snippet: Þar eru kertaljós og tónlist.
+Aspect: kertaljós, neutral, neutral
+Snippet: Loksins karrý sem ég get borðað, notið og ekki þjáðst af magabólgu eftir 3 klst.
+Aspect: karrí, positive, positive
+Snippet: Starfsfólkið er mjög vingjarnlegt.
+Aspect: starfsfólk, positive, positive
+Snippet: Þykkar franskar, kjötmikið chili og fylltar bakaðar kartöflur fullkomna matseðil sem inniheldur flott, ofurþykkt súkkulaði Frosty.
+Aspect: súkkulaði Frosty, positive, positive
+Snippet: Maturinn er líka framúrskarandi og framreiddur nokkuð fljótt.
+Aspect: borið fram, positive, positive
+Snippet: Í Casablanca er boðið upp á dýrindis falafel, tabouleh, humus og annað Miðjarðarhafsljúfmeti, sem er allt mjög ódýrt.
+Aspect: , humus, positive, positive
+Snippet: Loksins varð ég veikur af slæmri þjónustu, ógeðslegum bros og snáða tali.
+Aspect: þjónusta, negative, negative
+Snippet: Ég bað um einfalda miðlungs sjaldgæfa steik.
+Aspect: steik, neutral, neutral
+Snippet: Þessi bar hefur allt - frábæra drykki, flott andrúmsloft, frábæra þjónustu og ljúffengan mat.
+Aspect: drykki, positive, positive
+Snippet: Tilboð eins og heitar lummur og Egg McMuffin samlokan eru í boði í morgunmat.
+Aspect: morgunmat, positive, neutral
+Snippet: Innréttingin og andrúmsloftið var virkilega rómantískt.
+Aspect: Deco, positive, positive
+Snippet: Þjónninn okkar var hjálpsamur og heillandi, maturinn var fullkominn og vínið var líka gott.
+Aspect: vín, positive, positive
+Snippet: Til eigenda; gott starf krakkar, þessi staður er markvörður!
+Aspect: eigendur, positive, positive
+Snippet: Hálfur kjúklingur með fjalli af hrísgrjónum og baunum á $6,25.
+Aspect: baunir, neutral, neutral
+Snippet: Þessi staður er flottur, flottur, þjónustan er hlý og gestrisin og maturinn er framúrskarandi.
+Aspect: matur, positive, positive
+Snippet: Til viðbótar við frábærar pylsur, er DOTP með dásamlegar morgunverðarsamlokur sem innihalda, fyrir utan frábæra hluti eins og tatortots og enskar muffins, dýrindis NJ-undirstaða svínakjötsvöru sem við þekkjum Jersey stelpur og stráka sem Taylor skinku.
+Aspect: svínakjötsafurð, positive, positive
+Snippet: Frábær matur, frábærir drykkir, gott veitingahús andrúmsloft.
+Aspect: matur, positive, positive
+Snippet: Hvenær og í hvert skipti sem ég finn mig í hverfinu mun ég fara á Sushi Rose fyrir ferskt sushi og frábæra skammta allt á sanngjörnu verði.
+Aspect: verð, positive, positive
+Snippet: Maturinn er í alla staði góður, rúllurnar yfirleitt frábærar og sushi/sashimi ekki alveg á sama stigi.
+Aspect: sushi/sashimi, neutral, neutral
+Snippet: Það var skemmtilega þröngt, þjónustan var yndisleg, garðurinn yndislegur, maturinn (frá forréttum til forrétta) var ljúffengur.
+Aspect: matur, positive, positive
+Snippet: sveppabyggsúpan er mögnuð.
+Aspect: sveppabyggsúpa, positive, positive
+Snippet: Starfsfólkið ætti að vera aðeins vingjarnlegra.
+Aspect: starfsfólk, negative, negative
+Snippet: Ég mæli með svörtum steiktum þorskfiski, hann var besti réttur kvöldsins.
+Aspect: svartsteiktur þorskur, positive, positive
+Snippet: BESTI kínverski maturinn Uptown!
+Aspect: Kínverskur matur, positive, positive
+Snippet: Stjórnin var minna en greiðvikin.
+Aspect: Stjórnun, negative, negative
+Snippet: Þjónustan er hins vegar eitthvað undir matargæðum (hræðilegir barþjónar) og viðskiptavinirnir eru að mestu röggsamir og háværir ferðamenn (þetta gæti útskýrt slæmt viðhorf starfsfólksins) sem er hlaðið fyrir. AC/DC tónleikar eða Knicks leik .
+Aspect: viðskiptavina, negative, negative
+Snippet: Þú verður að prófa Odessa plokkfisk eða kanínuplokkfisk; salöt - allt gott ; og kompot er svo hressandi á heitum sumardegi (þeir gera það eins og mamma gerir, minnir mig mikið á heimilið).
+Aspect: kompott, positive, positive
+Snippet: Máltíðin var mjög dýr miðað við það sem þú færð.
+Aspect: Máltíð, negative, negative
+Snippet: Ég var á vakt í dómnefnd, hjólaði upp Center Street í hádegishléinu og rakst á þennan frábæra litla stað með æðislegu kjúklingataco og Hibiscus límonaði.
+Aspect: kjúklinga tacos, positive, positive
+Snippet: Verðin eru ekki hræðileg.
+Aspect: verð, positive, positive
+Snippet: Við vissum ekki hvort við ættum að panta okkur drykk eða fara?
+Aspect: Drykkur, neutral, neutral
+Snippet: Sashimi skammturinn er nógu stór til að gleðja flesta, en mér líkaði ekki sú staðreynd að þeir notuðu gervihumarkjöt.
+Aspect: gervihumarkjöt, negative, negative
+Snippet: Í stuttu máli greinir The Black Sheep sig frá kráhjörðinni í Midtown með útliti sem er blanda af sportbar-butch og skrautlegum kitsch.
+Aspect: sjáðu, neutral, negative
+Snippet: Maturinn er í meðallagi: morgunmatur, súpur, salöt, samlokur o.s.frv.
+Aspect: , salöt, neutral, neutral
+Snippet: Búðu til máltíð með hliðarpöntunum eins og Amazin&#39; Greens salötum, Buffalo Chicken Kickers og Cinna Stix.
+Aspect: hliðarpantanir, positive, neutral
+Snippet: Þessi staður er með besta indverska matinn í New York, án efa.
+Aspect: Indverskur matur, positive, positive
+Snippet: en filet mignon var alls ekki mjög góður kokteiltíminn inniheldur ókeypis forrétti (fínt úrval af sushi).
+Aspect: kokteilstund, positive, positive
+Snippet: Ég mæli með svörtum steiktum þorski, hann var besti réttur kvöldsins.
+Aspect: fat, neutral, positive
+Snippet: maturinn var miðlungs til að vera góður - innréttingin er lítil og í meðallagi - eigendurnir eru hópur af óþægilegum hlutum - svo dónalegur og kurteis að ég hleypti í raun og veru frá mér ljúft kjaft meðan ég borðaði.
+Aspect: eigendur, negative, negative
+Snippet: Góð þjónusta, frábær matur, gott verð og þarf aldrei að bíða í röð!
+Aspect: gildi, positive, positive
+Snippet: Ríkulega skreyttir, lífrænir grillaðir hamborgarar eru vinsælasti rétturinn, en falafel-umbúðir í Jerúsalemmarkaðsstíl og Miðjarðarhafssalöt - lagaðar með rófum, geitaosti og valhnetum - eru álíka ljúffengar.
+Aspect: fat, neutral, positive
+Snippet: Ég fékk mér steiktan kjúkling og salat.
+Aspect: Grillaður kjúklingur, neutral, neutral
+Snippet: Við héldum afmæli hér nýlega og maturinn og þjónustan var ótrúleg.
+Aspect: þjónusta, positive, positive
+Snippet: Gnocchi bókstaflega bráðnar í munni þínum!
+Aspect: gnocchi, positive, positive
+Snippet: hrísgrjónaréttir og núðluréttir fara sjaldan yfir $5 og bættu við hressandi ísdrykk fyrir $2 og þú ert klár í nóttina!
+Aspect: núðluréttir, positive, positive
+Snippet: Forréttir eru frábærir hér; þú getur búið til frábæra (og ódýra) máltíð úr þeim.
+Aspect: Forréttur, positive, positive
+Snippet: Þessi staður er með fallegt sushi og það er ljúffengt Ódýrt.
+Aspect: sushi, positive, positive
+Snippet: Eftir matinn heyrði ég tónlist og uppgötvaði að það er setustofa á neðri hæðinni.
+Aspect: setustofa, neutral, neutral
+Snippet: 15% þjórfé bætt sjálfkrafa við reikninginn.
+Aspect: reikning, negative, negative
+Snippet: góður matur gott vín það er það.
+Aspect: vín, positive, positive
+Snippet: Allir eru GREAT - poori , naan , paratha allir FERSKAR .
+Aspect: , paratha, positive, positive
+Snippet: Maturinn er bara í lagi og það borgar sig nánast ekki að fara nema þú sért að fá þér piallana sem er eini rétturinn sem er mjög góður.
+Aspect: heflari, neutral, positive
+Snippet: Gestgjafinn (eigandinn) og netþjónar eru persónulegir og umhyggjusamir.
+Aspect: netþjóna, positive, positive
+Snippet: Þjónarnir voru mjög fagmenn, kurteisir og gaumgæfir.
+Aspect: þjónar, positive, positive
+Snippet: Þjónninn okkar var hjálpsamur og heillandi, maturinn var fullkominn og vínið var líka gott.
+Aspect: þjónn, positive, positive
+Snippet: Ég skil verðið ef það þjónaði betri mat, eins og sumir kínverskir veitingastaðir í miðbænum / miðbænum.
+Aspect: verð, negative, negative
+Snippet: Þó að það væri stórt og svolítið hávær, voru drykkirnir frábærir og maturinn frábær.
+Aspect: drykki, positive, positive
+Snippet: Þeir hafa líka mikið úrval af umbúðum ef þú ert ekki í skapi fyrir hefðbundinn Miðjarðarhafsrétt.
+Aspect: úrval af umbúðum, positive, positive
+Snippet: Það hefur líka fullt af öðrum kóreskum réttum sem eru á viðráðanlegu verði og alveg jafn ljúffengir.
+Aspect: Kóreskir réttir, positive, positive
+Snippet: Nokkuð vonbrigði vínlisti (aðeins nýir árgangar.
+Aspect: árganga, negative, negative
+Snippet: Hinir hefðbundnu ítölsku vörur eru frábærar - ódýrar og bornar fram í notalegu umhverfi.
+Aspect: stilling, positive, positive
+Snippet: Sushiið er á sanngjörnu verði og ferskt.
+Aspect: sushi, positive, positive
+Snippet: Fyrsta gangandi á staðnum virtist hafa frábært andrúmsloft.
+Aspect: andrúmsloft, positive, positive
+Snippet: Matarskammtur var LÍTILL og undir meðallagi.
+Aspect: Matarskammtur, negative, negative
+Snippet: Þeir eru ekki bara með besta escargotið í bænum, þeir reyna alltaf að koma til móts við smábarnið okkar.
+Aspect: escargot, positive, positive
+Snippet: Ég pantaði kjúklinginn Teriyaki og maðurinn minn fékk hvítlauksrækjur.
+Aspect: Hvítlauksrækjur, neutral, neutral
+Snippet: Vínlistinn er umfangsmikill, á góðu verði og nær yfir mörg svæði.
+Aspect: verðlagðar, positive, positive
+Snippet: Við fengum fullt af frábærum mat, víni og eftirréttum.
+Aspect: , vín, positive, positive
+Snippet: Andrúmsloftið er hlýtt, þægilegt, listrænt og kynþokkafullt.
+Aspect: andrúmsloft, positive, positive
+Snippet: Ég hef borðað á öllum þremur stöðum og ég elska alltaf, elska matinn, þjónustan er alltaf dásamleg og verðið er virkilega sanngjarnt.
+Aspect: matur, positive, positive
+Snippet: Búðu til fleiri borð - kannski þakbar?
+Aspect: þakbar, neutral, neutral
+Snippet: Frábærir hamborgarar, grillaðir ostar og franskar.
+Aspect: , grillaðir ostar, positive, positive
+Snippet: Við vorum að velta fyrir okkur hvers vegna þeir væru þarna til að gera matarupplifun okkar ömurlega?
+Aspect: matarupplifun, negative, negative
+Snippet: Frábærir hamborgarar, grillaðir ostar og franskar.
+Aspect: hamborgara, positive, positive
+Snippet: Glæsilegur og skapandi matseðill My Chelsea inniheldur nútímalega, vestræna japanska rétti eins og Foie Gras Unagi Napolean, hamborgarasteik í japönskum stíl, kryddað þorskhrognaspagettí, svartan þorsk með misóbotni og lambalæri í svartri trufflusósu, svo eitthvað sé nefnt. .
+Aspect: , hamborgarasteik í japönskum stíl, positive, neutral
+Snippet: þjónustustúlkurnar tvær virtust hafa verið að sjúga sítrónur.
+Aspect: þjónustustúlka, negative, negative
+Snippet: Foldstóllinn sem ég sat við var óþægilegur.
+Aspect: klappstóll, negative, negative
+Snippet: Eigandinn og starfsfólkið leggja sig fram um að láta þér líða vel.
+Aspect: eiganda, positive, positive
+Snippet: Algjörlega versta þjónusta sem ég hef upplifað og maturinn var undir meðallagi (þegar þeir gáfu fólki í raun og veru máltíðirnar sem það pantaði).
+Aspect: þjónusta, negative, negative
+Snippet: Nýjungar eru alveg eins öruggar, allt frá einföldu Carinthia osta ravioli með villisveppum til kavíar-toppsins, sem passar fallega við skærgræna spínat-vodka sósu.
+Aspect: kavíar-toppur styrja, positive, positive
+Snippet: Í uppáhaldi má nefna: kartöfluspínatgnocchi og lambið.
+Aspect: lamb, positive, positive
+Snippet: Í Casablanca er boðið upp á dýrindis falafel, tabouleh, humus og annað Miðjarðarhafsrétti, sem allt er mjög ódýrt.
+Aspect: falafel, positive, positive
+Snippet: Við eyddum nýárskvöldinu á veitingastaðnum og fengum frábæra upplifun, allt frá víninu til eftirréttarmatseðilsins.
+Aspect: vín, positive, positive
+Snippet: Ég hef borðað á öllum þremur stöðum og ég elska alltaf, elska matinn, þjónustan er alltaf dásamleg og verðið er virkilega sanngjarnt.
+Aspect: verð, positive, positive
+Snippet: Þetta er bókstaflega heitur staður þegar kemur að matnum.
+Aspect: matur, positive, positive
+Snippet: Við vorum mjög hrifin af matnum og verðmæti.
+Aspect: matur, positive, positive
+Snippet: Með öllum hversdagslegum eða miðlungsstöðum á 8th Avenue er gaman að hafa einn sem er skrefi fyrir ofan í gæðum og andrúmslofti.
+Aspect: andrúmsloft, positive, positive
+Snippet: Sennilega versta matarupplifunin mín í new york og ég er fyrrverandi þjónn svo ég veit hvað ég er að tala um.
+Aspect: þjónn, negative, neutral
+Snippet: Átti frábæra reynslu á Trio ... starfsfólkið var notalegt; maturinn var bragðgóður og stór í skammtastærð - ég mæli eindregið með portobello/gorgonzola/pylsum forrétti og humarrisotto.
+Aspect: humar risotto, positive, positive
+Snippet: Rjómalöguð forréttur – taramasalata, eggaldinsalat og grísk jógúrt (með agúrku, dilli og hvítlauk) bragðast frábærlega þegar á heitum pítum.
+Aspect: Rjómalöguð forrétti, positive, positive
+Snippet: Mæli eindregið með ... Eins og fram hefur komið hef ég ekki borðað * á * veitingastaðnum heldur komið við þar til að sækja mat og það virðist vera mjög afslappandi staður ; líka, barinn lítur vel út.
+Aspect: taka út, positive, neutral
+Snippet: Glæsilegur og skapandi matseðill My Chelsea inniheldur nútímalega, vestræna japanska rétti eins og Foie Gras Unagi Napolean, hamborgarasteik í japönskum stíl, kryddað þorskhrognaspagettí, svartan þorsk með misóbotni og lambalæri í svartri trufflusósu, svo eitthvað sé nefnt. .
+Aspect: lambalæri í svartri trufflusósu, positive, neutral
+Snippet: Maturinn var frábær - sushi var gott en eldaði maturinn kom okkur á óvart.
+Aspect: eldaður matur, positive, positive
+Snippet: Ekki of mikið, en nóg til að það er frábær sena.
+Aspect: vettvangur, positive, positive
+Snippet: Það er um $ 7 fyrir hádegismat og þeir eru með take-out eða borðstofu.
+Aspect: borða heima, neutral, neutral
+Snippet: Þeir voru ekki bara með frábærar samlokur, súpur, pizzur o.s.frv., heldur eru heimagerðu sorbetarnir þeirra ekki úr þessum heimi!
+Aspect: heimagerða sorbet, positive, positive
+Snippet: Krabbakökurnar eru ljúffengar og BBQ rifið var fullkomið.
+Aspect: BBQ rif, positive, positive
+Snippet: Við byrjuðum á hörpuskel og aspas og fengum líka mjúkskeljakrabbann sem og ostadiskinn .
+Aspect: hörpuskel, positive, neutral
+Snippet: en mac osturinn þeirra var YUMMY !
+Aspect: mac ostur, positive, positive
+Snippet: Í hin skiptin sem ég hef farið er það rómantískt deit-himnaríki, þú getur gengið inn og fengið bás við gluggana, komið fram við þig eins og VIP á ekki fjölmennum stað, með frábærum mat og þjónustu.
+Aspect: þjónusta, positive, positive
+Snippet: Þegar rétturinn kom var hann logandi af grænum chilli, örugglega ekki ætur manneskju.
+Aspect: grænn chilli, negative, negative
+Snippet: Það eina jákvæða sem ég get sagt er að þjónustan var skjót, við settumst strax og þjónninn var mjög vingjarnlegur.
+Aspect: þjónusta, positive, positive
+Snippet: Engar grænar baunir, engin egg, engin ansjósudressing, engar nicoise ólífur, enginn rauðlaukur.
+Aspect: nicoise ólífur, negative, neutral
+Snippet: Tvær kvartanir - forréttaúrvalið er óþef, gaman væri að fá mozzarellastangir á matseðilinn.
+Aspect: matseðill, neutral, negative
+Snippet: Eigandinn og starfsfólkið leggja sig fram um að láta þér líða vel.
+Aspect: starfsfólk, positive, positive
+Snippet: Ég mæli með steiktum svínabollum, appelsínugulum kjúklingi/nautakjöti og steiktu hrísgrjónum.
+Aspect: appelsínugult kjúklingur/nautakjöt, positive, positive
+Snippet: Þeir eru bornir fram á Focacchia brauði og eru til að deyja fyrir.
+Aspect: Focacchia brauð, positive, neutral
+Snippet: Maturinn er góður, teriyaki mæli ég með.
+Aspect: teriyaki, positive, positive
+Snippet: Kryddaður kræklingurinn er hápunktur.
+Aspect: kryddaður kræklingur, positive, positive
+Snippet: Farðu í Seafood Paella fyrir tvo.
+Aspect: Seafood Paella fyrir tvo, positive, positive
+Snippet: Eftirréttir eru næstum ótrúlegir: mitt persónulega uppáhald er tarta dagsins.
+Aspect: Eftirréttir, positive, positive
+Snippet: góður staður til að hanga á daginn eftir innkaup eða til að grípa í einfalda súpu eða klassískan franskan rétt yfir vínglasi.
+Aspect: súpu, positive, neutral
+Snippet: Fyrir verðið sem þú borgar fyrir matinn hér, þá myndirðu búast við að hann væri að minnsta kosti á pari við aðra japanska veitingastaði.
+Aspect: verð, negative, negative
+Snippet: Kjúklingakvöldverðurinn var virkilega góður.
+Aspect: kjúklingakvöldverður, positive, positive
+Snippet: Búðu til máltíð með hliðarpöntunum eins og Amazin&#39; Greens salötum, Buffalo Chicken Kickers og Cinna Stix.
+Aspect: Cinna Stix, positive, neutral
+Snippet: Frábær matur, gott vín og frábær gestgjafi.
+Aspect: matur, positive, positive
+Snippet: Djasssöngkonan var með fína rödd + hún fékk okkur öll til að fara á fætur til að dansa til að hrista nokkra kala til að borða meira.
+Aspect: djasssöngvari, positive, positive
+Snippet: Maturinn er í toppstandi, þjónustan alúð og andrúmsloftið frábært.
+Aspect: matur, positive, positive
+Snippet: þetta er samt einn af uppáhalds veitingastöðum mínum á svæðinu, maturinn er ódýr en mjög góður (kimono rækju sérstakur var frábær) og hefur frábæra stemningu.
+Aspect: matur, positive, positive
+Snippet: heimagerða Guacamole, ótrúlega aðalréttinn og þú ótrúlegustu eyðimerkur.
+Aspect: eyðimerkur, positive, positive
+Snippet: Frábær matur, frábært þjónustufólk, frábært andrúmsloft og það besta af öllu FRÁBÆR bjór!
+Aspect: andrúmsloft, positive, positive
+Snippet: Góð þjónusta, frábær matur, gott verð og þarf aldrei að bíða í röð!
+Aspect: bíddu, neutral, positive
+Snippet: Þegar hún kvartaði sagði afgreiðslustúlkan: Fyrirgefðu.
+Aspect: þjónustustúlka, neutral, neutral
+Snippet: Prófaðu það, matseðillinn er dæmigerður franskur en fjölbreyttur.
+Aspect: , matseðill, positive, neutral
+Snippet: Ferskt grænmeti, alls kyns álegg frá Mið-Austurlöndum, ostur og falafel, súpa, fiskur, hrísgrjón, rótargrænmeti, hrísgrjónablanda, eitthvað spínat, lambakebab, ostur baclava ... svoooo mikið fooood, og allt þetta ljúffengt.
+Aspect: , súpa, positive, positive
+Snippet: Foie grasið var sætt og ljúffengt.
+Aspect: gæsalifur, positive, positive
+Snippet: Starfsfólkið tók vel á móti mér við dyrnar og ég fékk mér sæti strax og maturinn var frábær.
+Aspect: matur, positive, positive
+Snippet: Kjötfóbarnir eru heppnir með óvenjulega grænmetisborgarann, sem er gerður úr sérstakri blöndu af kjúklingabaunum, gulrótum og öðru grænmeti og kryddi.
+Aspect: kryddi, positive, positive
+Snippet: Við höfum alltaf gaman af pizzunni.
+Aspect: pizza, positive, positive
+Snippet: Þjónustan var hræðileg - aðallega vegna þess að starfsfólk var yfirbugað á laugardagskvöldi.
+Aspect: Þjónusta, negative, negative
+Snippet: Ég treysti fólki á Go Sushi, það veldur aldrei vonbrigðum.
+Aspect: fólk, positive, positive
+Snippet: Það er um $ 7 fyrir hádegismat og þeir eru með take-out eða borðstofu.
+Aspect: hádegismatur, neutral, neutral
+Snippet: Ég pantaði kjúklinginn Teriyaki og maðurinn minn fékk hvítlauksrækjur.
+Aspect: Teriyaki kjúklingur, neutral, neutral
+Snippet: Maturinn er frábær og mjólkurhristingarnir eru enn betri!
+Aspect: matur, positive, positive
+Snippet: Risastórir skammtar, frábær og umhyggjusöm þjónusta og nokkuð gott verð.
+Aspect: skömmtum, positive, positive
+Snippet: Hins vegar er bara eitthvað svo frábært við að vera utandyra, í frábæru landmótun, njóta afslappaðs drykkjar sem gerir það þess virði að fara á þennan stað.
+Aspect: utandyra, positive, positive
+Snippet: Borðaði þar frábærlega um helgina áður en haldið var í bíó!
+Aspect: máltíð, positive, positive
+Snippet: Vertu viss um að fylgja matnum þínum með einni af ferskum safasamsetningum þeirra.
+Aspect: ferskar safasamlögur, positive, positive
+Snippet: Þú verður að prófa Odessa plokkfisk eða kanínuplokkfisk; salöt - allt gott ; og kompot er svo hressandi á heitum sumardegi (þeir gera það eins og mamma gerir, minnir mig mikið á heimilið).
+Aspect: Odessa plokkfiskur, positive, positive
+Snippet: Þó að smoothies séu svolítið stórir fyrir mig, þá eru ferskir safar þeir bestu sem ég hef fengið!
+Aspect: smoothies, neutral, negative
+Snippet: Átti frábæra reynslu á Trio ... starfsfólkið var notalegt; maturinn var bragðgóður og stór í skammtastærð - ég mæli eindregið með portobello/gorgonzola/pylsuforréttinum og humarrisottonum.
+Aspect: ; mat, positive, positive
+Snippet: Starfsfólkið var einstaklega vingjarnlegt og notalegt.
+Aspect: starfsfólk, positive, positive
+Snippet: Maturinn er frábær og þeir hafa líka empenadas og sléttur sem eru góðar fyrir síðdegissnarl.
+Aspect: sléttum, positive, positive
+Snippet: Barþjónarnir og stjórnendurnir eru mjög indælir og innréttingarnar eru mjög þægilegar og afslappaðar, á sama tíma og þær eru töff.
+Aspect: stjórnendur, positive, positive
+Snippet: Þótt hann sé lítill hefur hann fallegt andrúmsloft, frábæran mat (steinbíturinn er ljúffengur - ef þér er sama um það er hann lítið saltur) og gaumgæfileg þjónusta.
+Aspect: matur, positive, positive
+Snippet: Við byrjuðum á hörpuskel og aspas og fengum líka mjúkskeljakrabbann sem og ostadiskinn .
+Aspect: ostaplata, neutral, neutral
+Snippet: Réttir sem táknaðir eru „Roy&#39;s Classics“ (merktir á matseðlinum með stjörnum) eru sannreyndar uppskriftir, svo sem mahi mahi með makadamíuskorpu, eða lúmskur sæt hunangs-sinnepsnautakjöt.
+Aspect: matseðill, positive, neutral
+Snippet: Mikilvægast er, það er sanngjarnt verð.
+Aspect: verðlagðar, neutral, positive
+Snippet: Lítið borðkrókur utandyra gerir það að verkum að þægilegt rými er til að læra einn eða hitta vini.
+Aspect: pláss, positive, positive
+Snippet: Annar vinur þurfti þrisvar að biðja um parmesanost.
+Aspect: parmesan ostur, neutral, neutral
+Snippet: Starfsfólkið er 100% ítalskt og maturinn eins ekta og hann gerist.
+Aspect: starfsfólk, positive, positive
+Snippet: þeir veita virkilega afslappandi, afslappað andrúmsloft.
+Aspect: andrúmsloft, positive, positive
+Snippet: Borðaði kvöldverð hér á föstudegi og maturinn var frábær.
+Aspect: kvöldmatur, positive, neutral
+Snippet: Þú verður að prófa Odessa plokkfisk eða kanínuplokkfisk; salöt - allt gott ; og kompot er svo hressandi á heitum sumardegi (þeir gera það eins og mamma gerir, minnir mig mikið á heimilið).
+Aspect: Kanínupottréttur, positive, positive
+Snippet: Sushiið er alltaf ferskt og ljúffengt og matseðillinn er ansi fjölbreyttur.
+Aspect: sushi, positive, positive
+Snippet: Það er gott að fara þangað í drykki ef þú vilt ekki verða fullur því þú verður heppinn ef þú getur fengið þér einn drykk á klukkustund að þjónustan er svo slæm.
+Aspect: Drykkur, negative, neutral
+Snippet: allt er ljúffengt, allt frá frábærri þjónustu sætum þjónustustúlkum, til einstaklega gróskumiks andrúmslofts.
+Aspect: þjónustustúlkur, positive, positive
+Snippet: Maturinn hans er frábær (og ekki dýr miðað við NYC staðla - engir forréttir yfir $ 30, flestir forréttir $ 12 til 14).
+Aspect: matur, positive, positive
+Snippet: Prófaðu rósarúlluna (ekki á matseðlinum).
+Aspect: rósarúlla, positive, positive
+Snippet: Þessi staður er flottur, flottur, þjónustan er hlý og gestrisin og maturinn er framúrskarandi.
+Aspect: staður, positive, positive
+Snippet: Sushiið er skorið í kubba stærri en farsíminn minn.
+Aspect: sushi, neutral, negative
+Snippet: Glæsilegur og skapandi matseðill My Chelsea inniheldur nútímalega, vestræna japanska rétti eins og Foie Gras Unagi Napolean, hamborgarasteik í japönskum stíl, kryddað þorskhrognaspagettí, svartan þorsk með misóbotni og lambalæri í svartri trufflusósu, svo eitthvað sé nefnt. .
+Aspect: , kryddað þorskhrognaspaghettí, positive, neutral
+Snippet: Matseðillinn er frábær, með góðu úrvali og allt sem ég hef prófað er alveg ljúffengt.
+Aspect: úrval, positive, positive
+Snippet: Frábær matur, frábært þjónustufólk, frábært andrúmsloft og það besta af öllu FRÁBÆR bjór!
+Aspect: afgreiðslufólk, positive, positive
+Snippet: Við vorum svo ánægð með matinn okkar og vorum enn spenntari þegar við sáum reikninginn.
+Aspect: reikning, positive, positive
+Snippet: Glæsilegur og skapandi matseðill My Chelsea inniheldur nútímalega vestræna japanska rétti eins og Foie Gras Unagi Napolean, hamborgarasteik í japönskum stíl, kryddað þorskhrognaspagettí, svartan þorsk með misóbotni og lambalæri í svartri trufflusósu, svo eitthvað sé nefnt. .
+Aspect: Japanskir réttir, positive, neutral
+Snippet: Ég elska Little Pie Company eins mikið og allir aðrir sem hafa skrifað umsagnir, en verð að letja hvern sem er frá því að heimsækja Grand Central staðsetninguna vegna RÓÐA þjónustu þeirra frá tveimur sölumönnum.
+Aspect: þjónusta, negative, negative
+Snippet: Bestu pylsurnar á þriggja fylkja svæðinu.
+Aspect: pylsur, positive, positive
+Snippet: Loksins hleypt inn í búðina 5 í einu, til að kaupa dýrar sneiðar af harðsnúnu starfsfólki.
+Aspect: sneiðar, neutral, negative
+Snippet: Sennilega versta matarupplifunin mín í new york og ég er fyrrverandi þjónn svo ég veit hvað ég er að tala um.
+Aspect: matarupplifun, negative, negative
+Snippet: Ég mæli líka með hvítlaukshnútunum .
+Aspect: hvítlaukshnútar, positive, positive

@@ -1,9 +1,11 @@
 # unrelated testing folder
 testing/
-datasets_local/
+data/
 
 .DS_Store
 **/.DS_Store
+
+.google_service_key.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

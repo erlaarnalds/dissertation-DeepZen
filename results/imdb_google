@@ -1,9 +1,0 @@
-Model, Class, Accuracy, Precision, Recall, F1, timestamp
-senticnet, Positive, 0.00, 0.67, 0.01, 0.02, 07/19/24-00:33:52
-senticnet, Negative, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:33:52
-senticnet, Neutral, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:33:52
-senticnet, AVERAGE, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:33:52
-senticnet, positive, 0.00, 0.67, 0.01, 0.02, 07/19/24-00:36:18
-senticnet, negative, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:36:18
-senticnet, neutral, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:36:18
-senticnet, AVERAGE, 0.00, 0.00, 0.00, 0.00, 07/19/24-00:36:18

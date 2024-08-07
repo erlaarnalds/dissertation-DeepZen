@@ -1,17 +1,17 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-def eval(dataset, model_name):
-    # Load the tokenizer
+# def eval(dataset, model_name):
+#     # Load the tokenizer
 
 
     
 
-    # Decode the generated text
-    output_text = tokenizer.decode(output[0], skip_special_tokens=True)
+#     # Decode the generated text
+#     output_text = tokenizer.decode(output[0], skip_special_tokens=True)
 
-    print("Generated Text:")
-    print(output_text)
+#     print("Generated Text:")
+#     print(output_text)
 
 def eval(dataset, model_name):
     system_msg = """

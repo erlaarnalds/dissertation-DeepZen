@@ -1,7 +1,15 @@
-from general import parse_label, sign
+from general import parse_label, parse_label_ER
 from anthropic import Anthropic
+import os
+import time
 
 def rank_utterance(client, model_name, system_msg, utterance):
+
+    rate_limit_per_minute = 50
+    delay = 60.0 / rate_limit_per_minute
+
+    # slow down requests to prevent rate limiting
+    time.sleep(delay)
 
     response = client.messages.create(
         model=model_name,
@@ -17,18 +25,14 @@ def rank_utterance(client, model_name, system_msg, utterance):
            ]}
         ]
     )
+    #print("Tokens remaining: ",response.headers.get('anthropic-ratelimit-tokens-remaining'))
+    
+    return response.content[0].text.lower()
 
-    return response.content[0].text
 
-
-def eval(dataset, model_name):
+def eval(dataset, model_name, task):
     client = Anthropic()
-    system_msg = """
-    You are a highly capable sentiment analyser, and are tasked with reviewing sentences and analysing their overall sentiment.
-    You are given a sentence, and will output the class that you think captures the sentiment of the sentence. 
-    The possible classes are: Positive, Negative, Neutral. 
-    Do not output any other class than the ones listed. DO NOT explain the reasoning for your classification.
-    """
+    system_msg = dataset.get_system_msg()
 
     labels = []
     predictions = []
@@ -39,7 +43,23 @@ def eval(dataset, model_name):
             pred = rank_utterance(client, model_name, system_msg, utterance)
             predictions.append(pred)
 
-            true_val = parse_label(label, dataset.classes)
-            labels.append(sign(true_val))
+            if task == "ABSA":
+                true_label = label
+            elif dataset.name == "ice_and_fire_ER":
+                true_val = parse_label_ER(label, dataset.classes)
+                true_label = dataset.get_label(true_val)
+            else:
+                true_val = parse_label(label, dataset.classes)
+                true_label = dataset.get_label(true_val)
+            
+            labels.append(true_label)
+
+
+            if not os.path.isfile(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv"):
+                with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "w") as file:
+                    file.write(f"utterance, prediction, true label\n")
+
+            with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "a") as file:
+                file.write(f"{utterance}, {pred}, {true_label}\n")
     
     return labels, predictions

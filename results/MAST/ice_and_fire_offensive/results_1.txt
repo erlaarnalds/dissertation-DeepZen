@@ -1,0 +1,16 @@
+Model, Class, Accuracy, Precision, Recall, F1, timestamp
+gpt-4o, offensive, 0.90, 0.82, 0.60, 0.69, 07/28/24-21:44:14
+gpt-4o, not offensive, 0.90, 0.91, 0.97, 0.94, 07/28/24-21:44:14
+gpt-4o, AVERAGE, 0.90, 0.90, 0.90, 0.90, 07/28/24-21:44:14
+gpt-4-turbo, offensive, 0.88, 0.67, 0.77, 0.71, 07/28/24-21:48:39
+gpt-4-turbo, not offensive, 0.88, 0.94, 0.91, 0.93, 07/28/24-21:48:39
+gpt-4-turbo, AVERAGE, 0.88, 0.88, 0.88, 0.88, 07/28/24-21:48:39
+gpt-3.5-turbo-0125, offensive, 0.75, 0.42, 0.78, 0.55, 07/28/24-21:51:19
+gpt-3.5-turbo-0125, not offensive, 0.75, 0.94, 0.75, 0.83, 07/28/24-21:51:19
+gpt-3.5-turbo-0125, AVERAGE, 0.75, 0.76, 0.75, 0.76, 07/28/24-21:51:19
+open-mistral-nemo-2407, offensive, 0.44, 0.24, 0.93, 0.38, 07/28/24-21:59:14
+open-mistral-nemo-2407, not offensive, 0.44, 0.95, 0.33, 0.48, 07/28/24-21:59:14
+open-mistral-nemo-2407, AVERAGE, 0.44, 0.44, 0.44, 0.44, 07/28/24-21:59:14
+mistral-large-latest, offensive, 0.72, 0.39, 0.93, 0.55, 07/28/24-22:07:34
+mistral-large-latest, not offensive, 0.72, 0.97, 0.67, 0.79, 07/28/24-22:07:34
+mistral-large-latest, AVERAGE, 0.72, 0.72, 0.72, 0.72, 07/28/24-22:07:34
