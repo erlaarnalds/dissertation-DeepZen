@@ -1,0 +1,3 @@
+utterance,tuple,label
+"IMHO Lisp er allt of þungur í svigum, Java forrit er auðveldara að lesa.","['Lisp', 'Java', 'worse']",worse
+Einnig er Eclipse með fleiri viðbætur en NetBeans.,"['Eclipse', 'NetBeans', 'better']",better

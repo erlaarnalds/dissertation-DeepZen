@@ -1,0 +1,315 @@
+original_id,utterance,tuple,label
+132,Og ég held að Microsoft muni hafa meiri peninga til að búa til betri leiki en Sony.,"['Microsoft', 'Sony', 'better']",better
+33,Það er líka fullt af hlutum sem Java getur gert miklu betur (PHP ræður ekki einu sinni við lengi vel!).,"['Java', 'PHP', 'better']",better
+222,En það er ekki lögmætt að búa til ógrynni af afsökunum hvers vegna Windows 8 er verra en Windows XP eða Linux.,"['Windows 8', 'Windows XP', 'worse']",worse
+57,Þeir gátu bara ekki skilið að íshokkí væri verulega svalara en tennis.,"['íshokkí', 'tennis', 'worse']",worse
+256,Í þessum tilvikum er Perl betra tólið en Java og það er gott að hafa þetta hæfileikasett.,"['Perl', 'Java', 'better']",better
+204,"iPad, líkt og iphone og iPod Touch, er aldrei raunverulega """slökkt á""" svo iPad hefur þennan hraða eiginleika sem er jafnvel hraðari en fartölva.","['ipod', 'fartölva', 'better']",better
+25,"Scala er ekki betra Java, það er ML fyrir JVM","['Scala', 'Java', 'worse']",worse
+9,Þetta gerir Python að betri vali fyrir almenna forritun en PHP,"['Python', 'PHP', 'better']",better
+242,Apple líkar betur við Java en Microsoft.,"['Apple', 'Microsoft', 'better']",better
+224,"Fyrir hið síðarnefnda hef ég skoðað kóðann og það er örugglega auðveldara að leysa með JavaScript en PHP. - Hippietrail 13:33, 26 júlí 2007 (UTC)","['JavaScript', 'PHP', 'better']",better
+278,iphoneinn þinn er miklu betri skjár en skjáborðið/fartölvan þín.,"['iphone', 'fartölva', 'better']",better
+202,Sem svör er ég að leita að tilfellum þar sem Bash er í raun miklu betri en Perl eða Python til að þróa admin forskriftir.,"['Bash', 'Python', 'better']",better
+238,Það keyrir meira en 3 sinnum hraðar en AWK lausnin sem kynnt er hér að ofan og um það bil 60 sinnum hraðar en GNU Sed! Virkilega áhrifamikið.,"['AWK', 'Sed', 'better']",better
+45,Þegar Apple sagði að G5s væru hraðari en Intel var það samanburður við Prescotts.,"['Apple', 'Intel', 'better']",better
+76,Mér finnst Perl vera auðveldara en PHP.,"['Perl', 'PHP', 'better']",better
+197,"Windows 8 er miklu hraðari en Windows 7, hef ég upplifað.","['Windows 8', 'Windows 7', 'better']",better
+42,"Ég sagði ekki að lacrosse væri ekki spennandi, ég sá smá sýnishorn og er frekar ákafur, miklu betra en íshokkí.","['lacrosse', 'íshokkí', 'better']",better
+176,Hins vegar held ég að Scala geri það auðveldara að smíða og prófa JBoss AS viðbætur/undirkerfi miðað við Java .,"['Scala', 'Java', 'better']",better
+177,Þú munt komast að því að það getur verið enn auðveldara að vinna úr iphone þínum en að nota fartölvu - og miklu skemmtilegra.,"['iphone', 'fartölva', 'better']",better
+152,"Það er önnur skaðleg staða: Þú getur kvartað yfir því að iTunes og áskriftarsíður séu skaðlegar höfundarréttareigendum og hafi lakari hljóðgæði, en einn versti sökudólgurinn er youtube.","['itunes', 'youtube', 'better']",better
+5,"Þó að þessi meðhöndlun sé öll fáanleg í venjulegu JDK og sé þar með í boði fyrir Java forrit, þá hentar Groovy betur fyrir forskriftarþarfir eins og þessa.","['Java', 'Groovy', 'worse']",worse
+126,"1994 Október: IBM gaf út OS/2 útgáfu 3.0, stýrikerfi sem er langt umfram allt sem Microsoft hafði eða hefði átt í mörg ár.","['IBM', 'Microsoft', 'better']",better
+46,Direct3D 10/11 API eru miklu betri en OpenGL og hægt er að styðja þau með stærðargráðum minni kóða og þróunartíma,"['Direct3D', 'OpenGL', 'better']",better
+139,Viðar- og timburbirgðir eru að tæmast um allan þróunarlöndin (mun hraðar en birgðir skóglendis).,"['timbur', 'skóglendi', 'better']",better
+294,OO (þar sem Smalltalk er miklu þyngra OO en Java).,"['Smalltalk', 'Java', 'worse']",worse
+119,"Svo.. ég er ekki að segja að Java geti það ekki (því það getur það), en það ER auðveldara að gera það í PHP.","['Java', 'PHP', 'worse']",worse
+287,"Ég held að það hefði ekki getað gengið betur með það sem gerðist (á dartmouth) í lok leiksins þarna uppi, og þá augljóslega keppinautur okkar (harvard).“","['dartmouth', 'harvard', 'better']",better
+218,"Og á þessum tímapunkti gæti Python (eða Ruby) verið betri kostur, vegna þess að Hackage er enn á eftir PyPI á mörgum sviðum (og segðu, hversu marga daga þú þarft að kenna nýliði að vinna með mynd, eða að plotta töflur í Haskell? ).","['Python', 'Haskell', 'better']",better
+147,Þegar BMW er ekkert betri en Ford Fusion hefur iðnaðurinn vandamál.,"['BMW', 'Ford', 'worse']",worse
+154,"Jafnvel betri kostir fyrir gos eru vatn, ósykrað íste og léttmjólk, bendir hún á.","['gos', 'mjólk', 'worse']",worse
+172,"Það er rétt að segja að Wilson var rasisti allra forseta eftir borgarastyrjöld: verri en Andrew Johnson, verri en Nixon, verri jafnvel en Reagan.","['nixon', 'reagan', 'worse']",worse
+78,Það getur verið mjög auðvelt að breyta Perl kóða fljótt en hægar í PHP.,"['Perl', 'PHP', 'better']",better
+144,"Það hentar vel fyrir innihaldssvítuna sem Amazon hefur stillt upp fyrir hana, sem er betri en allar aðrar spjaldtölvur sem ekki eru Apple.","['Amazon', 'Apple', 'better']",better
+206,"PHP gerir það aðeins hraðara að kóða en, til dæmis Java, þó auðveldara ... ég myndi ekki segja það.","['PHP', 'Java', 'better']",better
+279,"Að vafra um vefinn á iphone er miklu betri, að vafra um vefinn á fartölvunni minni er enn miklu betri.","['iphone', 'fartölva', 'better']",better
+275,"Yale bauð eiginlega ekkert, þetta var aðeins flottara, en stanford bauð langbesta FA pakkann.","['mit', 'stanford', 'worse']",worse
+231,Vita þeir að Adidas hönnuðir hafa hannað betri treyjur en Nike að undanförnu?,"['Adidas', 'Nike', 'better']",better
+3,"Af hverju keyrir OpenGL útgáfa af leiknum okkar hraðar en Direct3D á Windows 7? Það virðist sem það tengist ekki fjölverkavinnsla kostnaðar,“ skrifaði Linux teymi Valve á opinberu bloggi sínu.","['OpenGL', 'Direct3D', 'better']",better
+60,"pizzan leit betur út en hún smakkaðist, en súpan var svo ljúffeng!","['pizza', 'súpa', 'worse']",worse
+155,Kynning á G3 Power PC örgjörva framleiddum af Apple hraðari en tölvur sem keyra á Intel örgjörvum.,"['Apple', 'Intel', 'better']",better
+77,"Samsung BD-P1000 er langt frá því að vera fullkomið, en það virkar miklu betur en Toshiba tilboðin tvö.","['Samsung', 'Toshiba', 'better']",better
+82,"ARM hefur í gegnum tíðina verið veikburða í flottölureikningi, en ég hef á tilfinningunni að ARM gæti gert betur fyrir hvert watt á integer vinnuálagi en x86.","['flottala', 'Integer', 'better']",better
+75,"Ég ætlaði upphaflega að þróa vefsíðuna mína með JSP, en komst að því að ISP minn styður ekki JSP, aðeins Java servlets (!), svo ég neyddist til að líta á PHP sem hraðari og auðveldari leið til að þróa síðuna.","['Java', 'PHP', 'worse']",worse
+180,Það gæti verið verra fyrir Microsoft - Apple gæti verið ráðandi á þessum markaði.,"['Microsoft', 'Apple', 'worse']",worse
+17,"Ég hef farið í gegnum Ruby, njóttu þess, líkar það betur en Python, hef aldrei grafið PHP.","['Ruby', 'Python', 'better']",better
+179,"En hér er það sem er virkilega ógnvekjandi: Pennsylvania er í miklu betra ástandi en mörg ríki, eins og Kalifornía og Illinois - svo ekki sé minnst á Ameríku í heild.","['pennsylvania', 'california', 'better']",better
+163,Eftir 15+ ár af C++/Java og OO værum við samt öll betur sett í forritun í Lisp.,"['Java', 'Lisp', 'worse']",worse
+300,"Ethernet verður alltaf hraðvirkara, en ef vélarnar þínar eru ekki tengdar á netinu skaltu panta USB snúruna og nota hana.","['Ethernet', 'USB', 'better']",better
+24,"Nei, ég hef haft mjög slæma reynslu af slæmu tungumáli :-) Og þegar ég byrjaði að komast inn í Groovy gæti ég sagt að tími sem varið er í eitthvað eins og til dæmis lokun, væri tími betur varið í Java heiminum en parametric polymorphism .","['Groovy', 'Java', 'worse']",worse
+94,Skilaboðin voru ótvíræð: Hulu er betri staður fyrir eigendur efnis til að birta myndbönd en YouTube.,"['hulu', 'youtube', 'better']",better
+203,Ég held reyndar að cnn sé verri en Fox News.,"['cnn', 'fox', 'worse']",worse
+292,Við vorum ánægð með að Apple væri sessvara samanborið við alls staðar í samkeppni miðlungs IBM klóna.,"['Apple', 'IBM', 'better']",better
+234,"Mér líkar þessi jepplingur betur en nokkur af fyrri bílum mínum - jepplingurinn Grand Cherokee, MB ML320, Cadillac SRX, Infiniti QX4.","['suv', 'jeep', 'better']",better
+114,"pennsylvania er ekkert betra, en ríki eins og Suður-Karólína og Flórída hafa engan bús- eða erfðafjárskatt.","['pennsylvania', 'carolina', 'worse']",worse
+111,"Ef þú ert á Windows XP, Windows Vista eða Windows 7 - og ef þú ert að lesa þessa síðu og maður, þá er betra að uppfæra í Windows 8 verður óhreint og algjörlega þess virði: aðeins 40 dalir.","['Windows XP', 'Windows 8', 'worse']",worse
+7,ég hef verið að reyna að beygja MySQL (PostgreSQL hefur betri stuðning,"['MySQL', 'PostgreSQL', 'worse']",worse
+291,"Ég kemst að því að þó að það sé satt að Ruby gæti haft færri libs en PHP, þá eru gæði þessara libs miklu betri.","['Ruby', 'PHP', 'better']",better
+84,RE4 stjórnaði betur á wii en ps2 eða GC en ekki nógu gott.,"['wii', 'ps2', 'better']",better
+90,"Jafnvel án þungra hagnýtra dótsins, rétt eins og grunn OO tungumál, er Scala miklu betra en C++/Java/C#.","['Scala', 'Java', 'better']",better
+63,Ég elska keppnishæfnina og ég er aðeins betri í mjúkbolta en í körfubolta.,"['mjúkbolti', 'körfubolti', 'better']",better
+146,Ég er með 2012 MBA með Toshiba SSD sem virðist standa sig á pari ef ekki betri en Samsung ssd á öðrum 2012 MBA.,"['Toshiba', 'Samsung', 'better']",better
+116,Af hverju hafnabolti er betri en fótbolta,"['hafnabolti', 'fótbolti', 'better']",better
+183,Ég held að vandamálið sem bæði Apple og Google eiga við sé að Intel sé að verða betri í að búa til x86 flís með litlum krafti.,"['Google', 'Intel', 'worse']",worse
+113,Kennedy sýndi betri mynd en Nixon í raunveruleikanum líka.,"['kennedy', 'nixon', 'better']",better
+101,"Ég gleymdi hversu æðislegur gamecube er, betri en wii imo","['gamecube', 'wii', 'better']",better
+137,"Það eru önnur tungumál sem gætu hentað betur en PHP ef þú vilt sjá hlutina frá öðru sjónarhorni - ég legg til að þú prófir hagnýtt tungumál eins og Lisp, Scheme, Haskell, F#, eða veikt innritað tungumál eins og Python.","['Lisp', 'Python', 'better']",better
+73,hér og hér ) sjónvirkni Sigma linsunnar er betri en jafngildir Nikon og Canon.,"['Sigma', 'Nikon', 'better']",better
+93,"PHP er aðeins gott til að gera DB tengingar / vefsniðmát, þess vegna verður það að vera betra en Python til að gera þær","['PHP', 'Python', 'better']",better
+232,Það var auðveldara fyrir Samsung að sjá hvað var að gerast en fyrir Nokia.,"['Samsung', 'Nokia', 'better']",better
+306,Nikon SP er betri en Leica M þegar kemur að því að nota samstillingarsnúrur.,"['Nikon', 'Leica', 'better']",better
+250,Léttviður eða einn af hinum ýmsu plötuuppbótum er betri en pappa.,"['viður', 'pappi', 'better']",better
+282,"Eins og snillingur Apple í itunes, er google með eitthvað svipað en betur heitir Instant Mix.","['itunes', 'google', 'worse']",worse
+181,Samt sem áður er Perl enn betri en erfiðara en PHP,"['Perl', 'PHP', 'better']",better
+210,"Ef þú ert að tala um CHRP/PREP vélbúnað, þá afhentu IBM og Motorola PowerPC vélar með fullt af PC arfleifð, á meðan Apple skilaði miklu betri, eldri ókeypis PowerPC Macs.","['IBM', 'Apple', 'worse']",worse
+109,hraðari Samsung SSD í sumum einingum og verulega hægari Toshiba SSD í öðrum).,"['Samsung', 'Toshiba', 'better']",better
+295,Hún hefur líka komist að því að Apple Store fólkið og Mac spjallborð á netinu geta svarað spurningum mun betur en til dæmis þjónustuver Dell.,"['Apple', 'Dell', 'better']",better
+59,"Spyrðu hvaða myndritara sem er, Dell á svipað verði er MUN betri en Apple skjár.","['Dell', 'Apple', 'better']",better
+165,"Java er dýrara en Perl, það hlýtur að vera betra.","['Java', 'Perl', 'better']",better
+6,Af hverju kostar gos $5 á lítra þegar mjólk er svo miklu betri fyrir þig?,"['gos', 'mjólk', 'worse']",worse
+261,Mér finnst Ubuntu höndla USB tengi mun betur en XP gerði nokkru sinni (3 myndavélar 2 MP3 spilarar Bluetooth).,"['USB', 'Bluetooth', 'better']",better
+30,"Mér líst enn betur á Sigma (Nex) 30mm en Nikon, og ég vil hraðari, breiðari linsu en 50mm fyrir þessa ferð.","['Sigma', 'Nikon', 'better']",better
+22,"Eini punkturinn minn er að slökkt er á kynningu á tölunum mínum, en það er ekkert tilfelli þar sem OpenGL hefur nokkru sinni verið hraðari en Direct3D í öllum prófunum sem ég hef keyrt á öllum vélum.","['OpenGL', 'Direct3D', 'worse']",worse
+266,Gömul tölva sem keyrir Windows XP er mun eftirsóttari en önnur með betri vélbúnaði sem keyrir Windows Vista.,"['Windows XP', 'Windows Vista', 'better']",better
+56,Samræmi: Það er hér sem annars yfirburða Toshiba E220 fellur í sundur miðað við Samsung E550.,"['Toshiba', 'Samsung', 'worse']",worse
+108,Windows 8 hefur verulega betri öryggisaðlögun miðað við Windows XP eins og mynd 4 sýnir.,"['Windows 8', 'Windows XP', 'better']",better
+198,Groovy gerir ritun Java forrita mun auðveldari.,"['Groovy', 'Java', 'better']",better
+254,Apple skýjatónlist verður betri en Google eða Amazon segir uppspretta iðnaðarins,"['Apple', 'Amazon', 'better']",better
+196,ps3 er betri en ps2 að mínu mati!,"['ps3', 'ps2', 'better']",better
+298,"sturtu á vörubílastoppum, það er ódýrara og auðveldara en að byggja sturtu, og 3 af ykkur? í einni rútu?","['vörubíll', 'rúta', 'better']",better
+211,Nikon gaf Sigma fyrsta „wake-up call“ með ódýrari og miklu betri 35mm 1.8DX.,"['Nikon', 'Sigma', 'better']",better
+143,Ég gerði nokkrar rannsóknir og ég komst að því að Facebook JavaScript SDK er betra en PHP SDK.,"['JavaScript', 'PHP', 'better']",better
+175,IMHO Python er miklu betri en Perl vegna OOP eiginleika þess.,"['Python', 'Perl', 'better']",better
+303,"Linsan frá Sigma alveg jafn góð(eða betri) og allar aðrar linsur frá Nikon, Cannon eða Minolta.","['Sigma', 'Nikon', 'better']",better
+311,Ég sé ekki að Apple samstillir neitt betur en Google.,"['Apple', 'Google', 'worse']",worse
+66,Það hefur einnig í för með sér auka víddarstöðugleika - krossviður bólgna ekki eða sprungur eins og solid sagað timbur.,"['Léttviður', 'timbur', 'better']",better
+124,"Þannig að ef þú hefur byggt upp sjónvarpssafn í kringum iTunes, þú átt iOS tæki og þú rífur DVD diskana þína, þá mun Apple TV líklega vera betri kostur.","['iOS', 'Apple TV', 'worse']",worse
+18,Sony Corporation (ADR) (NYSE: SNE) mun vaxa tekjur hraðar en Microsoft Corporation (NASDAQ: MSFT).,"['Sony', 'Microsoft', 'better']",better
+309,Fyrir mig þýðir það að vera vinstrimaður sem er ríkjandi með hægri auga að ég er ömurlegur í tennis en frábær í golfi.,"['tennis', 'golf', 'worse']",worse
+104,"Og sala á Windows Vista er töluvert hægari en sala á forvera sínum, Windows XP.","['Windows Vista', 'Windows XP', 'worse']",worse
+19,Það er auðveldara að spila golf en íshokkí.,"['golf', 'íshokkí', 'better']",better
+244,Á sama tíma ljómuðu þýsku íþróttafatafyrirtækin Adidas og Puma yfir aðra smásöluaðila þegar fjárfestar hrannast upp eftir betri hagnaði á fjórða ársfjórðungi frá bandaríska keppinautnum Nike í gærkvöldi en búist var við.,"['Adidas', 'Nike', 'better']",better
+92,Samkvæmt prófunum (töflu hér að neðan) er Samsung SSD verulega hraðari en Toshiba útgáfan.,"['Samsung', 'Toshiba', 'better']",better
+79,Ég fer í Amazon MP3 verslunina (betri en itunes.,"['amazon', 'itunes', 'better']",better
+247,"Haskell er hraðari en C++, hnitmiðaðri en Perl, reglulegri en Python, sveigjanlegri en Ruby, týpnari en C#, öflugri en Java og á nákvæmlega ekkert sameiginlegt með PHP.&quot; - Autrijus Tang (leiðtogi Pugs)","['Haskell', 'Python', 'better']",better
+148,Ef þú leitar að því á itunes skaltu slá inn &quot;Theme from Terms of Endearment by Cincinnati Pops Orchestra&quot; - það er miklu betri útgáfa en það sem YouTube hefur hér.,"['itunes', 'youtube', 'better']",better
+72,"Jimmy Clark skrifaði: Til að vera hnitmiðaður, þá gæti forritið í þessari færslu sem er skrifað í Java virka hraðar en forritið skrifað í Perl.","['Java', 'Perl', 'better']",better
+96,Windows 7 hefur ekki verið hraðari fyrir mig en XP undir VMWare Fusion (en kannski er það augljóst; Windows XP myndi líklega virka hægar en Windows 98 líka).,"['Windows XP', 'Windows 98', 'worse']",worse
+15,"Ég hata ekki Python heldur, en ég held að við séum betur settir í PHP.","['Python', 'PHP', 'worse']",worse
+10,"Enginn bíll keyrir betur og öruggari en þessi, úr alvöru stáli, ekki plasti eða áli.","['stál', 'ál', 'better']",better
+228,13/16 Linux dreifingar (og Apple) voru með hraðari meðalhleðslutíma en heimasíða Microsoft.,"['Apple', 'Microsoft', 'better']",better
+220,Ég ver ekki lengur að Nokia sé betri en Samsung eins og ég gerði alla þessa daga.,"['Nokia', 'Samsung', 'worse']",worse
+97,"Af þessum sökum, jafnvel þó að Oracle sé betri en PostgreSQL í að skipuleggja WITHs, myndi ég búast við að það yrðu vandamál líka.","['Oracle', 'PostgreSQL', 'better']",better
+68,Þegar borið er saman við Ford vörurnar sem við áttum áður hafa Toyota ökutækin verið betri upplifun fyrir okkur.,"['Ford', 'Toyota', 'worse']",worse
+245,"Við vitum að Windows Vista er mun erfiðara að falsa en Windows XP, en við vitum líka að sjóræningjar munu halda áfram að reyna,“ segir hann að lokum.","['Windows Vista', 'Windows XP', 'better']",better
+37,"Þetta eru flottustu gúmmíteysur sem ég hef spilað á, líklega jafnvel betri en steypa.","['gúmmí', 'steypa', 'better']",better
+16,ds slær út psp,"['ds', 'psp', 'better']",better
+55,"Það hefur batnað með youtube, en itunes-síða Kreva er ber fyrir utan samstarf hans við Miyavi.","['youtube', 'itunes', 'better']",better
+255,2. „Python er betri en Perl,"['Python', 'Perl', 'better']",better
+283,"Það er satt, aðgerðaflutningur er sársaukalaus í Python og aðeins erfiðari í Ruby.","['Python', 'Ruby', 'better']",better
+67,"Ég er búinn að forpanta mér Leica M og ég vona að þetta sé myndavél sem ég get notað fyrir mín persónulegu verkefni ... mig langar í eitthvað lítið, stafrænt .... og ég vil að myndirnar &quot;liti&quot; betur út en Canon /Nikon osfrv ...","['Leica', 'Nikon', 'better']",better
+118,Python er jafnvel meira &quot;underground&quot; en Perl (og þar með svalara?).,"['Python', 'Perl', 'better']",better
+253,Sannaðu að Java er &quot;hraðvirkara&quot; en PHP í almennum skilningi.,"['Java', 'PHP', 'better']",better
+69,ég elskaði Windows 8 en ég held að Windows 7 sé betra....,"['Windows 8', 'Windows 7', 'worse']",worse
+31,Hér er spurningin: telur einhver ykkar að Intel 510 sé betri kostur en að segja OCZ Vertex3 MIOPS eða Kingston HyperX?,"['Intel', 'Kingston', 'better']",better
+297,FD: fótbolti og hafnabolti komust hraðar í gang en hafnabolti.,"['fótbolti', 'hafnabolti', 'better']",better
+164,Renault vann einnig smiðsmeistaramótið á Ferrari.,"['Renault', 'Ferrari', 'better']",better
+246,"Aftur, facebook vex hraðar en Apple og google.","['facebook', 'google', 'better']",better
+168,"(þ.e.: hægari, almenna Perl vél, á móti hraðari Python DFA-byggðri vél).","['Perl', 'Python', 'worse']",worse
+125,"Ef þú hefur verið að velta því fyrir þér hvers vegna Toshiba SSD viðmiðin þín eru hægari en Samsung einhvers annars, athugaðu til að sjá hvers konar gögn viðmiðunartólið skrifar á drifið.","['Toshiba', 'Samsung', 'worse']",worse
+158,"Python er að gera OO smell mun betri en PHP hefur nokkru sinni gert, og ég er að lesa meira og meira um OO meginreglur til að auka þennan betri skilning.","['Python', 'PHP', 'better']",better
+86,"Við fórum í BMW X5 hennar! Jæja, ég skal segja þér að hann er miklu betri en Ford minn.","['BMW', 'Ford', 'better']",better
+277,USB er auðveldara og hagnýtara en Ethernet fyrir mörg forrit.,"['USB', 'Ethernet', 'better']",better
+140,"Nissan hefur einnig náð sér mun hraðar eftir jarðskjálftann og flóðbylgjuna í Japan en keppinautarnir, Toyota og Honda.","['Nissan', 'Toyota', 'better']",better
+265,Reyndar er Toshiba betri en Samsung á öllum sviðum nema fyrir svartstigið og hljóðið um borð.,"['Toshiba', 'Samsung', 'better']",better
+302,"Já, þetta er teygjanlegt, en borðtölva + iphone gæti verið betri en dýr fartölva.","['iphone', 'fartölva', 'better']",better
+225,Einnig er Eclipse með fleiri viðbætur en NetBeans.,"['Eclipse', 'NetBeans', 'better']",better
+226,steypa er kaldara en viður eða það sama.,"['steypa', 'viður', 'better']",better
+299,"En ég myndi veðja á að hlaðinn, $30.000 Honda Accord býður upp á meiri fágun og EcoBoost Ford Fusion er hraðari.","['Honda', 'Ford', 'worse']",worse
+145,Hönnuðir munu ekki líta á Amazon sem betri en Apple.,"['Amazon', 'Apple', 'worse']",worse
+199,Það er erfiðara að halda skammbyssu stöðugri en riffli.,"['pistol', 'rifle', 'worse']",worse
+129,Nikon D800 státar af betra kraftsviði en Sigma SD1 Merrill á öllu sviðinu.,"['Nikon', 'Sigma', 'better']",better
+38,Windows XP og Ubuntu ganga betur en Windows Vista á litlum örgjörva og litlu vinnsluminni þessara tölva.,"['Windows XP', 'Windows Vista', 'better']",better
+213,JavaScript er víða talið enn verra en PHP og er samt óumflýjanlegt í vefþróun.,"['JavaScript', 'PHP', 'worse']",worse
+185,Sony VAIO Pro 13 (30/14 fps) og Lenovo X240 (31/17 fps) stóðu sig aðeins betur en Dell.,"['Sony', 'Dell', 'better']",better
+182,Gamecube hefur betri áferðarhæfileika en ps2.,"['gamecube', 'ps2', 'better']",better
+112,Hér er hvers vegna stanford sprotafyrirtæki eru betri en með gangsetningum,"['stanford', 'mit', 'better']",better
+184,Að nota PHP með mySQL er almennt betri lausn en að nota JavaScript fyrir þessa tegund af hlutum.,"['PHP', 'JavaScript', 'better']",better
+117,Ég get skrifað alveg jafn hratt ef ekki hraðar í símanum mínum en fartölvunni.,"['sími', 'fartölva', 'better']",better
+290,Ef þú getur sameinast markaðsleiðtoganum (IBM) geturðu notað markaðsyfirráð til að slá á vörur af miklu betri gæðum (Apple tölvur).,"['IBM', 'Apple', 'worse']",worse
+284,"SCHNEIDER: Judy, Kennedy vann vegna þess að hann leit betur út en Nixon gerði í sjónvarpinu.","['kennedy', 'nixon', 'better']",better
+268,"Ef þú ferð með Audi S6, muntu eiga miklu auðveldara með að finna nógu stórt pláss til að leggja í en þú munt gera með Lexus LS 460.","['Audi', 'Lexus', 'better']",better
+193,Docter hélt áfram traustum leik sínum í heimasigri á Cornell á laugardaginn og leiddi Harvard með 13 dráp.,"['cornell', 'harvard', 'worse']",worse
+195,"Fordinn minn er miklu stærri PIA til að vinna á en BMW minn, nema það er auðveldara að skríða undir...","['Ford', 'BMW', 'better']",better
+2,Til að draga saman: Scala fyrir mér er bara betri Java með of mörgum skiptum.,"['Scala', 'Java', 'better']",better
+115,"Sem betur fer fékk ég Verizon þráðlaust breiðband fyrir fartölvuna mína í dag og það virkar í lagi frá bænum frænda míns, betur en farsíminn, sem virkar illa.","['fartölva', 'sími', 'better']",better
+157,"Groovy kóða lítur út og líður oft eins og Java kóða, en er næstum alltaf einfaldari og auðveldari í notkun.","['Groovy', 'Java', 'better']",better
+194,"Peningar eru í boði, en heimild til að nota þá er stöðvuð þar til Chevrolet gengur betur í þessu litla söluþrá við Ford.","['Chevrolet', 'Ford', 'better']",better
+120,"Ég var bara að grínast :) ... Sem ljósmyndari sem gerir stórar prentanir (og þarf MF myndavél) er hasselbladið augljóslega betra en Dx snið myndavél, og sem götuljósmyndari er Leica ómerkjanleg og getur oft filmað eins og punktur. n myndatöku en ef þú vilt fara út og taka bara frábærar myndir (eins og þær sem þú ert með) er Nikon fullkomið.","['Leica', 'Nikon', 'worse']",worse
+230,"Audi Q5 er örlítið styttri en Lexus RX 350, sem gæti gert það auðveldara að leggja bílnum.","['Audi', 'Lexus', 'better']",better
+271,Jafnvel Windows 8 gerir (mín reynsla) ágætis starf við að spila leiki sem rekja til Windows XP tímabilsins.,"['Windows 8', 'Windows XP', 'better']",better
+127,"Sem stendur er Samsung betri en Nokia í næstum öllum skilmálum - framleiðslu, flutninga, markaðssetningu osfrv., osfrv.","['Samsung', 'Nokia', 'better']",better
+74,JavaScript er alveg jafn slæmt og PHP ef ekki verra núna þegar einhver hefur reynt að flytja það yfir á netþjóninn.,"['JavaScript', 'PHP', 'worse']",worse
+29,MySQL Server er almennt miklu hraðari en PostgreSQL.,"['MySQL', 'PostgreSQL', 'better']",better
+83,"Ég er að hugsa um að grípa þráðlausa Ethernet brú eða jafnvel betra, þráðlaust USB net millistykki.","['Ethernet', 'USB', 'worse']",worse
+262,2 svör við &quot;NetBeans Unit Test Creation betri en Eclipse?,"['NetBeans', 'Eclipse', 'better']",better
+107,Humli er líka notaður í bjór sem bragðast betur en teið.,"['bjór', 'te', 'better']",better
+167,Betri valkostur er að skipta út léttum stáli Zeds fyrir timburbjálkana.,"['stál', 'timbur', 'worse']",worse
+173,Fyrsti kosturinn minn var Asus síðan Gigabyte.,"['Asus', 'Gigabyte', 'better']",better
+133,"Ég var betri í íshokkí en hafnabolta,“ viðurkenndi hann.","['íshokkí', 'hafnabolti', 'better']",better
+208,Að lokum var hugmyndin fullkomnuð af Apple - og síðar illa afrituð af Microsoft.,"['Apple', 'Microsoft', 'better']",better
+240,PS2 er á vissan hátt betri en gamecube: 1.,"['ps2', 'gamecube', 'better']",better
+289,Nei. Windows 8 er miklu betra en Windows 7 er á snertitæki.,"['Windows 8', 'Windows 7', 'better']",better
+65,"Þú ættir heldur ekki að vita hvort SSD er viðeigandi gæði Samsung, miklu hægari og lægri gæði Toshiba.","['Samsung', 'Toshiba', 'better']",better
+260,"Þeir hefðu betur tekið þátt í sportbílakappakstri eins og Ford er að gera með nýja Mustang sem hefur þegar unnið fjórar keppnir gegn BMW M3s, Porsche 911s, Nissan 350Zs og öðrum bílum í Grand-Am Cup.","['Ford', 'BMW', 'better']",better
+85,Scala og Cloture gera forriturum kleift að skrifa kóða sem er virkari og oft hraðari en Java þegar þeir keyra á sama JVM.,"['Scala', 'Java', 'better']",better
+233,"Það er líka ástæðan fyrir því að ég myndi ekki nenna að taka West virginia alvarlega sem keppanda, jafnvel þótt brot þeirra gæti tæknilega séð aðeins betra en Oregon brotið.","['virginia', 'oregon', 'better']",better
+159,Fullur 10/100 Mbps Fast Ethernet afköst yfir USB 2.0 480 Mbps rútu - hraðari en flestar þráðlausar tengingar,"['Ethernet', 'USB', 'better']",better
+12,Windows Backup er sannarlega gagnleg viðbót við Windows Vista og miklu flottara en öryggisafritunarforritið sem fylgdi Windows XP.,"['Windows Vista', 'Windows XP', 'better']",better
+35,"Og Windows 7 virkar mjög vel miðað við Windows XP (sem virkaði miklu betur en Windows 98, en ég vík frá mér).","['Windows XP', 'Windows 98', 'better']",better
+28,Mér finnst Amazon vera með miklu betra úrval af fluguveiðibókum en annað hvort B&amp;N eða Apple.,"['Amazon', 'Apple', 'better']",better
+170,"Ég held að einu kostir sem ég hef heyrt að Sigma hafi yfir Nikon sé betri bokeh, breiðari svið og auka 1/3 stopp.","['Sigma', 'Nikon', 'better']",better
+142,"Svo virðist sem lúxusframleiðendur ætli sér að stærra er betra þegar kemur að grillum (við erum að horfa á þig, Audi), en Lexus tekur kökuna hér.","['Audi', 'Lexus', 'worse']",worse
+209,Og ég hef komist að því að nota eplasafaedik í stað sítrónusafa er gott ívafi og heldur betur.,"['edik', 'safi', 'better']",better
+131,Við lærum að í þessari tilteknu uppsetningu er tiltekið bókasafn skrifað í Scala hraðvirkara en tiltekið bókasafn skrifað í Java.,"['Scala', 'Java', 'better']",better
+186,"Nissan var betri, lét mig aldrei ganga eins og Toyota gerði nokkrum sinnum.","['Nissan', 'Toyota', 'better']",better
+51,íshokkí er miklu betri íþrótt en körfubolti IMO.,"['íshokkí', 'körfubolti', 'better']",better
+95,"Netbeans+Java hefur yfirburða GUI verkfæri, en allt sem ég hef nokkurn tíma séð í Python.","['Java', 'Python', 'better']",better
+227,Ég skal viðurkenna að ég hef tilhneigingu til að renna inn í &quot;Scala sem betra Java&quot; hugarástand þegar ég ætti að vita betur.,"['Scala', 'Java', 'better']",better
+178,"Scala kóði er venjulega hnitmiðaðri en Java kóði (dæmið sem birt er gæti verið undantekning), en ég efast um að hann sé því auðveldari að lesa eða skilja.","['Scala', 'Java', 'better']",better
+274,"IBM hefur alltaf skilið heilleika byggingarlistar betur en Microsoft, sem gefur gráðu (stundum í hámarki, stundum ekki) betra öryggi.","['IBM', 'Microsoft', 'better']",better
+41,"Málið er að þegar ég horfi á Ruby, eða kannski Groovy eða Scala eru jafnvel betri þar sem þau eru nær Java, þá hafa þessi tungumál sett af eiginleikum sem styðja hvert annað.","['Groovy', 'Java', 'worse']",worse
+89,Í samanburði við Windows 7 hefur Windows 8 hraðari ræsingartíma.,"['Windows 7', 'Windows 8', 'worse']",worse
+237,"Safi, glúkósatöflur, íþróttadrykkir, jafnvel gos, eru betri en súkkulaði.","['gos', 'súkkulaði', 'better']",better
+136,"@paulgarrett: þess vegna er Scheme (eða næstum hvaða Lisp, sérstaklega lógó sem er) betra en Python (sem sjálft er betra en öll Algol-lík tungumál, þar á meðal C eða Pascal) til kennslu: það hefur í grundvallaratriðum enga setningafræði (eða, í með öðrum orðum, næstum því einfaldasta setningafræði sem mögulegt er).","['Lisp', 'Python', 'better']",better
+26,"Acer Travelmate 8372 og Aspire 3820, Dell Vostro V130, Samsung QX310 eru allir með óæðri skjái; Sony Vaio S13 og Apple MacBook Air eru ekki eins dýr; Sony Vaio...","['Dell', 'Apple', 'worse']",worse
+307,Fyrir suma arkitektúra er umbreyting á milli int og float ekki dýr og fljótandi punktaskipting vélbúnaðar er mun hraðari en hugbúnaðarbundin heiltöluskipting.,"['Floating-point', 'Integer', 'better']",better
+141,Í fyrsta lagi er MySQL verulega hraðari en PostgreSQL og Oracle.,"['MySQL', 'PostgreSQL', 'better']",better
+219,Ég vil nota PHP þar sem ég þekki það betur en JavaScript.,"['PHP', 'JavaScript', 'better']",better
+0,"Python útgáfan er vissulega margorðari en Bash hliðstæða hennar, en mun auðveldari að lesa (og ég vona að viðhalda henni í framtíðinni).","['Python', 'Bash', 'better']",better
+281,"Þeir lentu í dásamlegu áhlaupi hjá Chrysler með miklu betri heildarpakka (samanlögð laun, heilsugæslu og lífeyri) en starfsbræður þeirra hjá Toyota í Bandaríkjunum.","['Chrysler', 'Toyota', 'better']",better
+285,Steypan var því miklu betri en tré.,"['steypa', 'viður', 'better']",better
+100,Kalifornía gengur verr en Pennsylvania og Ohio ... Ryðbeltisríkin tvö sem hafa verið áberandi í forsetakosningunum vegna tapaðra framleiðslustarfa.,"['california', 'pennsylvania', 'worse']",worse
+192,OpenGL sýnir líka miklu meiri virkni en Direct3D og þegar vélbúnaðarframleiðendur bæta nýjum eiginleikum við GPU sína geta þeir gert það aðgengilegt fyrir endanotandann mun hraðar með því einfaldlega að bæta við nýrri viðbót við bílstjórann sinn.,"['OpenGL', 'Direct3D', 'better']",better
+269,"Sennilega er MySQL meira notað, hefur meiri upplýsingar aðgengilegar á internetinu og er auðveldara í notkun en PostgreSQL.","['MySQL', 'PostgreSQL', 'better']",better
+103,"Gigabit Ethernet (sem allar TeraStations styðja) er hraðari en nokkur bragð af USB eða firewire, og er miklu meira til þess fallið að tengjast samtímis við margar vélar.","['Ethernet', 'USB', 'better']",better
+171,"Almennt virðist Toyota byggja vel trausta ef leiðinlega bíla, en þetta er bilun í Ford-flokki, td","['Toyota', 'Ford', 'better']",better
+98,"Jafnvel þótt Microsoft takist að finna upp eða kaupa nýja hugmynd, mun Google koma með leið til að gera hana hraðari, ódýrari, öruggari og öflugri.","['Microsoft', 'Google', 'worse']",worse
+36,"Mamma, sem betur fer, hafði barnapían hans Grant, soledad, eldað súpu og grillað kjúkling sem var betri og jafnvel auðveldari en ég að kalla eftir pizzu!","['súpa', 'pizza', 'better']",better
+61,"IMHO Lisp er allt of þungur í svigum, Java forrit er auðveldara að lesa.","['Lisp', 'Java', 'worse']",worse
+150,cnn er verri en refur!.,"['cnn', 'fox', 'worse']",worse
+47,"Heimildir okkar segja okkur að Pepsi hafi fundið fyrir því að Lynxxx, sem eyddi meiri hluta ársins 2011 í túr og taka sjónvarps-/útvarpsviðtöl, hafi verið feril dauður í allt of langan tíma og þetta hefur áhrif á viðveru vörumerkis þeirra í Nígeríu sem nú er stjórnað af erkikeppinautnum Coca-Cola. .","['Pepsi', 'Coca-Cola', 'worse']",worse
+221,Ruby 1.9.1 var um það bil 3.15X hraðari en PHP 5.3.1 að geta klárað þetta verkefni á innan við 2 sekúndum.,"['Ruby', 'PHP', 'better']",better
+258,Drifrás Vegna mun hærra togs sinnar Chevrolet Express 2500 mun betur við að flytja hestöfl vélarinnar til hjólanna en Ford Transit Connect.,"['Chevrolet', 'Ford', 'better']",better
+11,"Python , besta tungumál sem fyrirtæki getur notað án þess að hætta á skort á forriturum (Common Lisp er betra, en ég þekki engan sem kann það nema ég)","['Python', 'Lisp', 'worse']",worse
+310,Við vitum báðir að Lexus er með betri fulltrúa en Cadillac en mig langar að vita hvers vegna þeir geta ekki verðlagt gerðir sínar eins og BMW og MB ef ímynd þeirra er talin vera jafn virt.,"['Lexus', 'Cadillac', 'better']",better
+200,Ruby OO er miklu flottari en OO Perl þar sem allt er gert-það-sjálfur verkefni.,"['Ruby', 'Perl', 'better']",better
+280,Perl hefði verið betri ef það hefði verið gott REPL eins og Python.,"['Perl', 'Python', 'worse']",worse
+27,Allt meira en nokkrar línur af Bash væri hægt að gera betur í Python.,"['Bash', 'Python', 'worse']",worse
+239,"Í 2. sæti er Samsung, eins og við sjáum að glæsileiki þess í hönnun og notendaviðmóti er miklu betri en Nokia...","['Samsung', 'Nokia', 'better']",better
+4,Bókasafnið var gætt af steinhurð sem var lýst sem „harðari en stál“.,"['steinn', 'stál', 'better']",better
+122,"Nú eru Leica linsur almennt bestu IMO, ekki svo mikið vegna betri myndgæða með hvaða linsu sem er, heldur vegna mun betri samkvæmni í QC þeirra en fjöldaframleiðendur Nikon, Minolta o.fl.","['Leica', 'Nikon', 'better']",better
+32,"Ég elskaði útlitið á Chevrolet og það var það sem ég vildi endilega, en ef verðið væri betra hefði Ford hentað mér alveg ágætlega.","['Chevrolet', 'Ford', 'better']",better
+223,"Núna væri þetta fínt fyrir mjög gamla leiki eða aðra leiki sem nota ekki 3D hröðun (eins og leiki sem byggja á QuickTime), nema að svona gamlir leiki væri betra að spila í Windows 98 VM frekar en Windows XP VM .","['Windows 98', 'Windows XP', 'better']",better
+162,"Örgjörvaframmistaða AMD APU vélbúnaðarins á Sony PS4 og Microsoft XBox720 er á pari ef ekki hægari en Intel Core2Quad Q9650 sem er frekar gamaldags, 4-5 ára örgjörvi.","['Sony', 'Intel', 'better']",better
+229,"Eitt: Less.js hefur verið skrifað frá grunni fyrir frábæran árangur, svo jafnvel vafrar með lélega JavaScript útfærslu ættu samt að keyra það mjög vel (Less.js er um það bil 40 sinnum hraðari en Ruby útfærslan - svo það er nóg að segja að það er mikið hraðar.).","['JavaScript', 'Ruby', 'better']",better
+267,"Einnig er verið að endurskrifa allt valmyndakerfið (aftur) fyrir Debian grunninn (með því að nota sysvinit frekar en uppstart), en í þetta skiptið verður það í Python frekar en í Bash (sem ætti að gera það töluvert hraðara líka).","['Python', 'Bash', 'better']",better
+138,miklu betra/auðveldara að gera viðmótið í Python en í Java.,"['Python', 'Java', 'better']",better
+62,"Það er, ég get kóðað hraðar í Java en í C++; Ég get kóðað hraðar í Python en hvorum þeirra.","['Java', 'Python', 'better']",better
+215,"Einnig er Audi að selja betur en BMW og Mercedes-Benz í Þýskalandi, sem er heimamarkaður fyrirtækjanna, augljóslega.","['Audi', 'Mercedes-Benz', 'better']",better
+135,"Hvað varðar áreiðanleika tegunda sem seldar hafa verið undanfarin þrjú ár sýnir CR að 90% Toyota tegunda sem það hefur metið hafa betri áreiðanleika en meðaltal, á móti 35% fyrir Chrysler, 25% fyrir GM og aðeins 7% fyrir Ford .","['Toyota', 'Chrysler', 'better']",better
+128,"Það er miklu auðveldara að nýta galla í Windows XP en í nýrri útgáfum, eins og Windows 7 og Windows 8, sagði Moore, vegna viðbótaröryggisráðstafana sem Microsoft hefur bakað inn í nýrri stýrikerfin.","['Windows XP', 'Windows 8', 'worse']",worse
+304,"Scala gerir kóðann óorðinn, betri afköst hans en Java.","['Scala', 'Java', 'better']",better
+8,"Pastað var miðlungs, ekki eins eftirminnilegt og pizzan.","['pasta', 'pizza', 'worse']",worse
+70,"Ég tísti til baka að ég hélt að fótbolti, jafnvel ömurlegur Pro Bowl leikur, myndi samt toppa íshokkí í Chicago.","['fótbolti', 'íshokkí', 'better']",better
+296,Uppfærsla 2007-01-26: Auðvitað er Python útgáfan ekki auðveldari að grúska en þessi Haskell útgáfa:,"['Python', 'Haskell', 'worse']",worse
+64,Er Java virkilega svona miklu hraðari en Python eða er einhver alvarleg hagræðing í gangi?,"['Java', 'Python', 'better']",better
+44,Hvað getur Windows 8 gert fyrir mig sem Windows 7 getur ekki gert betur nú þegar?,"['Windows 8', 'Windows 7', 'worse']",worse
+14,"Ekki eru allir notendur með sjálfvirkar uppfærslur, en þegar notendur fara frá stýrikerfum sem gera það ekki (Windows XP) yfir í þá sem gera það (Windows 7 og Windows 8), leiðir það til betra öryggi.","['Windows XP', 'Windows 8', 'worse']",worse
+156,"(10 fyrir NetBeans, -5 fyrir Eclipse)","['NetBeans', 'Eclipse', 'better']",better
+40,"MrSeb skrifar „Í snúningi sem styrkir andstyggð Valve á Windows 8, kemur í ljós að Source vélin - þrívíddarvélin sem knýr Half Life 2, Left 4 Dead og Dota 2 - keyrir hraðar á Ubuntu 12.04 og OpenGL (315 fps) en Windows 7 og DirectX/Direct3D (270,6 fps) næstum 20% hraða.","['OpenGL', 'Direct3D', 'better']",better
+249,Norður-Karólína er ekki öruggari en Kalifornía.,"['carolina', 'california', 'worse']",worse
+123,"Við nutum máltíðar á Café Bagdad (frábær súpa, ömurleg pizza, sanngjarnt verð) með útsýni yfir Plaza.","['súpa', 'pizza', 'better']",better
+288,"Satt, en það eru nokkrir hlutir sem eru óendanlega auðveldari í Perl en PHP.","['Perl', 'PHP', 'better']",better
+216,Nat Pryce tók eftir því að söfn voru unnin auðveldari (og með minni kóða) í Haskell og Smalltalk lausnunum en í Java.,"['Haskell', 'Java', 'better']",better
+153,"Lenovo hefur gert gott starf við að gera sérsniðna auðveldari síðan á dögum IBM, þó að þeir séu líklega enn ekki eins góðir og Dell.","['IBM', 'Dell', 'worse']",worse
+23,Ég var heppinn að fá einn með Samsung SSD sem er miklu hraðari en Toshiba SSD.,"['Samsung', 'Toshiba', 'better']",better
+272,"Georgia Tech gestgjafi tók forystu í annarri lotu á 12 undir 548 höggum, höggi betra en Kalifornía í öðru sæti.","['georgia', 'california', 'better']",better
+110,Eina ráðleggingin væri að fara yfir í Python (eða eitthvað betra en Bash/perl) til að auka stuðning og upptöku bókasafna.,"['Python', 'Bash', 'better']",better
+81,"Perl getur safnað saman, fínstillt og framkvæmt sumar athafnir hraðar en Java getur hlaðið, frumstillt sig og framkvæmt fyrirframsamsettan .class","['Perl', 'Java', 'better']",better
+236,"það er þó á viðarbúti, sem er miklu auðveldara að flytja en pappa.","['viður', 'pappi', 'better']",better
+207,Notkun mín á Scala hingað til hefur verið sem „betri Java.,"['Scala', 'Java', 'better']",better
+212,Ég hef eiginlega ekki notað vörubílinn minn lengur þar sem ég á mótorhjól (sparar bensín á meðan ég kemst hraðar).,"['vörubíll', 'mótorhjól', 'worse']",worse
+39,Reklastuðningur fyrir Windows Vista x64 og Windows 7 x64 er vissulega miklu betri en hann var fyrir Windows XP x64 Edition.,"['Windows Vista', 'Windows XP', 'better']",better
+286,"Á morgun, ps2 og eitthvað WALL-E (ég get ekki spilað þann leik á ds lengur, þar sem hann er svooooo miklu hægari, leiðinlegri og allt sem þú getur gert er að búa til/kasta teningum).","['ps2', 'ds', 'better']",better
+248,"En í báðum tilfellum fær Apple lélegar einkunnir frá Greenpeace á meðan Dell fær betri einkunnir, þrátt fyrir þá óþægilegu staðreynd að báðir eru á nákvæmlega sama báti: fastir.","['Apple', 'Dell', 'worse']",worse
+251,"Það gæti verið auðveldara að ráða Java forritara, en Scala teymi mun geta gert miklu meira","['Java', 'Scala', 'worse']",worse
+305,Námshraði fyrir Scala er hraðari en C++ eða Java fyrir sama verkefni.,"['Scala', 'Java', 'better']",better
+201,"Kóðinn minn Scala er venjulega helmingi lengri en það sama og gert í gegnum Java, auk þess sem hann er hnitmiðaðri og auðveldari í viðhaldi.","['Scala', 'Java', 'better']",better
+161,Þú getur hlustað á það á youtube en upptakan á itunes er betri - og þess virði!,"['youtube', 'itunes', 'worse']",worse
+43,"Ég hefði búist við að Python væri hægari en Java, en það er greinilega ekki raunin.","['Python', 'Java', 'better']",better
+217,"Fólk gæti valið að nota PostgreSQL vegna þess að það hatar Oracle, eða MySQL vegna þess að það er auðveldara að finna hýsingu, eða aðra hvora vöruna vegna þess að það þekkir hana betur, og það er algjörlega réttmætt og kannski þess virði að tala um, en - að hluta til í þágu sáttar meðal samfélaga sem ættu að vera bandamenn - það er ekki það sem ég ætla að tala um hér.","['PostgreSQL', 'Oracle', 'better']",better
+190,Groovy veitir tungumálastuðning til að gera venjubundin verkefni á safntegundum auðveldari en Java forritarar eru vanir.,"['Groovy', 'Java', 'better']",better
+259,"Mál Þar sem BMW 320 er mun grannari en Honda Accord Hybrid, verður miklu auðveldara að finna nógu breitt pláss á troðfullu bílastæði.","['BMW', 'Honda', 'better']",better
+105,"Núna eru bandarísk fyrirtæki að framleiða mjög góða bíla, en skynjunin er sú að Honda Civic sé í eðli sínu betri en Ford Focus.","['Honda', 'Ford', 'better']",better
+53,Það kom mér líka á óvart hversu öflugur fyrirspurnaskipuleggjandinn og fínstillingartækin eru í samanburði við Oracle þegar árangursprófanir okkar komust að því að PostgreSQL var hraðari.,"['Oracle', 'PostgreSQL', 'worse']",worse
+1,Ég hefði kannski verið aðeins betri lacrosse leikmaður en íshokkí leikmaður.,"['lacrosse', 'íshokkí', 'better']",better
+49,"Ruby er ekki (að mínu mati) of hægari en Perl, Python eða PHP.","['Ruby', 'Python', 'worse']",worse
+80,"Þessi færsla lítur á Pepsi-Cola, risastórt fjölþjóðlegt fyrirtæki sem reynir meira og meira að ná í fyrsta sæti, Coca-Cola.","['Pepsi', 'Coca-Cola', 'worse']",worse
+205,Ég þarf ekki að síminn minn sé hraðari en fartölvan mín.,"['sími', 'fartölva', 'better']",better
+34,"En þeir sem eru með breiðari eignasafn - eins og Hewlett-Packard og IBM - munu geta staðist storminn betur en þeir eins og Dell,“ sagði Kumar.","['Hewlett-Packard', 'Dell', 'better']",better
+263,"Búast við auknum líkum á næstum eðlilegu hitastigi í Washington, Oregon og vesturhluta Indiana og kaldara en venjulega í Michigan og norðurhluta Wisconsin.","['oregon', 'michigan', 'better']",better
+91,"Ég notaði Perl eða hvíta mína eigin CGI í C, en PHP er svo miklu auðveldara en annað hvort.","['Perl', 'PHP', 'worse']",worse
+52,"Að sögn Mike Watson, vörufræðslustjóra Lexus, Toyota-háskóla (Torrance, Kaliforníu), er mótstöðustuðullinn jafn og Mercedes E-flokks og er tveimur stigum betri en BMW 5-línan.","['Toyota', 'BMW', 'better']",better
+264,"Ef þú eyðir er líklegt að þú eyðir meiri tíma með Java, þá eru Scala eða Groovy hugsanlega betri valkostir.","['Java', 'Scala', 'worse']",worse
+241,MJ var betri í hafnabolta en körfuboltaliðsstjórnun.,"['hafnabolti', 'körfubolti', 'better']",better
+13,Þægindi Vegna stærri tankstærðar og betri sparneytni Audi Q7 muntu örugglega stoppa færri á bensínstöðinni en með Lexus RX 450h.,"['Audi', 'Lexus', 'better']",better
+88,Í öðrum fréttum er Apple að uppfæra núverandi úrval af MacBook Air fartölvum með hraðari örgjörvum frá Intel.,"['Apple', 'Intel', 'better']",better
+273,"Ég get verið ljóðrænn um tæknilega yfirburði tungumála eins og Self, Smalltalk og Lisp samanborið við minni tungumál eins og Java og C# (og jafnvel Ruby og Python), en þetta skiptir ekki máli ef fólk er bara ekki „þægilegt“ með þessum meintu „æðstu“ tungumálum.","['Lisp', 'Python', 'better']",better
+166,"Hæ, ég nota PHP löggildingu fyrir síðurnar mínar, það er betra en Java script sannprófun?","['PHP', 'Java', 'better']",better
+308,"Eins og það er, DirectX er ekki að fara neitt þrátt fyrir það sem einhver frá Epic gæti sagt; Windows Direct3D stuðningur frá ökumönnum (til að byrja með) er bara betri en OpenGL stuðningurinn í mörgum tilfellum, nógu mörg tilfelli til að það þarf að styðja hann eða leikur mun bara detta á mörgum tölvum.","['Direct3D', 'OpenGL', 'better']",better
+134,Google og Amazon þykja betri kaup en Apple??? Kannski endar heimurinn 21.!!!!!! LOL,"['Amazon', 'Apple', 'better']",better
+301,Við segjum „Java er hliðið að helvíti“. Lisp er bara betri valkostur við snjalla internetið: Það keyrir á 14 mismunandi kerfum og þarf enga tegund af sýndarvél því það safnar saman beint í innfæddar vélarleiðbeiningar á öllum vinsælum örgjörvaarkitektúrum.&#39;,"['Java', 'Lisp', 'worse']",worse
+243,Þrátt fyrir að Ford CMax Hybrid fái betri sparneytni hefur Toyota Hybrid kerfið orð á sér fyrir að virka einstaklega vel.,"['Ford', 'Toyota', 'worse']",worse
+54,"Einnig á meðan þú ert að því skaltu búa til ps2 handbók, samhæfnin er betri en psp og auðveldara er að rífa leiki.","['ps2', 'psp', 'better']",better
+50,Hvað ef Ronald Reagan hefði klætt Ivy betur en Jack Kennedy?,"['reagan', 'kennedy', 'better']",better
+174,Þú getur notað krossviður fyrir grunnbar en timburplankar líta fallegri út fyrir vandaðri uppsetningu og auðveldara er að klára það með bletti eða málningu.,"['Léttviður', 'timbur', 'worse']",worse
+189,Ég tel Windows 7 mjög skilvirkt og Windows 8 er enn betra.,"['Windows 7', 'Windows 8', 'worse']",worse
+312,Ég keyri á Chevrolet Trailblazer...ekki mikið öðruvísi en Envoy...og finnst hann ekki gamaldags...Ég held að Ford eða Chrysler hafi ekki staðið sig betur?,"['Chevrolet', 'Ford', 'better']",better
+187,"Kannski hraðskreiðasti matarbíll sem ég hef farið í, svo miklu hraðari en Burger strætó.","['vörubíll', 'rúta', 'better']",better
+169,"Meðan hann var í fyrirtækinu okkar töldu sumir samstarfsmenn hann vera snillingur, því hann gat talað mikið um &#39;samstillingar þýðanda&#39;, &#39;Linux ræsingarröð&#39;, &#39;samsetningu kjarnans&#39;, &#39;af hverju Lisp er betri en Python&#39; osfrv. .","['Lisp', 'Python', 'better']",better
+58,"Númer eitt: Í því algera (og ósennilegt) versta tilviki að MS minnkar Direct3D stuðning sinn í lágmarki, þá er ástandið samt betra en OpenGL.","['Direct3D', 'OpenGL', 'better']",better
+48,"Svo gettu hvað, ég þekki Perl miklu betur en Ruby.","['Perl', 'Ruby', 'better']",better
+235,1) Fartölva eða netbók með Bluetooth þýðir að ég þarf ekki að tengja neitt í USB tengi til að nota almennilega mús með tölvunni.,"['Bluetooth', 'USB', 'better']",better
+252,"Hvað varðar það hvar PostgreSQL gengur betur en MySQL, þá er mín skoðun.","['PostgreSQL', 'MySQL', 'better']",better
+21,"11/2/07) á þessu ári, 1. nóvember, eru góðu fréttirnar fyrir nýjan forstjóra Robert Nardelli og tvo varaformenn, sitjandi Tom LaSorda hans og fyrrverandi yfirmann Toyota Motor (TM) Norður-Ameríku, James Press, að þeir hafa sjálfræði. að taka ákvarðanir mun hraðar en Chrysler gat undir stjórn Daimler (DAI).","['Toyota', 'Chrysler', 'better']",better
+160,Ég segi að Google sé hið nýja Microsoft og í mörgum tilfellum eru þau enn verri.,"['Google', 'Microsoft', 'worse']",worse
+276,Vatn eða léttmjólk er augljóslega betri kostur en gos eða aðrir sykraðir drykkir.,"['mjólk', 'gos', 'better']",better
+191,Kosturinn við Java umfram Python fyrir vísindalega tölvuvinnslu er hraðari fyrir,"['Java', 'Python', 'better']",better
+293,Ford segir að venjulegur Boss 302 muni fara yfir Laguna Seca sekúndu hraðar en BMW M3 (Laguna Seca pakkinn er enn einni sekúndu hraðari) og við hneigjumst til að trúa þeim.,"['Ford', 'BMW', 'better']",better
+257,En færslan þín er bara vísbending um að Perl sé betri en Java fyrir límkóða.,"['Perl', 'Java', 'better']",better
+149,"Fljótlega eftir að ég keypti RX1 og sá sjálfur að frammistaðan í fjarlægum/óendanleikanum var óvenjuleg (yfir allar 35 mm linsur sem ég hafði notað á 24MP myndavél áður OG betri en nýja Nikon G 28/1.8G eins og hún var notuð á þá D800E, þó Ég er viss um að betri linsa eins og Sigma 35 1.4 gæti verið betri en RX1 á D800E).","['Nikon', 'Sigma', 'worse']",worse
+130,arrrggghh...Python er hræðilegt tungumál - bara Perl sýgur verra.,"['Python', 'Perl', 'better']",better
+151,"Fyrir allt fólkið sem heldur að Pepsi sé MIKLU betra en Coca-Cola, þá muntu líka finna þinn eigin drykk.","['Pepsi', 'Coca-Cola', 'better']",better
+99,Eru Python fólk virkilega flottara en Java fólk?,"['Python', 'Java', 'better']",better
+87,"Nú gæti það verið ástæðan fyrir því að Toyota hefur betri markaðsstöðu en GM, Ford og Chrysler.","['Toyota', 'Chrysler', 'better']",better
+214,"JavaScript minnir mig á Perl 4 með örlítið betri setningafræði og nokkra viðbótareiginleika (grundvallarorðafræðisvið, hærri röð aðgerðir og aðferðasendingar, svo ekki sé minnst á samkeppnisútfærslur með mikilli fyrirhöfn sem varið er í að fínstilla skilvirkni sem felst í sumum fátækustu villur í hönnun tungumálsins).","['JavaScript', 'Perl', 'better']",better
+121,"Það er betra á ds en á wii, en samt helvítis gaman.","['ds', 'wii', 'better']",better
+313,Varðandi þetta eru C/C++/D/Java/C#/etc verri og Python og Go betri.,"['Java', 'Python', 'worse']",worse
+20,Fyrir sumt fólk virkar Perl betur en Python.,"['Perl', 'Python', 'better']",better
+188,Python gerir fylki (sem listar og tuples) miklu betur en PHP gerir.,"['Python', 'PHP', 'better']",better
+71,(Til að komast í kringum þetta nota ég innbyggða Bluetooth FTP; það er mun hægara en að nota USB tengingu væri ella.),"['Bluetooth', 'USB', 'worse']",worse
+106,"Það er kaldhæðnislegt að Ferrari, lambo, GTR, bentley okkar eru meira en BMW //M og MERC AMG.","['Ferrari', 'BMW', 'better']",better
+270,"Einkunn 4 af 5 af NorgiFussball Passar reikninginn Nike skórnir virðast passa betur við börnin okkar en Adidas á þessum aldri (U11, U13).","['Nike', 'Adidas', 'better']",better
+102,"Svo við getum búist við, Windows 8 verður betra en Windows 7 stýrikerfið.","['Windows 8', 'Windows 7', 'better']",better

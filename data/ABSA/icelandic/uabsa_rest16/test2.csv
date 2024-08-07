@@ -1,0 +1,501 @@
+original_id,utterance,label
+641,Andrúmsloftið er stórkostlegt og skreytingarnar hátíðlegar og einstakar.,"[('Andrúmsloftið', 'positive'), ('skreytingarnar', 'positive')]"
+302,"Jæja, ég býst við að það sé erfitt að fá sæti þar sem enginn sér til.","[('Starfsfólk', 'negative')]"
+369,Sparið pláss fyrir eftirrétti.,"[('eftirréttur', 'positive')]"
+493,Ég elska kröbbum og hjá Ray's er hægt að fá þá gefna á um það bil 6 mismunandi vegu!,"[('Mygla og krabbar', 'positive')]"
+579,Fífilstykki af framandi fiski á 100 dollara diski og EKKI einu sinni var neysluhæft.,"[('Framandi fiskur', 'negative'), ('plata', 'negative')]"
+54,Sumt af því sem við borðum er greinilega beint að mat eins og ég svo að ef þú ert ekki með mat þá er ekkert að því að fara yfir á McDonalds eða einhverja Ruby Tuesday og hafa það þar!,[]
+645,Miðstöðvarþjónusta,"[('Þjónustustarfsemi', 'neutral')]"
+257,Fiskurinn á fiskinum á akasíu - fatinu var algerlega úrkynjaður þegar hann borðaði þessa frábæru máltíð - og stundum var ekkert af því sem fylgdi sushi - fiskinum fullkomið!,"[('Máltíð', 'positive'), ('fiskur á omkase-fatinu.', 'positive')]"
+663,Ímyndaðu þér hvað það kemur mér skemmtilega á óvart að sjá að áhorfið er aðeins það þriðja besta við Ray's!,"[('skoðanir', 'positive'), (""Ray's"", 'positive')]"
+478,"Þegar þjónustustúlka hafði einu sinni orðið uppvís að því að stela í flokknum okkar, óskaði hún kurteislega að láta ekki nappa sig, og sendi hana í æsilegan heimflutning.","[('þjónustustúlka', 'negative'), ('þjónustustúlka', 'negative')]"
+55,Ef þú ert að leita að raunverulegum eiginleikum er það ekki sú lækkun sem sést á öskunni en hún er sögð hafa komið þér nýlega í klípu til að breyta aldurstakmarkinu þarftu að koma þér inn í keppnina.,[]
+639,Veitingastaðurinn er einstaklega bragðgóður og þjónustan óneitanlega æðisleg!,"[('þjónusta', 'positive')]"
+481,Hún lofaði að tala við þjónustustúlkuna sem hafði flogið af stað í reiðikasti en við gátum varla tekið loforðið alvarlega þar sem hún hafði ekki nennt að fá nafn þjónustustúlkunnar.,[]
+77,Það er óhætt að segja að þú skemmtir þér konunglega.,[]
+235,Gamli Áreiðanlegur,[]
+277,Um helgar gætirðu þurft að bíða í nokkrar klukkustundir.,[]
+304,Að lokum stóð konan mín augliti til auglitis við einn stafinn og spurði: „Ertu að bíða eftir borði?“,"[('Starfsfólk', 'negative')]"
+630,"Maturinn var mjög góður, filet mignon var líklega sá besti sem ég hef prófað.","[('matvæli', 'positive'), ('filet mignon', 'positive')]"
+90,Ég veit ekki hvort ég kem aftur.,[]
+457,Hvað er veitingahúsið á hvolfi?,[]
+192,Heilagur Hummus,"[('Hummus', 'positive')]"
+220,"Maturinn er ekki eins og hann var einu sinni. Verðlækkanir hafa lækkað alvarlega og þjónustan er sú versta sem ég hef orðið vitni að annars staðar, meðal annars á meginlandi Evrópu.","[('matvæli', 'negative'), ('Efnablöndur', 'negative'), ('þjónusta', 'negative')]"
+390,Við yfirgáfum heimili okkar án þess að fá nokkurn tíma vinnu.,"[('þjónusta', 'negative')]"
+145,Það besta er að verðið er líka mjög sanngjarnt.,[]
+164,"Jafnvel kjúklingabaunirnar, sem mér finnst yfirleitt vera of þurrar, voru góðar.","[('Kjúklingabaunir', 'positive')]"
+118,Ég fann mér nýtt húsnæði og gerði langan leigusamning.,[]
+671,Tveir rasískir krakkar sátu nálægt okkur og fyrri hluti kvöldverðarins var borinn fram í staðinn. Í stað þeirra sat glaðleg formóðir sem þóttist koma í hvert sinn sem minnst var á sjávarréttina við matarborðið.,[]
+519,"Næst kom 9 oz steikin og hún bragðaðist mjög vel, að minnsta kosti til að byrja með.","[('9 oz steik', 'positive')]"
+274,"Gott Sushi, hátt verð","[('Sushi', 'positive')]"
+589,"Boðunin var frábær, kaffið var gott, meira að segja samkvæmt stöðlum um drykkjarvatn og maturinn var framúrskarandi góður.","[('þjónusta', 'positive'), ('kaffi', 'positive'), ('matvæli', 'positive')]"
+628,Við sátum þegar í stað og borðið var þægilegt og gott.,"[('tafla', 'positive')]"
+81,frábær þjónusta,"[('þjónusta', 'positive')]"
+331,Ef ég vil standa í biðröð á sunnudegi í klukkustund til að fá venjulegan morgunmat myndi ég setja Murphy's efst á listann.,"[('matvæli úr hálmi', 'neutral')]"
+559,Pizzurnar eru léttar og drungalegar.,"[('Pizzusnúðar', 'positive')]"
+109,Hvar get ég byrjað?,[]
+284,Geymdu pláss fyrir grófa eftirrétti.,"[('Eftirréttir', 'positive')]"
+63,Ég hef borðað hér þrisvar og mér hefur fundist fiskurinn vera afbragðsgóður og fjölbreyttur.,"[('fiskur', 'positive')]"
+101,"Endalaus skemmtun, æðisleg tónlist og frábært starfslið!","[('tónlist', 'positive'), ('Starfsfólk', 'positive')]"
+672,Þar sem Ray's er sjávarréttastaður er hugmyndin sú að veitingastaðurinn sé veitingastaður.,[]
+76,En rýmið er lítið og fallegt og þjónustan er gagnleg.,"[('pláss', 'positive'), ('þjónusta', 'positive')]"
+584,Við sýnum því áhuga og gerum það með því að vera til fyrirmyndar í þjónustu Jehóva.,"[('þjónusta', 'positive')]"
+10,Snotty Attitude,[]
+507,"Í alvöru talað, þú getur ekki farið úrskeiðis, ef það er ómerkilegt, staðbundið fjör sem þú sækist eftir.",[]
+260,„Þetta er ekki bara fræðilegt fyrirbæri heldur líka fyrir þá sem hafa öðlast þekkingu á sannleikanum.“,[]
+344,Ég fór hingað með meðmæli og kem örugglega aftur síðar.,[]
+259,og þjónninn stakk upp á fullkomnu máli fyrir hann !,"[('þjónn', 'positive'), ('Sakke', 'positive')]"
+31,Ég mun aldrei koma aftur.,[]
+479,Stutt samtal við framkvæmdastjórann í lok máltíðarinnar voru mestu vonbrigðin--að segja að við hefðum verið blásin af væri vægt til orða tekið.,"[('stjórnandi', 'negative')]"
+490,Ray's er staðurinn þar sem hægt er að fá hágæða sjávarréttakvöldverð.,"[('Sjávarréttakvöldverðir', 'positive')]"
+354,Ég er ekki að grínast.,[]
+265,Bræðið í munni yður bæði bjór og súrdeig og mjög bragðgóðar kökur.,"[('nigiri', 'positive'), ('sashmi', 'positive'), ('rúllur', 'positive')]"
+526,Eyðimörkin var fullkominn endir á næstum fullkomnum kvöldverði.,"[('Eyðimörk', 'positive'), ('Kvöldverður', 'positive')]"
+444,Við settum nafnið okkar niður og þó að það væru opin borð var okkur sagt að það yrði 30 mínútna bið.,[]
+360,Eina vandamálið væri biðin en yfirleitt værum við bara að fá okkur drykk á forstofunni meðan við biðum.,"[('bið', 'neutral'), ('bið', 'neutral')]"
+299,"Hefði átt að fara til Joes verslunarstjóra og fá sér frosna pizzu,?",[]
+480,"firmaðurinn greip stöðugt fram í fyrir þér. Get ég aðstoðað þig við eitthvað annað? Þetta var undarleg athugasemd því að hún hafði varla hlustað, hvað þá þegar hún svaraði okkur vonbrigðum sem við urðum fyrir.","[('stjórnandi', 'negative')]"
+2,Ekki stærstu skammtarnir en nægir.,"[('skömmtum', 'neutral')]"
+211,Við höfðum sama þjóninn í annað sinn þannig að kannski er þjónustan háfleyg og heppnin með okkur.,"[('þjónn', 'positive')]"
+132,"Við g/f báðir vorum sammála um að maturinn væri mjög miðlungsgóður, sérstaklega ef tekið er mið af verðinu.","[('matvæli', 'negative')]"
+576,Ég hef farið á þennan stað og hann er BAD.,"[('Staður', 'negative')]"
+72,Þeir fylgjast með öllu frá súpufóðri til flókinna rúlla í slíkum smáatriðum.,"[('miso súpa', 'positive'), ('rúllur', 'positive')]"
+181,Þú getur pantað að fara ef þú þarft að komast aftur á skrifstofuna líka.,[]
+133,Við erum heimamenn og við fáum á tilfinninguna að eina leiðin til að komast af með svona meðalfæði sé að hafa þennan stað því flestir viðskiptavinir eru líklega ferðamenn í einni ferð.,"[('Staður', 'negative'), ('matvæli', 'negative')]"
+399,"Honum þykir pítsurnar æðislegar, sérstaklega sveppapítsan.","[('pizza', 'positive'), ('pizza', 'positive')]"
+329,WAYOVER-RATED !,[]
+396,Hann er „í eyðimörkinni“ og er þar af leiðandi „í eyðimörkinni“ og „í eyðimörkinni“ er hann „í eyðimörkinni.“,"[('Árstíðarbundinn fiskur', 'positive'), ('sjávarfang', 'positive'), ('Stilling vatnsbakka', 'positive')]"
+78,Ekki skyldu!,[]
+234,Það er frábær staður til að njóta matar og hitta vini.,"[('Staður', 'positive'), ('matvæli', 'positive')]"
+647,Kynningin á áfengi er frábær og ein af þessum stöðum þar sem þér finnst þú vera flóknari en svo að þú getir treyst því að þú sért þar. En ef þú flytur lagskiptinguna aftar og ert með of hátt verðlagt HÓP á matseðlinum.,"[('Snooze', 'positive'), ('Valmynd', 'negative')]"
+120,Farðu fram hjá veltigrindunum í Kaliforníu.,[]
+199,Það hefur nokkrum sinnum gerst að við höfum hreinlega ekki fengið einhverja aukarétti sem við höfum pantað.,[]
+291,Það er ekki auðvelt að vera í kapphlaupi við tímann.,"[('þjónusta', 'positive')]"
+60,"Hrísgrjón eru of þurr, túnfiskur var heldur ekki svo ferskur.","[('Hrísgrjón', 'negative'), ('túnfiskur', 'negative')]"
+352,"Ég veit að margir eiga sínar uppáhalds pizzur og pizzur á stöðum þar sem gott er að borða, en pizzurnar eru ekki þær bestu og bragðast ekki vel.","[('pizza', 'negative'), ('pizza', 'negative'), ('pizza', 'negative')]"
+30,Ég kvartaði við yfirmanninn en hann baðst ekki einu sinni afsökunar.,"[('stjórnandi', 'negative')]"
+69,Við vorum síðan rukkuð fyrir dýrustu sakir þeirra fyrir 20 + á hverja vöru þegar við drukkum í rauninni fyrir minna en helminginn af verðinu.,[]
+155,Ég er líka þakklátur fyrir að þau skyldu komast til skila.,"[('Afhending', 'positive')]"
+209,Þetta var eins og að borða á allt öðrum stað en veitingastaðurinn.,[]
+44,Við fórum þangað í gærkvöldi með vini okkar.,[]
+70,En ég er sannfærður um að þetta voru bara heiðarleg mistök.,[]
+482,Í stuttu máli sagt hefði Schooner eða Síðar hefði ekki getað verið meira sama um að við værum á starfsstöð þeirra.,[]
+248,Ég myndi samt sem áður mæla með þessum stað.,"[('Staður', 'positive')]"
+542,Í besta falli var maturinn góður og langt yfir verðlagður.,"[('matvæli', 'neutral')]"
+422,Við pöntuðum okkur hunangs - og valhnetu rækjurnar sem við pöntuðum alltaf á öllum kínverskum veitingahúsum til að geta sagt til um gæði matarins.,[]
+595,Ég var nýlega kominn í mat þar sem við áttum þennan unaðslega veitingastað við 2. götu og við áttum saman mjög ánægjulegt kvöld.,"[('Veitingastaður', 'positive')]"
+531,"Gott mál, góður matur, gott mál, ég veit hreinlega ekki mikið um mat, alls ekki.","[('Sakke', 'positive'), ('matvæli', 'positive'), ('matvæli', 'positive')]"
+182,Líbanskur matur Nammi,"[('Matvæli úr líbönskum aldinum', 'positive')]"
+286,"Ég ábyrgist að þú verður ekki fyrir vonbrigðum, þarna er líka'þjónabílastæði.",[]
+65,"Í sumum vörum er minna af fiski en ætla mætti, einkum þar sem verð er í samræmi við bestu sushi - staði í New York - ríki.",[]
+525,Þeir komu á eigin vegum og tóku út kassann sinn og með heimatilbúnu frostlegi; mjög léttur og ekki of-sætur.,[]
+49,"Við förum aftur, D.",[]
+158,"Ég átti girnilegt lambakjöt, korma, saag paneer, samosas , naan o.","[('lambalæri korma', 'positive'), ('Sögusvið', 'positive'), ('samosas', 'positive'), ('naan', 'positive')]"
+306,Áður en umræðan fór fram var Kid vingjarnlegur og ég ákvað að gefa mér smá pásu með tveim ungum börnum sem eru komin yfir áttrætt.,[]
+39,"Vínlistinn er ótrúlegur og umfangsmikill og fjölbreyttur, maturinn er allur ótrúlegur og starfsfólkið allt mjög fínt, gott í vinnunni og ræktað.","[('vínlisti', 'positive'), ('matvæli', 'positive'), ('Starfsfólk', 'positive')]"
+148,Það er ekki stærsti staðurinn en maturinn kemur í veg fyrir að ég fái meira en það.,"[('Staðsetning', 'neutral'), ('matvæli', 'positive')]"
+488,Gott sallaval.,"[('val á hagsmunum', 'positive')]"
+6,Ég get ekki sagt nógu mikið um þennan stað.,"[('Staður', 'positive')]"
+231,Þetta er heillandi og afslappandi staður.,"[('Staður', 'positive')]"
+643,Það er eins og ég sé í þriðja heiminum þegar ég kem til dyra og mér líður eins og ég sé að drekka áfengi.,"[('Drykkjarvörur', 'positive')]"
+213,Seattle's BEST Vínlisti,"[('Vínlisti', 'positive')]"
+634,"Ég er með stofu en hérna, það var baðvörður á snyrtingunni sem var skrýtin.","[('snyrting', 'negative')]"
+135,Drykkjarvatn var gott.,"[('Drykkjarvörur', 'positive')]"
+336,"Betra en ekkert, engin kjaftæði, tóbak, taka, yama, sugiyama og allt hitt.",[]
+163,"Naan var einhver sú besta sem ég hef átt og ég hafði mjög gaman af bhartha, ekki of tómatfígúra.","[('naan', 'positive'), ('bhartha', 'positive')]"
+310,Þessi staðfesta kemur heim og saman við tilfinningar mínar í hópnum að minnsta kosti.,[]
+86,"Ef þú ert' á svæðinu, þá ættirðu ekki að verða fyrir vonbrigðum.",[]
+176,Frábær hádegisverður í hádeginu.,"[('Hádegisverðarstaður', 'positive')]"
+434,mánaðarlega ef hægt er.,[]
+597,Innréttingarnar voru fallegar og einstakar.,"[('skreytingar', 'positive')]"
+629,Við höfðum á tilfinningunni að herinn þjónaði með vingjarnlegum þjónum sínum.,"[('þjónusta', 'positive'), ('þjónar', 'positive')]"
+588,Við biðum í klukkustund eftir að fá okkur sæti.,[]
+165,Og þeir pökkuðu öllu fallega inn svo það fór ekki til spillis.,[]
+41,AÓHEIÐAR.,[]
+486,En fiskurinn var ferskur þótt hann væri skorinn mjög þunnt.,"[('fiskur', 'positive')]"
+108,NÝTT HEIMUR Í ÖÐRU FORDÆMI ! ! !,[]
+409,Þær hafa birst á kommentakerfum matvælafyrirtækja og eiga það skilið.,[]
+56,Mjög mikil vonbrigði,[]
+208,"Við pöntuðum úrval af litlum diskum og skóreimuðum lauk, geitaostapítsu, grilluðum aspas og steiktum brie með ávöxtum var allt mjög gott.","[('Skóarundirlaukur', 'positive'), ('geitaostapizza', 'positive'), ('grillaður spergill', 'positive'), ('steiktar brie með ávöxtum', 'positive')]"
+557,Pizzurnar eru þunnar og skorpnar og matseðillinn býður upp á mjög skapandi samsetningar og toppa.,"[('Pizzusnúðar', 'positive'), ('Valmynd', 'positive')]"
+393,Bestu krabbakökur í bænum,"[('Krabbi Kökur', 'positive')]"
+136,Nema þú sért bara að stoppa í nokkra drykki og ég myndi ekki mæla með því að fara hingað.,"[('drykkir', 'positive')]"
+227,Opið & Kælið Stað með bestu Pizza og kaffi.,"[('Staður', 'positive'), ('Pizza', 'positive'), ('Kaffi', 'positive')]"
+578,Ég hef verið hér og eytt háum fjárhæðum í kokk fyrir sérstakan kvöldverð og það voru mér mikil vonbrigði.,"[('Sérstakur kvöldverður kokksins', 'negative')]"
+131,"Við pöntuðum kryddlegnu vínberin, kjúklingavængina og kalkúnasamlokuna.",[]
+24,Það er ágæt tvíræðni en hún er þó ofmetin.,"[('metnaður', 'positive'), ('Staður', 'negative')]"
+349,Prófaðu Matreiðslumeistaravalið fyrir sushi þar sem reykta gula rófan var ótrúleg og rúllurnar voru líka bragðgóðar.,"[('Matreiðslumaður Val um sushi', 'positive'), ('reyktur gulhali', 'positive'), ('rúllur', 'positive')]"
+464,"Nýlega kom vinur okkar, sem var að fá sér sushi, í heimsókn og við þrír þurftum bara að koma í mat.",[]
+210,Við höfum komið aftur og líka lent í því að taka fleiri litla diska og fá margs konar áfengan bjór.,"[('bjór', 'positive')]"
+605,Þjónarnir eru mjög reyndir og hjálpsamir þegar kemur að því að velja milli þess sem þú neytir eftir smekk eða öfugt.,"[('þjónar', 'positive')]"
+110,Ég get ekki beðið!,[]
+82,Frekar ódýrt að setjast niður í mexíkóskum miðbæ.,[]
+51,"Á tímum veitingahúsa og skemmtistaða er stigvaxandi skerðing kostnaðar, og það er gaman að sjá stað sem slær slöku við og skilar hreinlega hágæðamat og góðri þjónustu á réttum tíma.","[('matvæli', 'positive'), ('þjónusta', 'positive')]"
+204,Ég sór þess að koma aldrei aftur til að fá mér heitan bjór og miðlungsgóða máltíð.,"[('bjór', 'negative'), ('Máltíð', 'negative')]"
+544,Ég var ekki viss um hvort ég myndi snúa aftur.,[]
+428,Brúsarnir voru svo ferskir og bragðgóðir.,"[('brocollis', 'positive')]"
+247,Þjónustan gekk frekar hægt og það tók þjónustustúlkuna okkar óratíma að láta okkur fá ávísunina okkar þó að það væri ekki svo mikið að gera.,"[('Þjónustustarfsemi', 'negative'), ('þjónustustúlka', 'negative')]"
+218,EKKI Á ÞVÍ AÐ ÞAÐ VAR EKKI,"[('BÚNAÐUR', 'negative')]"
+18,Laukhringarnir eru miklir!,"[('laukhringir', 'positive')]"
+567,Starfsfólkið var mjög vingjarnlegt.,"[('Starfsfólk', 'positive')]"
+408,Þessi staður er frægur fyrir morgunverðina.,"[('morgunverður', 'positive')]"
+657,"Að lokum var ávísunin komin upp í 27 dollara fyrir 4 litlar pönnukökur, morgunverð, appelsínusafa og íste sem ég fékk ásamt vatni.","[('Pönnukökur', 'negative'), ('morgunmatur með burrito', 'negative'), ('appelsínusafi', 'negative'), ('iste', 'negative')]"
+61,Ekkert virtist framúrskarandi í raun og veru.,[]
+296,Andrúmsloftið var alveg þokkalegt.,"[('andrúmsloft', 'neutral')]"
+451,Hvaða gagn höfum við þá af því að gefa þeim sem við hann tala?,[]
+29,Þjónninn var ekki til og þegar maturinn kom loks rúmri klukkustund eftir að við pöntuðum hann fengum við ekkert vatn eða áhöld.,"[('þjónn', 'negative')]"
+473,Það er ekki gott að spyrja sig hvort þessi fallegi staður sé í boði.,"[('Staðsetning við smábátahöfnina í Long Beach', 'positive'), ('matvæli', 'neutral'), ('Þjónusta við viðskiptavini', 'negative')]"
+664,"Til að koma málum af stað var Brooke, sem var indæll þjónn, fljót til að taka við drykkjarpöntuninni minni.","[('Brooke', 'positive')]"
+506,"Tónlistin er frábær, betri og verri, slagverks - og blústónlistin örlát á streymið og létt andrúmsloftið léttir lund þína.","[('tónlist', 'positive'), ('bar tilboðum.', 'positive'), ('andrúmsloft', 'positive')]"
+650,Ég hefði átt að biðja bara um ávísunina þegar ég sá hana en matseðillinn hjá þeim var einstakur og ég hélt því áfram.,"[('Valmynd', 'positive')]"
+656,Þeir sögðust hafa tekið peningana af bankareikningnum til að eiga inni hjá sér en enginn framkvæmdastjóri stöðvaði þá til að spyrja hvað væri að.,"[('stjórnandi', 'negative')]"
+550,"Þeir eru ekki þeir málefnalegustu, en í hvert sinn sem ég hef' verið þar, hafa þeir verið mjög uppteknir, sem sennilega skýrir það, að samræðuleysið er ekki mikið.",[]
+651,"Pönnukökurnar voru vissulega uppfinningasamar en 850 kr. fyrir 3 pönnukökur, 6 pönnukökur og ein þeirra var meira en 5 í pönnukökufluginu. Sýnishornið af 3 mismunandi pönnukökum er vel yfir verðlagðri framleiðslu.","[('Pönnukökur', 'positive'), ('Pönnukökur', 'positive'), ('Pönnukökur', 'positive')]"
+326,Fyrir þann sem borðar súkkulaðiís og þá sem hafa prófað það besta sem NYC hefur upp á að bjóða er fiskurinn ferskastur og þjónustan framúrskarandi.,"[('fiskur', 'positive'), ('þjónusta', 'positive')]"
+483,"Næst förum við eitthvað annað, eða prófum aðra veitingastaði nálægt eins og Mimi's Cafe og Claim Jumper.",[]
+212,Á sunnudagseftirmiðdögum er hljómsveit að spila og það er fullt af skemmtilegheitum.,"[('Hljómsveit', 'positive')]"
+311,Áður fyrr veitti fjöldi veitingastaða þeim oftast litla veiði en með árunum hefur hverjum og einum í rauninni gengið miður.,[]
+439,Ég er undrandi á því að þessi veitingastaður skuli vera flokkaður sem $$ frekar en $$.,"[('Veitingastaður', 'negative')]"
+606,Og þegar sushi er notað í stað grímur er það ekkert grín.,"[('sushi', 'positive')]"
+487,frábær þjónusta.,"[('þjónusta', 'positive')]"
+215,"Sveitin er æðisleg, niður-í-jarðbundin, & afar kunnugleg.","[('sommelier', 'positive')]"
+635,"Baðherbergið er ósköp lítið, með tveimur salerni og einum vaski. Stúlkan hélt sig því algerlega á leiðinni frá súlunni meðan hún svaf með pappírsþurrkur.","[('Baðherbergi', 'negative')]"
+633,Það sem kom mér mest á óvart var að ávísunin fór ekki fram úr björtustu vonum mínum eins og gerist alltaf á flestum stöðum.,[]
+592,Verður örugglega kominn aftur?,[]
+445,"Við hjónin erum hérna, 3 ára dóttir mín og ég erum að reyna að stytta okkur stundir með því að hanga á veggmyndunum og mununum á framhlið hússins þar sem við erum.",[]
+328,Viðkunnanlegustu þjónar bæjarins.,"[('þjónar', 'positive')]"
+449,Ekkert sem mér dettur í hug.,[]
+613,Sitja í Balcony-fylki.,"[('Balcony', 'positive')]"
+104,Í hvert skipti sem 0-sextynine er kallaður barþjónninn kaupir allir drykki!,"[('barþjónn', 'positive')]"
+114,Eigendurnir eru frábærir og skemmtilegir og bjórúrvalið er þess virði að halda sér við efnið.,"[('Eigendur', 'positive'), ('Val á bjór', 'positive')]"
+607,"Ef þú hefur áhuga á að smakka vel án þess að fiskurinn smakki eða lykti vel, þá er það þinn staður.","[('skömmtum', 'positive'), ('sushi-réttir', 'positive')]"
+174,Andrúmsloftið er frábært.,"[('andrúmsloft', 'positive')]"
+249,",, Ég er mjög hrifin af Long Beach.",[]
+250,Þetta var einn af fáum stöðum í SoCal þar sem þú gekkst hreinlega um og þurftir ekki að taka bíl.,[]
+7,Það býður upp á frábært sushi og enn betri þjónustu.,"[('sushi', 'positive'), ('þjónusta', 'positive')]"
+89,Það tók okkur langan tíma að fá pöntun okkar greidda því að við þurftum ekki að fylla á vatn til að eiga fyrir því. Og eina skiptið sem hún var fastandi var þegar við báðum um reikninginn til að fá athygli hennar.,[]
+514,Ég fékk skelfiskinn og rækjukappann og það var í lagi.,"[('Skelfiskur og rækjuáburður', 'neutral')]"
+362,Sjávarfang Plús,"[('Sjávarfang', 'positive')]"
+501,Þannig er það hjá þessum gimsteini.,[]
+355,Það eina jákvæða við Mioposto er að það er fallegur staður.,"[('Mioposto', 'negative'), ('Staðsetning', 'positive')]"
+346,Vel þess virði.,[]
+529,Á heildina litið fór ég aftur út að borða á veitingahúsinu.,"[('Veitingastaður', 'positive')]"
+140,stemningin var friðsæl og afslappandi pása meðal allra krakkanna sem hlupu um í Downtown Disney .,"[('stemning', 'positive')]"
+556,Þú verður ekki fyrir vonbrigðum með matseðilinn þeirra.,"[('Valmynd', 'positive')]"
+43,Ég er mjög góður.,[]
+42,Ég get ekki beðið eftir að sjá þig koma aftur um næstu helgi.,[]
+73,Sashimi var ferskasta og blíðasta krydd sem ég hef smakkað.,"[('sashimi', 'positive')]"
+167,"Ég skil ekki hvernig ég var ókunnugur þessum stað svo lengi, fajita salatið , colorado , fajitas , EVERYTHING er ljúffengt.","[('Staður', 'positive'), ('fajita-salat', 'positive'), ('Litadó', 'positive'), ('fajitas', 'positive')]"
+436,Kalítúmenskammtar,"[('skömmtum', 'negative')]"
+590,Það var biðarinnar virði.,[]
+66,Enn fremur er fiskurinn greinilega ferskur en að sama skapi er auðvelt að fá smáa kekki í sundur.,"[('fiskur', 'positive'), ('rúllur', 'negative')]"
+11,Við vorum mjög dónaleg við okkur hérna einu sinni til að fá okkur morgunmat.,[]
+334,"Það er gott að hafa einhvern sérvitring sem sérhæfir sig í sushi - og sushi - matargerð. Maður er sérfróð um þann fisk sem maður hefur skorið, finnst hann frábært hræ, finnst hann vera banvænn og auðvitað laxinn, túnfiskurinn, fiskurinn, fiskurinn, fiskurinn, kexinn, fiskurinn, fiskurinn, fiskurinn, hrökkurinn, hrökkurinn, hrökkurinn, hrökkurinn, hrökkurinn, hrökkurinn og margt fleira.","[('sushi', 'positive'), ('fiskur', 'positive'), ('Sakke', 'positive'), ('Staðsetning SOHO-einingar', 'positive'), ('Lax', 'positive'), ('Túnfiskur', 'positive'), ('Skolvökvi', 'positive'), ('Guli halarófa', 'positive'), ('Þorskur', 'positive'), ('Makríll', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('Túnfiskur', 'positive'), ('fiskur', 'positive'), ('fiskur', 'positive'), ('Sakke', 'positive'), ('Sakke', 'positive'), ('Sakke', 'positive'), ('Sakke', 'positive'), ('Sakke', 'positive'), ('Sakke', 'positive')]"
+551,Ég hef líka mjög gaman af því hve einfalt og innilegt húsið mitt er þegar ég borða lítið veitingahús.,"[('skreytingar', 'positive'), ('líðan', 'positive')]"
+244,Ég átti kafta plötuna og naut þess að vera á henni.,"[('kafta-plata', 'positive')]"
+256,Besti staðurinn til að snæða hádegisverð á sunnudögum á lystisnekkjum og rölta síðan um Farmer ́s Market þar í grenndinni.,"[('Staður', 'positive')]"
+340,Það er ‚ óþægilegt og neðanjarðarlegt.,[]
+541,Síðast en ekki síst hlakkaði okkur til að sjá matinn strax eftir að hafa séð alla sköpunina á bak við hann.,"[('Valmynd', 'positive')]"
+278,En þeir taka með sér farsímanúmerin svo að þú getir notað símann þinn og notið þess að hanga annars staðar uns þeir hringja í þig.,[]
+398,"Mikill pírati, léleg þjónusta","[('Pizza', 'positive'), ('Þjónustustarfsemi', 'negative')]"
+177,Mikið fjármálahverfi tekur við af Mexíkó.,"[('mexikanskur blettur', 'positive')]"
+431,í eyðimörkinni fengum við mangó engifer creme brulee oh la la yummy ! .,"[('mango ginger creme brulee', 'positive')]"
+420,Það er ekki of góð hugmynd að þér finnist óþægilegt að klæða þig og þurfir að vera í viðeigandi fötum.,[]
+83,Ég var í aðalhlutverki í þjónustu Jehóva.,"[('þjónusta', 'positive')]"
+429,"i venjulega myndi ég ekki klára bróderinn þegar ég pantaði svona mat en í fyrsta skipti var hver einasti biti jafn viðburðaríkur og sá fyrsti, hörpudiskurinn og rækjurnar voru svo ferskar og fallega soðnar.","[('brocolli', 'positive'), ('Hörpudiskur', 'positive'), ('rækjur', 'positive')]"
+404,Stjórnendur ættu að taka eftir þjónum Jehóva og kenna þeim góða mannasiði.,"[('Stjórnun', 'negative'), ('Þjónustulund', 'negative')]"
+674,Ég hefði getað verið án unglingsins sem leyfði okkur að borða með sér kvöldið en upplifunin var mjög góð með fjölskyldunni og matnum sem við fengum.,"[('þjónn', 'positive'), ('matvæli', 'positive')]"
+79,Maturinn var ekki mikill & þjónarnir voru dónalegir.,"[('matvæli', 'negative'), ('þjónar', 'negative')]"
+23,"Verðið er svívirðilegt, einkum vegna þess að maturinn var í rauninni ekki eins ánægjulegur og hjá flestum kínverskum nágrannafyrirtækjum.",[]
+15,Þetta er frábær staður til að fá ljúffenga máltíð.,"[('Máltíð', 'positive')]"
+363,Þetta var frábær reynsla af því að borða.,[]
+289,Elskaðu enchiladas og kjúklingasúpuna og skoðaðu svo sérréttina þeirra.,"[('enchiladas', 'positive'), ('Kjúklingasúpa', 'positive'), ('sérstakir flokkar', 'positive')]"
+264,Það er einmitt það sem ræður ríkjum í Tókýó hvað ferskleika varðar.,[]
+667,Hörpudiskarnir eru sennilega soðnir í svörtu ólífusmjöri sem gerir þá sérstæða að því er best verður séð.,"[('Hörpudiskur', 'positive')]"
+300,Fjölskyldan fór á miðvikudagskvöld til að borða saman.,[]
+275,Einn besti Sushi staður bæjarins.,"[('Sushi-staður', 'positive')]"
+137,Þú verður örugglega fyrir vonbrigðum.,[]
+294,sushi var frábært og biðin eftir starfsfólki var snögg að breytast.,"[('sushi', 'positive'), ('Starfsfólk sem bíður', 'positive')]"
+33,Ég mæli eindregið með Mioposto.,"[('Mioposto', 'positive')]"
+662,Ray's er eins konar stofnun í Seattle en vegna þess hve útsýnið er dásamlegt hafði mig grunað að það væri frekar vegna útsýnisins en vegna matarins og þjónustunnar.,"[('Hljóðsýn', 'positive')]"
+381,Sparaðu þér tímasóunina og farðu EKKI í öfgar.,[]
+9,Ég hef farið á þetta veitingahús margoft án þess að kvarta til þessa.,"[('Veitingastaður', 'positive')]"
+22,Sítrónukjúklingurinn bragðaðist eins og klístruð sætuhneta og hunangsrækjur en þær fáu sem þær gefa manni voru hreinlega ekki góðar.,"[('sítrónu kjúklingur', 'negative'), ('hunangsvalhneturækjur', 'negative')]"
+290,Matreiðslumeistararnir hafa verið á veitingastaðnum í mörg ár og eldað uppskriftir fyrir fjölskylduna.,"[('eldarar', 'positive')]"
+221,Það sem vekur kannski helst athygli er versta ráð/viðhorfið sem kemur frá eigendum þessarar starfsstöðvar.,"[('Eigendur', 'negative')]"
+516,Áður en kom að steikinni sagði þjónninn okkur að steikin hefði engar hliðar og stakk upp á að ég tæki eitthvað úr henni.,[]
+661,Mér er ákaflega ánægja að segja frá því að kvöldverðurinn minn í Bátahúsi Ray's síðastliðinn föstudag fór algjörlega fram úr mínum björtustu vonum.,"[(""Ray's Bátahús"", 'positive')]"
+318,Þetta er yndislegur staður!,"[('Staður', 'positive')]"
+84,Þegar strákurinn kom meira að segja auga á borðplötuna hjá mér kom hann auga á það sem hélt henni stöðugri.,"[('rútustrákur', 'positive')]"
+319,Ég hef nú borðað á þessum stað í rúm 8 ár og hef aldrei borðað eina máltíð.,"[('Máltíð', 'positive')]"
+411,Ég elska morgunmat hér.,"[('morgunverður', 'positive')]"
+583,Besti rétturinn er valhnetu - eða valhnetukeyrslan sem er alveg einstök.,"[('Valhneturækjur', 'positive')]"
+320,Mæli eindregið með þessum stað fyrir alla sem vilja prófa að borða í fyrsta sinn í mat.,"[('í matvælum úr dýraríkinu', 'positive')]"
+203,Við biðum í meira en 30 mínútur eftir matnum og biðum í meira en 1 1/2 klukkustund eftir matnum.,[]
+196,"Kartöfluhliðin er að deyja út fyrir , eins og labne (jógúrtídýfa).","[('megin á kartöflum', 'positive'), ('tilraunastofane (jógúrt-dýfa)', 'positive')]"
+321,Matarmáltíðin er ekkert smáræðislega góð!,"[('Hádegismatseðill', 'positive')]"
+93,"Þegar það er gert er það ekki of mikið deig, ekki of mikill ostur og ekki of mikil sósa.",[]
+281,"Það er mikið hrós, einkum fyrir óbreyttan veitingarekstur sem er nú þegar orðinn nógu verðmætur.",[]
+341,"Það er ferskt, vellíðan, ljúffengt og afslappandi.",[]
+357,"Ég var steinhissa þegar ég las um slæma dóma, en það er stórkostlegt. Þetta er ekkert einsdæmi. Við höfum ekki brugðist okkur á nokkurn hátt og við höfum borðað hérna oftar en 10 sinnum.","[('Staður', 'positive')]"
+618,Eitrið var áhugavert en Creme Brulee - æðið var mjög vinsælt og ljúffengt.,"[('Áburður', 'positive'), ('Creme Brulee', 'positive')]"
+28,Allir sem sátu aftast úti voru sammála um að þetta væri versta þjónusta sem við hefðum nokkurn tíma fengið.,"[('þjónusta', 'negative')]"
+184,Maturinn er hreinlega ógleymanlegur!,"[('matvæli', 'positive')]"
+545,Greiðvikna pizzastaðurinn minn í Seattle.,"[('pizzastaður', 'positive')]"
+292,Ég fór þangað með vini úr öðrum bæ og við höfðum bæði mikla ánægju af.,[]
+178,Þeir eru alltaf uppteknir en eru góðir í að sitja sem fyrst og bjóða góða þjónustu.,"[('þjónusta', 'positive')]"
+335,"Það er aðeins einn staður á austurströndinni sem er með allt í kringum sig, plús miklu meira.","[('Staður', 'positive')]"
+153,"Ég get mælt eindregið með ýmsum sagna-og glervörum þeirra, rauðvíni og korma.","[('saag', 'positive'), ('Rúðuþurrka', 'positive'), ('korma', 'positive')]"
+75,Eini gallinn er sá að þetta er mjög dýrt og húsið er aðeins lítill hluti þess.,"[('Staður', 'negative'), ('skömmtum', 'negative')]"
+388,Eftir að hafa sagt vini mínum frá stöðunni sagðist hann ætla að reyna aftur en við ætlum að kíkja á neðri barinn.,[]
+367,Sesarsalat var afbragðsgott.,"[('Sesarsalat', 'positive')]"
+92,"Eina vandamálið er að það þarf í rauninni að hita pizzuna upp áður en hún er orðin ætileg, jafnvel þegar pantað er fram í tímann.","[('pizza', 'negative')]"
+382,Ég fór í sína fyrstu ferð á veitingastaðinn eftir að hafa fundið vefsíðu þeirra á Netinu.,[]
+68,"Í nýlegri ferð var þjónninn okkar afar opinskár, en ekki færri en þrír starfsmenn biðu með hendur og fætur á pari af japönskum stúlkum sem sátu nálægt okkur.","[('þjónn', 'negative'), ('Starfsmenn', 'negative')]"
+620,"Ef það er' notalegt úti, þá er óskað eftir borði á svölunum.","[('svalir', 'positive')]"
+361,Aldrei var eitt einasta vandamál í heiminum.,[]
+538,Beið í 35 mínútur eftir borði í 8 mínútur og það var nóg fyrir svona stóran hóp.,[]
+188,Systir hennar hafði bakað brauðið í eftirrétt.,[]
+236,Eftir 12 ár í Seattle Ray er hlutfallið sem staðurinn sem við förum alltaf aftur til.,"[(""Ray's"", 'positive')]"
+88,"Maturinn var frábær, margarítasinn líka, en þjónustustúlkan var of upptekin af því að vera góð við aðra í stóru veislunni sinni í stað þess að hugsa betur um okkur vinkonurnar.","[('matvæli', 'positive'), ('Maritas', 'positive'), ('þjónustustúlka', 'negative')]"
+571,"Farðu með nokkrum vinum, bíddu í hálftíma eða þar um bil með einn kaffibolla og njóttu þess meira en venjulegs morgunverðar.","[('morgunverður', 'positive')]"
+117,Kudos til þessara manna.,[]
+563,Pizzurnar eru ekki risastórar og skorpan er grönn og hafðu það í huga þegar þú ert að panta pizzu.,"[('Pizzusnúðar', 'neutral'), ('skorpa', 'neutral')]"
+608,stórt þykkt pepperoni,"[('pepperoni', 'positive')]"
+238,Njóttu matarins.,"[('matvæli', 'positive')]"
+0,Nammi!,[]
+668,"Vinur minn naut þess að borða grillaða Alaskaellu með bragðmiklum rjóma, bragðbættum Washington - kartöflum og stökkum grænum baunum.","[('Grillaður Alaskan King Salmon', 'positive'), ('Rjómabættar Washington-rúllukartöflur', 'positive'), ('grænar baunir', 'positive')]"
+271,Fullkominn á köldum degi.,[]
+462,Ég myndi hata að ferðamenn fari í Park Chalet og hugsa að svona séu allir San Francisco veitingastaðir.,[]
+539,Þjónninn var ekki sérlega vingjarnlegur og tilfinning veitingastaðarins var yfirfull af fólki.,"[('þjónn', 'negative'), ('Finna til', 'negative')]"
+116,Það er ekki mikið eftir af reykingahúsum í New York en ég á mínar uppáhalds svölur í borginni.,"[('Svalir', 'positive')]"
+228,Mioposto er með mjög skapandi & ljúffengan pizzumatseðil.,"[('pizza á matseðli', 'positive')]"
+631,En það er ekki of mikið pantað.,"[('skömmtum', 'neutral')]"
+314,"Margarítugúrkur, betri matvæli!","[('matvæli', 'positive'), ('Margaríta', 'positive')]"
+581,Gómsætur,[]
+144,Ég hef farið á ótal indverska staði í Los Angeles og þessi staður er enn í uppáhaldi hjá mér.,[]
+377,Þegar reikningurinn kom tók hann bara afsláttinn af matnum en ekki drykkjunum.,[]
+356,Elska það í hvert skipti,[]
+611,Ég myndi líklega ekki fara aftur þó að hún væri hnuggin. Ég veit ekki hvort það er' þess virði.,[]
+646,"Þessi úttekt er fyrir Southnstone staðsetninguna sem er ekki á listanum í Citysearch , ég vildi að þessi úttekt myndi breyta nógu miklu til að stjórnendur myndu taka hana fyrir, en Snooze hefur fólk klifrað yfir hvert annað til að fá tækifæri til að borða á þessum ofurverðlagða veitingastað með miðlungs mat og þjónustu, þannig að þessi úttekt sem og hinar neikvæðu fyrir Larimer staðsetningu þeirra mun fara óbreytt í gegn.",[]
+268,"Hvernig er best að lýsa sushi í NYC, hmmmm, ljúffengu, stórkostlegu, stórkostlegu, stórkostlegu, bragðgóðu, seiðandi, fullkomnu, óþökk, öllu sem er hér að ofan.","[('sushi', 'positive')]"
+448,Rökfræðin að baki?,[]
+46,Maturinn var frábær!,"[('matvæli', 'positive')]"
+261,Ósigrað sushi!,"[('sushi', 'positive')]"
+195,Á opnum sesamdiskinum er góður ágóði af matnum sem fæst á móti geymslu.,"[('opin sesamfræplata', 'positive')]"
+675,"Já, viðhorfið var líka gott.","[('útsýni', 'positive')]"
+612,Kannski fer ég aftur til baka þegar ég er búinn að gleyma því að ég fór þangað.,[]
+107,Er örugglega með eitt besta jukebox's i's sem ég hefi lengi séð.,"[('djúsbox', 'positive')]"
+437,"Sushiið hér er mjög gott, en fyrir 5 dollara stykkið ætti fiskurinn annaðhvort að vera stærri eða ekki uppgerðari og þetta er ekki einu sinni veitingastaður á hóflegu verði, jafnvel fyrir NYC - þjóðina.","[('sushi', 'positive'), ('Veitingastaður', 'negative')]"
+500,"Ef þú veist að það er biðröð mjög lengi alla daga vikunnar allan þann tíma sem ákveðinn staður hefur verið opinn, þá veistu að hún er frábær.","[('Staður', 'positive')]"
+659,Snooze bauð upp á uppfinningasama pönnuköku en Le Peep hefði boðið upp á betri þjónustu og betri gæði.,[]
+100,Fullkominn staður til að taka með sér gesti úr bænum hvenær sem er ársins.,"[('Staður', 'positive')]"
+333,10,[]
+604,Allt og ég meina allt sem er á matseðlinum er huggulegt.,"[('Valmynd', 'positive')]"
+528,En þeir sem þjónuðu honum voru mjög athugulir og mjög vingjarnlegir.,"[('Netþjónar', 'positive')]"
+179,"Allt sem ég hef átt hér er gott, taco salöt, burritos, enchiladas i elska þennan stað.","[('Kínakartöflusalat', 'positive'), ('burritos', 'positive'), ('enchiladas', 'positive'), ('Staður', 'positive')]"
+332,Venjulegi matseðillinn hér er aðeins yfir meðallagi sem er ekki þess virði að hreyfa sig með.,"[('venjulegur valmyndavalmyndavalmynd', 'neutral')]"
+149,falinn smá jemmi,[]
+124,Eina neikvæða athugasemdin er sú að ég vildi óska að verkin væru aðeins stærri.,"[('stykki', 'negative')]"
+537,Við borðuðum á Colorado - staðnum í dag.,[]
+585,4 Staðsetningar,[]
+185,Ég lét kjötið í skál með hliðarrétti af agúrku og jógúrt.,[]
+558,Maður er aldrei í fýlu og fyllist aldrei eftir matinn.,[]
+534,Það var margt réttað en besti árangurinn var humarinn á þrjá vegu.,"[('humar 3 leiðir', 'positive')]"
+666,"Ég var meðfram sjónum og sat við strönd Alaska ásamt djúpsjávardiski, hjarta úr ætihvönn, fennel og pecorino - toscano.","[('Alaskaufsi Alaskaufsi', 'positive')]"
+327,Ekki nóg með það að úrvalið sé nýstárlegt heldur er gott jafnvægi milli þess og hefðbundins sushi.,"[('val', 'positive'), ('sushi', 'positive')]"
+624,Ætti að fara oftar í skoðun hjá okkur?,[]
+142,Ég mæli með því fyrir eina nótt þegar þú vilt splæsa í hann! Það var svolítið dýrt.,[]
+141,"Það var rómantískt og jafnvel indælt við systur mína, minnti mig á Ítalíu og hún átti listaverk og tónlist sem héldu í við þá tilfinningu að vera til í einbýlishúsi á miðöldum.","[('myndverk', 'positive'), ('tónlist', 'positive')]"
+375,Við áttum mjög erfitt með að ná athygli þjónustustúlkunnar og að lokum urðum við að standa upp og fara inn til að tala við starfsmann.,"[('þjónustustúlka', 'negative')]"
+19,Þeir eru ekki feitir eða neitt.,[]
+172,Gríptu í ána og hættu að kvarta. Þú hefur augljóslega engan smekk á mat.,[]
+549,Ég hef alltaf fundið starfsfólkið sem beið og ef maður situr við barinn er matreiðslufólkið mjög vingjarnlegt.,"[('Starfsfólk sem bíður', 'positive'), ('eldarar', 'positive')]"
+312,Ég er fæddur og uppalinn Southend-búi og var spenntur að heyra af þessari opnun veitingastaðarins.,[]
+12,Eigandinn kvartar við gesti sem kvarta.,"[('eigandi', 'negative')]"
+305,Að síðustu er máltíðin komin niður í um það bil 30 mínútur eftir að þú hefur setið hana.,[]
+25,Ég fer ekki aftur þangað.,[]
+494,Við deildum fjölskyldufatinu og ég hafði sérstaklega gaman af svarta þorskinum í kjólnum.,"[('svartþorskur í sakir.', 'positive')]"
+169,"Ég var að komast að því að það er hægt að hafa staðinn til að vera með sjálfan sig á kvöldin og um helgar í einkapartíi, get ekki beðið eftir að halda upp á næsta afmæli þar.","[('Staður', 'positive')]"
+453,Það er mjög gott að dóttir mín skyldi hafa fengið sér smá snarl í nestispokann.,[]
+517,Ég tók sperrilinn sem reyndist ótrúlega vel og var fullkomlega undirbúinn.,"[('Spergill', 'positive')]"
+245,Þótt ég gæti varla klárað hana væri ég samt svo mikið að ég gerði það af því að hún var svo girnileg.,[]
+298,Ég myndi fara þangað aftur í hjartslætti.,[]
+412,Krabbaegg þeirra eru ávanabindandi.,"[('krabbaeggjabátar', 'positive')]"
+272,6 dollarar með þjórfé.,[]
+154,Það er góðs viti að indverskar fjölskyldur og vinir eru vanir að borða þar því að það er alltaf góðs viti.,[]
+126,"Múgurinn er blandaður af uppkomendum, ungum sem öldnum.","[('Fjölmennum á svæðið.', 'neutral')]"
+446,30 mínútur liðu og við vissum að bjöllunni var slökkt.,[]
+287,Spádómar,[]
+113,Þú þarft að horfa á leikinn og þá geta þeir haft áhrif á þig.,[]
+350,Léleg þjónusta við viðskiptavini.,"[('Viðskiptamannaþjónusta pizza', 'negative')]"
+173,Ég er aldrei vonsvikinn með mat sem þar er.,"[('matvæli', 'positive')]"
+338,Trúðu því fyrir barninu þínu!,[]
+57,Ég tók foreldra mína með mér í afmælisveisluna og varð fyrir miklum vonbrigðum.,[]
+465,6 slög á veitingastað Sat fyrir leikrit á Broadway og við vorum fljót að setjast og afgreiða.,[]
+222,"Þessi stofnun lét verulega undan síga eftir að hún var stofnuð og sagan af því er endurtekin þegar FÆÐI SÍÐAR, DÆMISDÓMAR, DREIFINGAR OG DÝRÐIR Gvæjana Fieri, sem Schooner eða Later var viðfangsefni sjónvarpsstöðvarinnar, voru í loftinu.","[('starfsstöð', 'negative')]"
+280,"Ég trúi því ekki að hugmynd Murphys hafi verið til staðar í rúm 25 ár, ótrúlega góð.","[(""Murphy's"", 'positive')]"
+17,Starfsfólkið er frekar vinalegt.,"[('Starfsfólk', 'positive')]"
+615,Matur var góður og lystugur.,"[('Matvæli', 'positive')]"
+322,Ég er matgráðug og treysti honum.,"[('matvæli', 'positive')]"
+255,"Egg, pönnukökur, kartöflur, ferskir ávextir og jógúrt - allt sem þau bera fram er ljúffengt.","[('Egg', 'positive'), ('Pönnukökur', 'positive'), ('Kartöflur', 'positive'), ('ferskir ávextir', 'positive'), ('jógúrt', 'positive')]"
+395,Ef þú getur komið með báti á staðinn skaltu fara með báti og vera heila kvöldstund á leiðinni.,"[('Staður', 'positive')]"
+648,Til að byrja með kostar um það bil 8-10 oz af appelsínusafa 3 dollara.,"[('appelsínusafi', 'negative')]"
+190,Starfsfólkið er vingjarnlegt og snyrtimennskan siðleg og litrík.,"[('Starfsfólk', 'positive'), ('skreytingar', 'positive')]"
+495,Ég lauk máltíðinni með óvenjulegum eftirrétti úr portvíni og súkkulaðibragði.,"[('Eftirréttur með portvíni og súkkulaðibragði', 'positive')]"
+596,"Maturinn er frábær, ósvikinn, ljúffengur og mjög verðmætur.","[('matvæli', 'positive')]"
+353,Mér finnst ég hafa fengið betri frosna pizzu.,"[('pizza', 'negative')]"
+94,Besta Sushi í bænum.,"[('Sushi', 'positive')]"
+180,Og þú átt líka frábærar margarítur!,"[('Maritas', 'positive')]"
+301,Veitingastaðurinn var 80 % fullur og skilti var sett upp þar sem fólk beið þess að fá sæti.,[]
+405,"Margir tala um pizzuna miklu og lélega þjónustu, svo það er ekki bara hægt að tala um ábyrgð nokkurra óánægðra viðskiptavina.","[('pizza', 'positive'), ('þjónusta', 'negative')]"
+485,Ef þú ert að fara á heitt stefnumót og hann/hún er með löngun í sushi þá gæti þetta verið staðurinn.,"[('sushi', 'positive')]"
+430,„Þetta er ekki bara læknisfræðilegt.,[]
+621,Það er frábært að fylgjast með því.,"[('Staður', 'positive')]"
+456,"Matur er skynsamlegur, allt í lagi með hann en svolítið prívat fyrir það sem maður fær miðað við að veitingastaðurinn er ekki fínn staður.","[('Matvæli', 'neutral'), ('Veitingastaður', 'negative')]"
+5,Nei Samanburður,[]
+45,Hún hafði heyrt frá samverkamanni sínum um staðinn.,[]
+380,Forðast svæðið,"[('BÚNAÐUR', 'negative')]"
+644,Meðvirknislega ofmetin,[]
+499,Þjónustan er frábær á þessum skemmtilega stað.,"[('þjónusta', 'positive'), ('Staður', 'positive')]"
+16,Við þurftum aldrei að bíða lengur en í 5 mínútur.,[]
+48,Ég var með Kafta diskinn og hann var fullkominn.,"[('Kafta plata', 'positive')]"
+654,Á máltíðinni varð ég að senda eggin aftur eftir einfaldri beiðni um að brjóta okið áður en ég eldaði þau og hefði þurft að senda þau aftur ef ég hefði ekki hafnað máltíðinni öll saman.,"[('Máltíð', 'negative'), ('egg', 'negative'), ('Máltíð', 'negative')]"
+619,Tvístrun innandyra var nútímaleg.,"[('Metnaður innandyra', 'positive')]"
+3,Grænt te og brulee er þarfaþing!,"[('Grænt tebrauð', 'positive')]"
+425,.,[]
+582,Andrúmsloftið er frábært fyrir hverja sérstaka hátíð sem þú vilt halda hátíðlega.,"[('andrúmsloft', 'positive')]"
+316,Ef hann er upptekinn skaltu mæta snemma svo að þú getir fengið þér sæti ef þú þarft að bíða og það er ekki slæmt af því að þjónustan er skjót!,"[('þjónusta', 'positive')]"
+623,Drykkirnir héldu áfram að koma en þjónninn kom nokkrum sinnum í heimsókn.,"[('þjónn', 'negative')]"
+283,Það er tilvalinn staður fyrir rómantísk stefnumót eða eitthvert leynilegt stefnumót!,"[('blettur', 'positive')]"
+610,"Pizzugerðin sjálf er ekki beint sú besta sem ég hef fengið. EVER, en samt nokkuð góð.","[('pizza', 'positive')]"
+285,Veitingastaðurinn býður upp á umfangsmikinn vínlista og stemningu sem þú gleymir ekki!,"[('vínlisti', 'positive'), ('stemning', 'positive')]"
+616,Það var alveg nóg að gera hlutina fyrir mig en það er ekki víst að ég verði stór í sniðum.,"[('Hlutir', 'neutral')]"
+225,Vonandi snýr hann aftur síðar eins og áður.,"[('Scooner eða Later', 'negative')]"
+26,Versta þjónusta sem ég hef nokkurn tíma haft,"[('Þjónustustarfsemi', 'positive')]"
+533,Þjónninn kom með nokkrar tillögur til að gera það sem var mjög gott.,"[('Miðlari', 'positive'), ('Sakke', 'positive')]"
+263,Ég elska sushi og hef borðað það um allan heim.,[]
+50,Að síðustu skaltu minnast máltíðar sem á eftir að rifjast upp lengi í framtíðinni.,"[('Máltíð', 'positive')]"
+364,"Ef þú ætlar að hitta Danny Gans eða bara vera kyrr á Mirage , ekki missa af þessum.",[]
+229,Koffeínið er líka mjög gott.,"[('Kaffi', 'positive')]"
+37,"Ég gleymi aldrei hve frábæran mat ég fæ, þjónustu og stemningu ég hef á þessu veitingahúsi.","[('Máltíð', 'positive'), ('þjónusta', 'positive'), ('stemning', 'positive')]"
+157,Ég naut matarins hér.,"[('Máltíð', 'positive')]"
+237,"Við fáum góðan mat, góðan mat og vinum og hlýlega þjónustu ár eftir ár.","[('matvæli', 'positive'), ('Staðsetning', 'positive'), ('þjónusta', 'positive')]"
+649,"Þeir bera hann fram í háu, skinnhvítu, klukkutímalöngu glasi með gleraugum til að fela að maður fær smá safa á kjörinn fyrir hálfan lítra í stórmarkaði.","[('safi', 'negative')]"
+374,Enn þá var röðin ekki rétt og við vorum enn þá að bíða eftir nokkrum hlutum.,[]
+370,HEILBRIGÐU RÉTTAR ÁRANGUR !,[]
+175,og allir þið sem eigið í vanda fáið einhverja aðstoð.,[]
+572,Góður matur.,"[('borðar', 'positive')]"
+622,Enda þótt hægt væri að bæta þjónustuna með hliðsjón af peningunum sem þú lagðir í hana.,"[('þjónusta', 'negative')]"
+194,Maturinn hefur alltaf verið afbragðsgóður miðað við gæði matarins.,"[('Kvöldverðir', 'positive')]"
+574,Hvers vegna er nánast hver einasta upprifjun nafnlaus?,[]
+421,Starfsfólkið var mjög indælt og kurteist og greinilega kímint.,"[('Starfsfólk', 'positive')]"
+424,"Það var eins með rækjurnar, þær voru ferskar og svolítið kryddaðar með batteríinu. Valhneturnar voru skornar í minni bita og mjög stökkar og bragðgóðar.","[('rækjur', 'positive'), ('batterí', 'positive'), ('valhnetur', 'positive')]"
+653,Bragðið var gott en ég hef fengið mun betri pönnukökur á þýskum pönnuköku-sérréttastað sem voru aðeins ódýrari en ekki að sama skapi stærri.,[]
+580,DONOT GO !,[]
+67,Þjónustan spannar allt frá meðalmennsku til móðgandi.,"[('þjónusta', 'negative')]"
+417,Þá var maður að spila á píanó og syngja á barsvæðinu sem var aðskilið frá matsölusvæðinu.,[]
+168,Ég elska hlýtt & kósí umhverfið.,"[('umhverfismál', 'positive')]"
+530,"Mundu bara að klæða þig í svolítið borgaralegan búning, svo að þú lítir ekki út fyrir að vera í of miklum ógöngum.",[]
+162,Ég gef þeim annað tækifæri og gæti þess að segja þeim að kippa því í nokkra spotta.,[]
+309,Það var ósæmilegt en ekkert óvenjulegt.,[]
+193,Hér er matur alveg hreint ótrúlegur þótt gæðinn sé misjafn í hádegismatnum.,"[('matvæli', 'positive'), ('Hádegismatur', 'negative')]"
+452,"Æ, ég gleymdi að nefna að þeir eru ekki með brauðþjónustu.",[]
+365,"Áburður á ostrur, humar og krabba (lítil kálfasmíð) var fullkomin hvatning fyrir konuna mína.","[('áburður á ostrur, humar, krabba (litlar)', 'positive')]"
+383,Þegar þangað kom settist ég upp stiga þar sem andrúmsloftið var notalegt og þjónustan hræðileg!,"[('andrúmsloft', 'positive'), ('þjónusta', 'negative')]"
+609,Piparóníið er skorið niður í alvöru þykkt-----mjúklega.,"[(""pepperoni's"", 'positive')]"
+470,Grænt te eða brulee verður betra í hvert skipti sem ég fæ mér það.,"[('Grænt te te te te creme brulee', 'positive')]"
+152,Ég held að ég hafi líklega prófað hvert atriði á sínum matseðli að minnsta kosti einu sinni og það er allt saman framúrskarandi gott.,"[('Valmynd', 'positive')]"
+426,Bestu hunangsvalsrækjurnar sem við höfum smakkað.,"[('hunangsvalsrækjur', 'positive')]"
+594,(Matteus 24: 45 - 47) Verum þakklát fyrir að Jehóva skuli hafa gefið okkur þessa gjöf.,[]
+226,Þangað til það gerist er mitt ráð að vera áfram í EINNI RÁÐSTEFNU.,[]
+432,„Þú getur ekki hætt að hugsa um það sem þú hefur gert.,[]
+543,Verðið hefði átt að vera lægra fyrir mat sem við fengum.,"[('matvæli', 'negative')]"
+103,Ég fór þangað með nokkrum vinum mínum eitt kvöldið til að spila bingó og horfa á sokkaleikinn og það var gaman!,[]
+513,"Við vorum fljót að setjast og báðum um kvöldverð sem okkur vantaði, 1 skelfisk - og rækjuáburð eða keisarasalat, 2 9 oz steik með einum kartöfluflögu og 3 heimagerð kleinuhringjagöt.",[]
+74,Appið þeirra er allt ljúffengt.,"[('smáforrit', 'positive')]"
+115,Og húsið uppi er frábær staður til að hanga á.,"[('Uppi á lofti.', 'positive')]"
+407,Frábær morgunverður,"[('Morgunverður', 'positive')]"
+652,"Pönnukökurnar ættu að vera stærri, að minnsta kosti 8 til að réttlæta kostnaðinn, jafnvel með einstökum gjöfum.","[('Pönnukökur', 'negative')]"
+119,Takk fyrir mig,[]
+518,Það var gufusoðið og hvítlaukur kastað í það.,[]
+151,(Matteus 24: 45 - 47) Við skulum aldrei vera of fámenn og alltaf í miklum metum.,"[('þjónusta', 'positive')]"
+403,En hún er mjög vingjarnleg við ákveðið fólk og það gerir það enn pirrandi.,[]
+637,Mér leið hálf vandræðalega og næst fór ég á salernið í spilavítinu.,[]
+207,Á svæðinu milli veitingastaðarins og garðsins voru börnin úti að hlaupa um meðan foreldrarnir sötruðu vín.,[]
+447,Við fórum aftur niður á veitingastaðinn og sátum við annað borðið sem var í boði fyrir 30 mínútum. Þar sátum við og sáum hvað var á seyði.,[]
+640,Flögurnar og salsa er svo girnilegt hjá mér og verðið er frábært.,"[('franskar og salsasósa', 'positive')]"
+443,Veitingastaðurinn var upptekinn en þó voru fáein borð opin.,[]
+523,Munnurinn var þurr og ég var með slík einkenni eftir á og MSG - sýkingin kom fram. Bragðvonska í hálsinum eftir að ég yfirgaf veitingastaðinn.,[]
+8,Starfsfólkið í heild var einstaklega lipurt og hjálpfúst og sinnti þörfum mínum af mikilli alúð.,"[('Starfsfólk', 'positive')]"
+497,Frábær morgunverður,"[('Morgunverður', 'positive')]"
+36,Ég elska þennan veitingastað.,"[('Veitingastaður', 'positive')]"
+139,Ég elskaði graskershraíóið og geitaostinn gnocchi 5 stóra á disk í stað 20 eða svo og systir mín elskaði að setja marengshornið sitt ofan á spínat og stappaðar kartöflur.,"[('grasker ravioli', 'positive'), ('geitaostur gnocchi', 'positive'), ('skrápkenni ofan á spínati og stöppuðum kartöflum', 'positive')]"
+253,ANNARS GETURÐU SEGJA AÐ ÞÚ SEGIR NICE FÓLK ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG ÞIG Þ,"[('FÓLK', 'positive'), ('MATVÆLI', 'positive')]"
+303,Við stóðum þarna í 10 mínútur á meðan starfsmennirnir gengu fram og til baka og hunsuðu okkur.,"[('starfsmenn', 'negative')]"
+638,Þessi staður er grjóthrun!,"[('Staður', 'positive')]"
+512,"Tónlistin var mjög raddbeitt, meira að segja eins konar popptónlist, en undirleiks - eða hljóðfæraleikarinn var staðsettur undir sætinu mínu og það fór í taugarnar á mér miðjum kvöldverðinum.","[('tónlist', 'positive'), ('tónlist', 'positive'), ('undirwoofer til hljóðkerfis', 'negative')]"
+368,Vínflöskurnar eru frábærar.,"[('vínflaska', 'positive')]"
+59,Ég er kannski ekki sushi gúrú en ég get sagt þér að maturinn hérna er bara allt í lagi og að það er fátt annað í boði.,"[('matvæli', 'negative')]"
+111,Farðu bara þangað og kynntu þér málið sjálfur.,[]
+548,Pizzan er ljúffeng og salötin eru hreint út sagt frábær.,"[('pizza', 'positive'), ('salat', 'positive')]"
+477,Þegar við gátum loksins flaggað einhverjum öðrum gátum við greint honum frá því að hann hefði ekki gefið matnum sínum rétta matvöru og það var heldur ekki sami maðurinn sem hafði tekið niður pöntunina.,[]
+467,Eins og venjulega olli eggið ekki vonbrigðum í ferskleikanum þó það skoraði lítið á sköpunargleði og úrvals sköpunargleði.,"[('omkase', 'positive')]"
+262,Þumalfingur tvö!,[]
+568,Andrúmsloftið var frábært.,"[('andrúmsloft', 'positive')]"
+297,Rými var takmarkað en maturinn bætti það upp.,"[('Rými', 'negative'), ('matvæli', 'positive')]"
+414,Verður ekki betur séð en að hv. þm.,[]
+150,Hún er í göngufæri við Beverly - verslunarmiðstöðina.,[]
+433,En við komum örugglega aftur á þetta veitingahús.,"[('Veitingastaður', 'positive')]"
+440,"Hrikaleg þjónusta, matur, dýrindis matur.","[('þjónusta', 'negative'), ('matvæli', 'neutral')]"
+266,Gættu þess að prófa ostrurúlluna.,"[('ostrurúllur', 'positive')]"
+587,er sú 2 sem talin er upp og svo ein í Southglenn verslunarmiðstöðinni sem er yfirfarin hér og ein í Ft. Collins .,[]
+359,Maturinn er frábær og biðstofan hefur alltaf verið fullkomin.,"[('matvæli', 'positive'), ('Starfsfólk á biðlista', 'positive')]"
+599,Þjónninn okkar var mjög fagmannlegur og vingjarnlegur.,"[('þjónn', 'positive')]"
+38,Það var hreint ótrúlegt.,[]
+127,Við vorum kurteis og athugul.,"[('þjónusta', 'positive')]"
+423,Í fyrsta lagi kom maturinn hratt og allir saman og ég hata tilgerð eins og þá sem kemur inn hver á fætur öðrum.,[]
+416,Við fengum okkur verndargrip fyrir pagóðu og ákváðum að prófa hann á þrumudagskvöldi.,[]
+307,Sesarsalatið sem ég pantaði var með svo mikilli sítrónu að ég gat ekki borðað það.,"[('Sesarsalat', 'negative')]"
+198,Eini gallinn er hinir miklu þrengstu sætispallar og hægfara þjónusta.,"[('sæti', 'negative'), ('þjónusta', 'negative')]"
+351,Eins og á flestum veitingahúsum í Seattle var þjónusta Mioposto's léleg og maturinn of hátt verðlagður.,"[('þjónusta', 'negative'), ('matvæli', 'negative')]"
+468,"Sérstaða þeirra rúllurnar eru glæsilegar, en ég man þó ekki hvað við áttum.","[('sérrúllur', 'positive')]"
+146,Kjúklingakarríið og kjúkling tikka masala eru uppáhalds kjötréttirnir mínir.,"[('kjúklingakarrí', 'positive'), ('kjúkling tikka masala', 'positive')]"
+450,Við lögðum í pöntun og þó við pöntuðum 4 lystauka kom maturinn ekki fyrr en 45 mínútum síðar. MEÐ MÁNUDAGINN AÐ NÁMSKEIÐI.,[]
+627,Þetta var síðasta kvöldið í Vegas og það var of seint og flestir veitingastaðirnir voru að loka. Við gengum því inn til að athuga staðinn.,[]
+503,ou Ca't Go Wrong Here.,[]
+419,Þegar stemningin á veitingastaðnum var góð var gott að borða góðan mat og gott að borða góðan mat.,"[('stemning', 'positive')]"
+442,Við hugsuðum því að við myndum enda daginn á háum nótum eftir strandferðina og ganga ferðina frá ströndinni til Park Chalet.,[]
+601,Undir stjórn,[]
+147,chana masala (garbanzo baunir) eru einnig afbragðsgóðar.,"[('chana masala (garbanzobaunir)', 'positive')]"
+532,Áður fyrr bragðaðist ég bara eins og söltuð flöska á bragðið.,[]
+348,Gott að borða síðla nætur á síðustu stundu án þess að bóka tíma.,[]
+463,Alltaf góður.,[]
+325,"Besta matvælaþjónusta, fyrirkomulag","[('matvæli', 'positive'), ('þjónusta', 'positive')]"
+186,Framsetningin á matnum var í formi aukaskammts en hann var jafn ljúffengur og hann smakkaðist!,"[('matvæli', 'positive')]"
+123,"Ég hef meðal annars fengið marglytturnar Jellyfish , Horse Mackerel , Blue Fin Tuna og Sake Ikura roll, og þær voru allar góðar.","[('Marglyttur', 'positive'), ('Hross Makríll', 'positive'), ('Blái Túnfiskur', 'positive'), ('Sake Ikura rúlla', 'positive')]"
+573,Hverjir fengu alla þessa frábæru dóma?,[]
+96,"Allt sem þú vilt er meira og meira, mjög ferskt.",[]
+143,Besti indverski maturinn í Los Angeles.,"[('Indversk matvæli', 'positive')]"
+239,Í fyrsta lagi er ég ekki frá Long Beach.,[]
+394,Það er merkileg yfirlýsing í ljósi þess að ég hef sjálf verið að baka krabbagildrur og baka kökurnar síðan ég var um sjö ára en eitthvað í fari þessara litlu djöfla lagast í hvert sinn.,"[('Kökur', 'positive')]"
+469,Mikið úrval af saklausum.,"[('Val á sakkarefnum', 'positive')]"
+521,Hann var borinn fram með annaðhvort piparkökusósu eða rauðvínssósu þótt bragðið væri hvoru tveggja ógreinilegt .,"[('piparkornsósa', 'neutral'), ('rauðvínslækkun', 'neutral')]"
+97,"Það borgar sig að bíða, ekki síst vegna þess að þeir hringja þegar borðið er tilbúið.",[]
+371,"Ég þarf að rannsaka þetta betur áður en ég fer yfir nýja staði sem byggja á Diners , keyrslum og kafarýni.",[]
+324,Staðurinn er næst bestur við eldamennskuna hennar mömmu.,[]
+279,Kósý blettur fyrir 2,"[('blettur', 'positive')]"
+293,Fór á mánudagskvöldi þannig að það var engin bið eftir borði.,[]
+254,Mikill matur með ógurlegu andrúmslofti!,"[('matvæli', 'positive'), ('andrúmsloft', 'positive')]"
+400,Þeir eru líka sólgnir í salatið.,"[('Salat úr kjöti', 'positive')]"
+122,Þeir hafa yfir að ráða mjög fjölbreyttum tegundum fiska og telja jafnvel upp frá hvaða heimshöfum þeir koma; Atlantshafi eða Kyrrahafi.,"[('fiskur', 'positive')]"
+183,Ég hef aðeins einu sinni komið til að opna sama safnið en ég er enn að læra af reynslunni!,"[('Opið sesamfræ', 'positive')]"
+202,Ég borðaði fyrst á þessu veitingahúsi með syni mínum og það var hræðilegt!,"[('Veitingastaður', 'negative')]"
+438,"Við vörðum hæglega meira en 40 milljörðum á mann, að áfengi meðtöldu, og vorum enn þá svöng.",[]
+323,Fersk innihaldsefni og ofur bragðgóð.,"[('Innihaldsefni', 'positive')]"
+246,Andrúmsloftið var notalegt.,"[('Andrúmsloft', 'positive')]"
+415,Besta kínamat sem ég hef smakkað lengi.,"[('matvæli úr kínverskum aldinum', 'positive')]"
+197,Og þeir bera fram bestu hummus - kryddjurt í Ameríku ásamt ilmandi ólífuolíu sem ég tel vera hefðbundna leið.,"[('hummus', 'positive')]"
+547,Margir vilja reyndar koma aftur síðar þegar þeir eru heimsóttir.,[]
+626,Ég vildi ekki fara þangað vegna þeirrar gagnrýni og verðs sem ég sá á internetinu.,[]
+171,í fyrsta lagi henrymillion ertu ekki viss um miðausturlenskan mat svo þú talar ekki um hann.,[]
