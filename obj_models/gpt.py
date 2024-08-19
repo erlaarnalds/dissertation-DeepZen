@@ -1,51 +1,63 @@
 from openai import OpenAI
 import os
-from general import parse_label, parse_label_ER
+import csv
+from obj_models.client import Client
 
 
-def rank_utterance(client, model_name, system_msg, utterance):
+class GPTClient(Client):
+    def __init__(self, model_name, finetuned=False):
+        self.client = OpenAI()
+        if model_name[:2] == "ft":
+            finetuned = True
 
-    response = client.chat.completions.create(
-        model=model_name,
-        messages=[
-          {"role": "system", "content": system_msg},
-          {"role": "user", "content": utterance}
-        ]
-    )
+        super().__init__(model_name, finetuned)
 
-    return response.choices[0].message.content.lower()
-
-
-
-def eval(dataset, model_name, task=""):
-    client = OpenAI()
-
-    system_msg = dataset.get_system_msg()
-
-    labels = []
-    predictions = []
-
-    for utterance, label in dataset:
-
-        pred = rank_utterance(client, model_name, system_msg, utterance)
-        predictions.append(pred)
-
-        if task == "ABSA":
-            true_label = label
-        elif dataset.name == "ice_and_fire_ER":
-            true_val = parse_label_ER(label, dataset.classes)
-            true_label = dataset.get_label(true_val)
-        else:
-            true_val = parse_label(label, dataset.classes)
-            true_label = dataset.get_label(true_val)
         
-        labels.append(true_label)
 
-        if not os.path.isfile(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv"):
-            with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "w") as file:
-                file.write(f"utterance, prediction, true label\n")
+    def rank_utterance(self, system_msg, utterance):
 
-        with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "a") as file:
-            file.write(f"{utterance}, {pred}, {true_label}\n")
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+            {"role": "system", "content": system_msg},
+            {"role": "user", "content": utterance}
+            ]
+        )
 
-    return labels, predictions
+        return response.choices[0].message.content.lower()
+
+
+
+# def eval(dataset, model_name, task="", finetuned=False):
+#     client = OpenAI()
+
+#     system_msg = dataset.get_system_msg()
+
+#     labels = []
+#     predictions = []
+
+#     for ind, utterance, label in dataset:
+
+#         if not finetuned or (finetuned and ind not in dataset.train_ids):
+
+#             pred = rank_utterance(client, model_name, system_msg, utterance)
+#             predictions.append(pred)
+
+#             if task == "ABSA":
+#                 true_label = label
+#             else:
+#                 true_val = dataset.parse_label(label, dataset.classes)
+#                 true_label = dataset.get_label(true_val)
+            
+#             labels.append(true_label)
+
+#             if not os.path.isfile(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv"):
+#                 with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "w") as file:
+#                     writer = csv.writer(file)
+#                     writer.writerow(f"utterance,prediction,label\n")
+
+#             with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "a") as file:
+#                 writer = csv.writer(file)
+#                 writer.writerow([utterance, pred, true_label])
+
+#     return labels, predictions

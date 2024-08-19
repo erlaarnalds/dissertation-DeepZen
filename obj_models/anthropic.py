@@ -1,65 +1,38 @@
-from general import parse_label, parse_label_ER
 from anthropic import Anthropic
 import os
 import time
-
-def rank_utterance(client, model_name, system_msg, utterance):
-
-    rate_limit_per_minute = 50
-    delay = 60.0 / rate_limit_per_minute
-
-    # slow down requests to prevent rate limiting
-    time.sleep(delay)
-
-    response = client.messages.create(
-        model=model_name,
-        max_tokens=1000,
-        system=system_msg,
-        messages=[
-          {"role": "user", 
-           "content": [
-               {
-                   "type": "text",
-                   "text": utterance
-               }
-           ]}
-        ]
-    )
-    #print("Tokens remaining: ",response.headers.get('anthropic-ratelimit-tokens-remaining'))
-    
-    return response.content[0].text.lower()
+import csv
+from obj_models.client import Client
 
 
-def eval(dataset, model_name, task):
-    client = Anthropic()
-    system_msg = dataset.get_system_msg()
+class AnthropicClient(Client):
+    def __init__(self, model_name, finetuned=False):
+        self.client = Anthropic()
 
-    labels = []
-    predictions = []
+        super().__init__(model_name, finetuned)
 
-    for utterance, label in dataset:
+        
+    def rank_utterance(self, system_msg, utterance):
 
-        if not utterance.isspace() and utterance != "" and utterance != None:
-            pred = rank_utterance(client, model_name, system_msg, utterance)
-            predictions.append(pred)
+        rate_limit_per_minute = 50
+        delay = 60.0 / rate_limit_per_minute
 
-            if task == "ABSA":
-                true_label = label
-            elif dataset.name == "ice_and_fire_ER":
-                true_val = parse_label_ER(label, dataset.classes)
-                true_label = dataset.get_label(true_val)
-            else:
-                true_val = parse_label(label, dataset.classes)
-                true_label = dataset.get_label(true_val)
-            
-            labels.append(true_label)
+        # slow down requests to prevent rate limiting
+        time.sleep(delay)
 
-
-            if not os.path.isfile(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv"):
-                with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "w") as file:
-                    file.write(f"utterance, prediction, true label\n")
-
-            with open(f"logs/{dataset.name}/{model_name}_shot_{dataset.shot}.csv", "a") as file:
-                file.write(f"{utterance}, {pred}, {true_label}\n")
-    
-    return labels, predictions
+        response = self.client.messages.create(
+            model=self.model_name,
+            max_tokens=1000,
+            system=system_msg,
+            messages=[
+            {"role": "user", 
+            "content": [
+                {
+                    "type": "text",
+                    "text": utterance
+                }
+            ]}
+            ]
+        )
+        
+        return response.content[0].text.lower()

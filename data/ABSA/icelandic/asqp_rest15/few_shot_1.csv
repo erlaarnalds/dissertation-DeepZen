@@ -1,0 +1,4 @@
+utterance,label
+"Við greiddum og fórum af því við nenntum ekki að rífast lengur.","[('þjónusta almennt', 'NULL', 'rífast', 'negative')]"
+"Ég mæli eindregið með fiskitacos, allt annað var í lagi.","[('matur gæði', 'fiskitacos', 'mæli eindregið með', 'positive'), ('matur gæði', 'NULL', ' í lagi', 'neutral')]"
+"Vínseðillinn var víðtækur - þó að starfsfólkið virtist ekki vita af samsetningum.","[('drykkir úrval', 'vínseðillinn', 'víðtækur', 'positive'), ('þjónusta almennt', 'starfsfólkið', 'virðist ekki vita', 'negative')]"

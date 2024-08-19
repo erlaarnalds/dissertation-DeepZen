@@ -1,0 +1,4 @@
+utterance,label
+"Sítrónukjúklingurinn smakkaði eins og límandi sætur kleinuhringur og hunangshnetu rækjurnar, þær fáu sem þau gáfu þér voru ekki góðar.","[('sítrónukjúklingurinn', 'negative'), ('hunangshnetu rækjurnar', 'negative')]"
+"Venjulegi matseðilinn hér er örlítið yfir meðaltali sem er ekki virði þess snotty viðhorfs sem þú færð.","[('venjulegi matseðilinn', 'neutral')]"
+"Maturinn var góður og appetizing.","[('maturinn', 'positive')]"

@@ -1,0 +1,4 @@
+utterance,label
+"Við enduðum á að þurfa að fara því starfsfólkið hunsaði okkur - þrátt fyrir að restin af veitingastaðnum var að mestu tómur.","[('starfsfólkið', 'hunsaði', 'negative')]"
+"Venjuleg kaka sem hefur fengið alltof mikla athygli.","[('kaka', 'venjuleg', 'neutral')]"
+"Eftirréttirnir voru líka guðdómlegir!","[('Eftirrétti', 'guðdómlegir', 'positive')]"

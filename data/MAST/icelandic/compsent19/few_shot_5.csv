@@ -1,11 +1,11 @@
-utterance,tuple,label
-"IMHO Lisp er allt of þungur í svigum, Java forrit er auðveldara að lesa.","['Lisp', 'Java', 'worse']",worse
-"Ef þú hefur verið að velta því fyrir þér hvers vegna Toshiba SSD viðmiðin þín eru hægari en Samsung einhvers annars, athugaðu til að sjá hvers konar gögn viðmiðunartólið skrifar á drifið.","['Toshiba', 'Samsung', 'worse']",worse
-"Pastað var miðlungs, ekki eins eftirminnilegt og pizzan.","['pasta', 'pizza', 'worse']",worse
-"Svo.. ég er ekki að segja að Java geti það ekki (því það getur það), en það ER auðveldara að gera það í PHP.","['Java', 'PHP', 'worse']",worse
-Allt meira en nokkrar línur af Bash væri hægt að gera betur í Python.,"['Bash', 'Python', 'worse']",worse
-"Ég er búinn að forpanta mér Leica M og ég vona að þetta sé myndavél sem ég get notað fyrir mín persónulegu verkefni ... mig langar í eitthvað lítið, stafrænt .... og ég vil að myndirnar &quot;liti&quot; betur út en Canon /Nikon osfrv ...","['Leica', 'Nikon', 'better']",better
-"Scala kóði er venjulega hnitmiðaðri en Java kóði (dæmið sem birt er gæti verið undantekning), en ég efast um að hann sé því auðveldari að lesa eða skilja.","['Scala', 'Java', 'better']",better
-"Jafnvel án þungra hagnýtra dótsins, rétt eins og grunn OO tungumál, er Scala miklu betra en C++/Java/C#.","['Scala', 'Java', 'better']",better
-"Af þessum sökum, jafnvel þó að Oracle sé betri en PostgreSQL í að skipuleggja WITHs, myndi ég búast við að það yrðu vandamál líka.","['Oracle', 'PostgreSQL', 'better']",better
-Apple skýjatónlist verður betri en Google eða Amazon segir uppspretta iðnaðarins,"['Apple', 'Amazon', 'better']",better
+id,utterance,label
+61,"IMHO Lisp er allt of þungur í svigum, Java forrit er auðveldara að lesa.",'worse'
+125,"Ef þú hefur verið að velta því fyrir þér hvers vegna Toshiba SSD viðmiðin þín eru hægari en Samsung einhvers annars, athugaðu til að sjá hvers konar gögn viðmiðunartólið skrifar á drifið.",'worse'
+8,"Pastað var miðlungs, ekki eins eftirminnilegt og pizzan.",'worse'
+119,"Svo.. ég er ekki að segja að Java geti það ekki (því það getur það), en það ER auðveldara að gera það í PHP.",'worse'
+27,Allt meira en nokkrar línur af Bash væri hægt að gera betur í Python.,'worse'
+67,"Ég er búinn að forpanta mér Leica M og ég vona að þetta sé myndavél sem ég get notað fyrir mín persónulegu verkefni ... mig langar í eitthvað lítið, stafrænt .... og ég vil að myndirnar &quot;liti&quot; betur út en Canon /Nikon osfrv ...",'better'
+178,"Scala kóði er venjulega hnitmiðaðri en Java kóði (dæmið sem birt er gæti verið undantekning), en ég efast um að hann sé því auðveldari að lesa eða skilja.",'better'
+90,"Jafnvel án þungra hagnýtra dótsins, rétt eins og grunn OO tungumál, er Scala miklu betra en C++/Java/C#.",'better'
+97,"Af þessum sökum, jafnvel þó að Oracle sé betri en PostgreSQL í að skipuleggja WITHs, myndi ég búast við að það yrðu vandamál líka.",'better'
+254,Apple skýjatónlist verður betri en Google eða Amazon segir uppspretta iðnaðarins,'better'

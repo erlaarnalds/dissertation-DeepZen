@@ -1,5 +1,4 @@
 import re
-from general import parse_label
 
 
 def preprocess(sentence):
@@ -35,7 +34,7 @@ def eval(senticnet, dataset):
         else:
             score = 0.0
         predictions.append(dataset.get_label(score))
-        true_val = parse_label(label, dataset.classes)
+        true_val = datset.parse_label(label, dataset.classes)
         labels.append(dataset.get_label(true_val))
 
     return labels, predictions

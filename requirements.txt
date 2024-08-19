@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+mistralai==1.0.0
+numpy==2.0.1
+openai==1.40.1
+pandas==2.2.2
+protobuf==5.27.3
+scikit_learn==1.5.1
+torch==2.4.0
+transformers==4.44.0

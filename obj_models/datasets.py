@@ -2,19 +2,40 @@ from datasets import Dataset
 import pandas as pd
 import numpy as np
 
-class IceandFire():
-    def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
+class Dataset():
+    def __init__(self, dataset_path, dataset, shot, dataset_name=""):
+        self.name = dataset_name
+        self.index = 0
+        self.path = dataset_path
+        self.shot = shot
+        self.train_ids = pd.read_csv(self.path + "/train_ids.csv").values.tolist()
 
         if dataset is not None:
             self.dataset = dataset
         else:
             self.dataset = pd.read_csv(dataset_path + "/test.csv")
-            
+    
+    def parse_label(self, label, classes):
 
-        self.index = 0
-        self.path = dataset_path
-        self.name = dataset_name
-        self.shot = shot
+        label = label.lower()
+        label_arr = label.split(";")
+
+        scores = []
+
+        for label in label_arr:
+            scores.append(classes[label])
+        
+        return sum(scores) / len(label_arr)
+
+
+
+
+
+class IceandFire(Dataset):
+    def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
+
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
+
     
     def __iter__(self):
         self.index = 0
@@ -23,7 +44,8 @@ class IceandFire():
     def __next__(self):
         if self.index < len(self.dataset):
             line = self.dataset.iloc[self.index]
-            res = (f"Snippet: {line['utterance']}", line['label'].lower())
+            sentence = f"Snippet: {line['utterance']}"
+            res = (line['id'], sentence, line['label'].lower())
             self.index += 1
             return res
         else:
@@ -34,6 +56,16 @@ class IceandFire():
     
     def __len__(self):
         return len(self.dataset)
+
+    def get_few_shot_examples(self):
+        example_str = ""
+        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
+
+        for ind, row in examples.iterrows():
+            example_str += f"Snippet: {row['utterance']}\n"
+            example_str += f"{row['label']}\n\n"
+        
+        return example_str
 
 
 
@@ -62,17 +94,7 @@ class IceandFire_Irony(IceandFire):
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
-
-    def get_few_shot_examples(self):
-        example_str = ""
-        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
-
-        for ind, row in examples.iterrows():
-            example_str += f"Snippet: {row['utterance']}\n"
-            example_str += f"{self.get_label(self.classes[row['label'].lower()])}\n\n"
-        
-        return example_str
+            return base + "\nExamples:\n"  + examples
 
 
     def filter_by_label(self, label):
@@ -122,21 +144,11 @@ class IceandFire_ER(IceandFire):
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
-
-    def get_few_shot_examples(self):
-        example_str = ""
-        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
-
-        for ind, row in examples.iterrows():
-            example_str += f"Snippet: {row['utterance']}\n"
-            example_str += f"{self.get_label(self.classes[row['label'].lower()])}\n\n"
-        
-        return example_str
+            return base + "\nExamples:\n"  + examples
 
 
     def filter_by_label(self, label):
-        dataset = self.dataset[self.dataset['label'] == label].reset_index(drop=True)
+        dataset = self.dataset[label == self.get_label(self.dataset['label'])].reset_index(drop=True)
         return IceandFire_ER(dataset=dataset)
     
     
@@ -149,6 +161,17 @@ class IceandFire_ER(IceandFire):
         emotion_class = np.argmax(pred)
 
         return self.labels[emotion_class]
+    
+    def parse_label(self, label, classes):
+        label = label.lower()
+        label_arr = label.split(";")
+
+        scores = np.zeros(len(classes))
+
+        for label in label_arr:
+            scores[classes[label]] += 1
+        
+        return scores / sum(scores)
 
 
 
@@ -177,17 +200,7 @@ class IceandFire_SA(IceandFire):
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
-
-    def get_few_shot_examples(self):
-        example_str = ""
-        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
-
-        for ind, row in examples.iterrows():
-            example_str += f"Snippet: {row['utterance']}\n"
-            example_str += f"{self.get_label(self.classes[row['label']])}\n\n"
-        
-        return example_str
+            return base + "\nExamples:\n"  + examples
 
 
     def filter_by_label(self, label):
@@ -232,17 +245,7 @@ class IceandFire_hate(IceandFire):
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
-
-    def get_few_shot_examples(self):
-        example_str = ""
-        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
-
-        for ind, row in examples.iterrows():
-            example_str += f"Snippet: {row['utterance']}\n"
-            example_str += f"{self.get_label(self.classes[row['label'].lower()])}\n\n"
-        
-        return example_str
+            return base + "\nExamples:\n"  + examples
 
 
     def filter_by_label(self, label):
@@ -285,17 +288,7 @@ class IceandFire_offense(IceandFire):
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
-
-    def get_few_shot_examples(self):
-        example_str = ""
-        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
-
-        for ind, row in examples.iterrows():
-            example_str += f"Snippet: {row['utterance']}\n"
-            example_str += f"{self.get_label(self.classes[row['label'].lower()])}\n\n"
-        
-        return example_str
+            return base + "\nExamples:\n"  + examples
 
 
     def filter_by_label(self, label):
@@ -313,19 +306,12 @@ class IceandFire_offense(IceandFire):
             return "not offensive"
 
 
-class RU():
+class RU(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'negative': -1.0, 'positive': 1.0}
         self.labels = ['positive', 'negative']
-        self.path = dataset_path
-        self.shot = shot
     
     def __iter__(self):
         self.index = 0
@@ -334,7 +320,8 @@ class RU():
     def __next__(self):
         if self.index < len(self.dataset):
             line = self.dataset.iloc[self.index]
-            res = (f"Snippet: {line['utterance']}", line['label'].lower())
+            sentence = f"Snippet: {line['utterance']}"
+            res = (line['id'], sentence, line['label'].lower())
             self.index += 1
             return res
         else:
@@ -363,7 +350,7 @@ class RU():
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
     def get_few_shot_examples(self):
         example_str = ""
@@ -389,20 +376,12 @@ class RU():
 
 
 
-class REST14():
+class REST14(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'negative': -1.0, 'neutral': 0.0, 'positive': 1.0}
         self.labels = ['positive', 'negative', 'neutral']
-        self.shot = shot
-        self.path = dataset_path
     
     def __iter__(self):
         self.index = 0
@@ -412,7 +391,7 @@ class REST14():
         if self.index < len(self.dataset):
             line = self.dataset.iloc[self.index]
             sentence = f"Snippet: {line['utterance']}\nAspect: {line['aspect']}"
-            res = (sentence, line['aspect_label'].lower())
+            res = (line['original_id'], sentence, line['aspect_label'].lower())
             self.index += 1
             return res
         else:
@@ -441,7 +420,7 @@ class REST14():
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -470,20 +449,13 @@ class REST14():
         return len(self.dataset)
 
 
-class CompSent19():
+class CompSent19(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'worse': -1.0, 'better': 1.0}
         self.labels = ['worse', 'better']
-        self.shot = shot
-        self.path = dataset_path
+
     
     def __iter__(self):
         self.index = 0
@@ -497,7 +469,7 @@ class CompSent19():
             tuple_arr = [i[1:-1] for i in tuple_str[1:-1].split(", ")]
 
             sentence = f"Compare {tuple_arr[0]} to {tuple_arr[1]}. Snippet: {line['utterance']}"
-            res = (sentence, tuple_arr[2].lower())
+            res = (line['original_id'], sentence, tuple_arr[2].lower())
             self.index += 1
             return res
         else:
@@ -525,7 +497,7 @@ class CompSent19():
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -554,20 +526,12 @@ class CompSent19():
         return len(self.dataset)
 
 
-class REST16_UABSA():
+class REST16_UABSA(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'negative': -1.0, 'neutral':0.0, 'positive': 1.0}
         self.labels = ['negative', 'neutral', 'positive']
-        self.shot = shot
-        self.path = dataset_path
     
     def __iter__(self):
         self.index = 0
@@ -578,7 +542,7 @@ class REST16_UABSA():
             line = self.dataset.iloc[self.index]
 
             sentence = f"Review: {line['utterance']}"
-            res = (sentence, line['label'])
+            res = (line['original_id'], sentence, line['label'])
             self.index += 1
             return res
         else:
@@ -589,7 +553,7 @@ class REST16_UABSA():
     
     def filter_by_label(self, label):
         dataset = self.dataset[self.dataset['aspect_label'] == label].reset_index(drop=True)
-        return REST14(dataset=dataset)
+        return REST16_UABSA(dataset=dataset)
         
     
     def get_system_msg(self):
@@ -608,7 +572,7 @@ class REST16_UABSA():
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -616,9 +580,6 @@ class REST16_UABSA():
         examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
 
         for ind, row in examples.iterrows():
-            tuple_str = row['tuple']
-            tuple_arr = [i[1:-1] for i in tuple_str[1:-1].split(", ")]
-
             example_str += f"Review: {row['utterance']}\n"
             example_str += f"{row['label']}\n\n"
         
@@ -629,24 +590,80 @@ class REST16_UABSA():
         return len(self.dataset)
 
 
-class ASQP():
+class ASTE(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
+        self.classes = {'negative': -1.0, 'neutral':0.0, 'positive': 1.0}
+        self.labels = ['negative', 'neutral', 'positive']
+    
+    def __iter__(self):
         self.index = 0
-        self.name = dataset_name
+        return self
+
+    def __next__(self):
+        if self.index < len(self.dataset):
+            line = self.dataset.iloc[self.index]
+
+            sentence = f"Review: {line['utterance']}"
+            res = (line['original_id'], sentence, line['label'])
+            self.index += 1
+            return res
+        else:
+            raise StopIteration
+    
+    def __getitem__(self, ind):
+        return self.dataset.iloc[ind]['utterance']
+    
+    def filter_by_label(self, label):
+        dataset = self.dataset[self.dataset['aspect_label'] == label].reset_index(drop=True)
+        return ASTE(dataset=dataset)
+        
+    
+    def get_system_msg(self):
+        classes = ", ".join(self.labels)
+        
+        base = f"""
+        You are a highly capable sentiment analyser, please perform Aspect Sentiment Triplet Extraction.
+        You will be given a restaurant review. Please tag all (aspect, opinion, sentiment) triplets and order them in a list.
+        The aspect and opinion should occur in the review, and the sentiment should be one of the following classes: {classes}.
+        Return a python list of the sentiment triplets as tuples, with aspect, opinion and sentiment all enclosed in single quotes.
+        Do not output anything other than the array of (aspect, opinion, sentiment) triplets. DO NOT explain the reasoning for your classification.
+        """
+
+        if self.shot == 0:
+            return base
+        
+        else:
+            examples = self.get_few_shot_examples()
+            return base + "\nExamples:\n"  + examples
+
+
+    def get_few_shot_examples(self):
+        example_str = ""
+        examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
+
+        for ind, row in examples.iterrows():
+            example_str += f"Review: {row['utterance']}\n"
+            example_str += f"{row['label']}\n\n"
+        
+        return example_str
+    
+    
+    def __len__(self):
+        return len(self.dataset)
+
+
+class ASQP(Dataset):
+    def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
+
         self.classes = {'negative': -1.0, 'neutral':0.0, 'positive': 1.0}
         self.labels = ['negative', 'neutral', 'positive']
         self.categories =  ['andrúmsloft almennt', 'drykkir verð',
             'drykkir gæði', 'drykkir úrval', 'matur almennt', 'matur verð', 'matur gæði',
             'matur úrval', 'staðsetning almennt', 'veitingastaður almennt', 'veitingastaður alls_konar',
             'veitingastaður verð', 'þjónusta almennt']
-        self.shot = shot
-        self.path = dataset_path
     
     def __iter__(self):
         self.index = 0
@@ -657,7 +674,7 @@ class ASQP():
             line = self.dataset.iloc[self.index]
 
             sentence = f"Review: {line['utterance']}"
-            res = (sentence, line['label'])
+            res = (line['original_id'], sentence, line['label'])
             self.index += 1
             return res
         else:
@@ -673,13 +690,15 @@ class ASQP():
     
     def get_system_msg(self):
         classes = ", ".join(self.labels)
+        categories_str = ", ".join(self.categories)
         
         base = f"""
-        You are a highly capable sentiment analyser, please perform Unified Aspect-Based Sentiment Analysis.
-        You will be given a restaurant review. Please tag all (aspect, sentiment) pairs and order them in a list.
-        The aspect should occur in the review, and the sentiment should be one of the following classes: {classes}.
-        If there are no aspect-sentiment pairs, return an empty list. Otherwise, return a python list of the sentiment pairs as tuples.
-        Do not output anything other than the array of (aspect, sentiment) pairs. DO NOT explain the reasoning for your classification.
+        You are a highly capable sentiment analyser, please perform Aspect Sentiment Quadruplet Prediction.
+        You will be given a restaurant review. Please tag all (category, aspect, opinion, sentiment) quadruplets and order them in a list.
+        The category should be one of the following: {categories_str}. The aspect and opinion should occur in the review and the sentiment should be one of the following classes: {classes}.
+        Only aspect can be 'NULL' if no appropriate aspect can be found, category, opinion and sentiment cannot be 'NULL'. 
+        Return a python list of the sentiment quadruplets as tuples, with category, aspect, opinion and sentiment all enclosed in single quotes.
+        Do not output anything other than the array of (category, aspect, opinion, sentiment) quadruplets. DO NOT explain the reasoning for your classification.
         """
 
         if self.shot == 0:
@@ -687,7 +706,7 @@ class ASQP():
         
         else:
             examples = self.get_few_shot_examples()
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -695,9 +714,6 @@ class ASQP():
         examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
 
         for ind, row in examples.iterrows():
-            tuple_str = row['tuple']
-            tuple_arr = [i[1:-1] for i in tuple_str[1:-1].split(", ")]
-
             example_str += f"Review: {row['utterance']}\n"
             example_str += f"{row['label']}\n\n"
         
@@ -709,20 +725,12 @@ class ASQP():
 
 
 
-class Stance():
+class Stance(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'against': -1.0, 'favor': 1.0, 'none': 0.0}
         self.labels = ['against', 'favor', 'none']
-        self.shot = shot
-        self.path = dataset_path
     
     def __iter__(self):
         self.index = 0
@@ -731,7 +739,8 @@ class Stance():
     def __next__(self):
         if self.index < len(self.dataset):
             line = self.dataset.iloc[self.index]
-            res = (f"Evaluate stance regarding {line['domain']}. Snippet: {line['utterance']}", line['label'].lower())
+            sentence = f"Evaluate stance regarding {line['domain']}. Snippet: {line['utterance']}"
+            res = (line['original_id'], sentence, line['label'].lower())
             self.index += 1
             return res
         else:
@@ -760,8 +769,7 @@ class Stance():
         
         else:
             examples = self.get_few_shot_examples()
-            print(base + "\n" + examples)
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -790,20 +798,13 @@ class Stance():
         return len(self.dataset)
 
 
-class Implicit():
+class Implicit(Dataset):
     def __init__(self, dataset_path="", dataset_name="", dataset=None, shot=0):
-        if dataset is not None:
-            self.dataset = dataset
-        else:
-            self.dataset = pd.read_csv(dataset_path + "/test.csv")
+        super().__init__(dataset_name=dataset_name, dataset_path=dataset_path, dataset=dataset, shot=shot)
 
-
-        self.index = 0
-        self.name = dataset_name
         self.classes = {'negative': -1.0, 'positive': 1.0, 'neutral': 0.0}
         self.labels = ['negative', 'positive', 'neutral']
-        self.shot = shot
-        self.path = dataset_path
+
     
     def __iter__(self):
         self.index = 0
@@ -812,7 +813,8 @@ class Implicit():
     def __next__(self):
         if self.index < len(self.dataset):
             line = self.dataset.iloc[self.index]
-            res = (f"Infer sentiment regarding the aspect: {line['aspect']}. Snippet: {line['utterance']}", line['label'].lower())
+            sentence = f"Infer sentiment regarding the aspect: {line['aspect']}. Snippet: {line['utterance']}"
+            res = (line['original_id'], sentence, line['label'].lower())
             self.index += 1
             return res
         else:
@@ -841,8 +843,7 @@ class Implicit():
         
         else:
             examples = self.get_few_shot_examples()
-            print(base + "\n" + examples)
-            return base + "\n" + examples
+            return base + "\nExamples:\n"  + examples
 
 
     def get_few_shot_examples(self):
@@ -850,7 +851,7 @@ class Implicit():
         examples = pd.read_csv(self.path + f"/few_shot_{self.shot}.csv")
 
         for ind, row in examples.iterrows():
-            example_str += f"Evaluate stance regarding {row['domain']}. Snippet: {row['utterance']}\n"
+            example_str += f"Infer sentiment regarding the aspect: {row['aspect']}. Snippet: {row['utterance']}"
             example_str += f"{self.get_label(self.classes[row['label'].lower()])}\n\n"
         
         return example_str

@@ -3,18 +3,22 @@ import numpy as np
 import os
 from datetime import datetime
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+import ast
+import re
+from anthropic import InternalServerError, RateLimitError
+from openai import APITimeoutError, APIConnectionError
 
 from data.senticnet_is.senticnet import senticnet as senticnet_is
 from data.senticnet_en.senticnet import senticnet as senticnet_en
-from obj_models.gpt import eval as gpt_eval
+from obj_models.gpt import GPTClient
 from obj_models.senticnet import eval as senticnet_eval
-from obj_models.anthropic import eval as anthropic_eval
-from obj_models.llama import eval as llama_eval
-from obj_models.mistral import eval as mistral_eval
+from obj_models.anthropic import AnthropicClient
+from obj_models.llama import LlamaCppClient
+from obj_models.mistral import MistralAPIClient
 
 from obj_models.datasets import IceandFire_SA, IceandFire_hate, IceandFire_offense, \
                                 RU, REST14, CompSent19, REST16_UABSA, IceandFire_Irony, \
-                                Stance, Implicit, IceandFire_ER
+                                Stance, Implicit, IceandFire_ER, ASTE, ASQP
 
 
 def parse_args():
@@ -23,7 +27,7 @@ def parse_args():
     parser.add_argument("--shot", type=int, default=0, help="")
     parser.add_argument("--task", type=str, default="MAST", help="Task to perform (SA, ABSA, MAST)")
     parser.add_argument("--lang", type=str, default="icelandic", help="Language to evaluate (english/icelandic)")
-    parser.add_argument("--dataset", type=str, default="compsent19", help="[chat]")
+    parser.add_argument("--dataset", type=str, default="", help="[chat]")
     parser.add_argument("--models", type=str, default="models.txt", help="[chat]")
     parser.add_argument("--log", type=bool, default=True)
     parser.add_argument("--post_eval", type=bool, default=False)
@@ -56,17 +60,25 @@ def get_preds(dataset, lang, model_name, task):
     elif lang == "english" and model_name == "senticnet":
         return senticnet_eval(senticnet_en, dataset)
     
-    if model_name[:3].lower() == "gpt":
-        return gpt_eval(dataset, model_name, task)
+    if "gpt" in model_name:
+        gpt = GPTClient(model_name)
+        return gpt.evaluate(dataset, task)
     
     if model_name[:6].lower() == "claude":
-        return anthropic_eval(dataset, model_name, task)
-
-    if model_name[:4].lower() == "meta":
-        return llama_eval(dataset, model_name, task)
+        anthropic = Anthropic(model_name)
+        return anthropic.evaluate(dataset, task)
     
     if "mistral" in model_name.lower():
-        return mistral_eval(dataset, model_name, task)
+        mistral = MistralAPIClient(model_name)
+        return mistral.evaluate(dataset, task)
+    
+    if "llama" in model_name.lower():
+        llama = LlamaCppClient(model_name)
+        return llama.evaluate(dataset, task)
+    
+    if "gemma" in model_name.lower():
+        gemma = LlamaCppClient(model_name)
+        return gemma.evaluate(dataset, task)
 
 
 def eval(model_name, args, dataset):
@@ -90,25 +102,47 @@ def eval(model_name, args, dataset):
         file.write(f"{model_name}, AVERAGE, {acc:.2f}, {avg_pre:.2f}, {avg_rec:.2f}, {avg_f1:.2f}, {datetime.now().strftime('%D-%H:%M:%S')}\n")
 
 
-def process_tuple_f1(labels, predictions, verbose=False):
-    tp, fp, fn = 0, 0, 0
-    epsilon = 1e-7
-    for i in range(len(labels)):
-        gold = set(labels[i])
+def str_to_tuple(text_arr):
+    text_arr = text_arr.lower().strip()
+    text_arr.replace("’", "'")
+    match = re.search(r'\[.*?\]', text_arr)
+    if match:
+        content = match.group(0)
         try:
-            pred = set(predictions[i])
+            content_list = ast.literal_eval(content)
+        except:
+            print("Error parsing content: ", content)
+            content_list = []
+        
+        return content_list
+    else:
+        return []
+
+
+def process_tuple_f1(labels_str, predictions_str, verbose=False):
+    tp, fp, fn, tn = 0, 0, 0, 0
+    epsilon = 1e-7
+    for i in range(len(labels_str)):
+        label = str_to_tuple(labels_str[i])
+        gold = set(label)
+        try:
+            prediction = str_to_tuple(predictions_str[i])
+            pred = set(prediction)
         except Exception:
             pred = set()
         tp += len(gold.intersection(pred))
         fp += len(pred.difference(gold))
         fn += len(gold.difference(pred))
-    if verbose:
-        print('-'*100)
-        print(gold, pred)
+
+        if verbose:
+            print('-'*100)
+            print(gold)
+            print(pred)
     precision = tp / (tp + fp + epsilon)
     recall = tp / (tp + fn + epsilon)
     micro_f1 = 2 * (precision * recall) / (precision + recall + epsilon)
-    return micro_f1
+
+    return precision, recall, micro_f1
 
 
 
@@ -118,10 +152,10 @@ def eval_UABSA(model_name, args, dataset):
 
     labels, preds = get_preds(dataset, args.lang, model_name, args.task)
 
-    f1 = process_tuple_f1(labels, preds)
+    precision, recall, micro_f1 = process_tuple_f1(labels, preds)
 
     with open("results/" + args.task + "/" + dataset.name + f"/results_{args.shot}.txt", "a") as file:
-        file.write(f"{model_name}, {f1:.2f}, {datetime.now().strftime('%D-%H:%M:%S')}\n")
+        file.write(f"{model_name}, {precision:.2f}, {recall:.2f}, {micro_f1:.2f}, {datetime.now().strftime('%D-%H:%M:%S')}\n")
 
     # else:
     #     labels, preds = get_preds(dataset, args.lang, model_name, args.task)
@@ -177,6 +211,12 @@ def get_dataset_obj(dataset_name, dataset_path, shot):
 
     if dataset_name == "implicit":
         return Implicit(dataset_path=dataset_path, dataset_name=dataset_name, shot=shot)
+    
+    if dataset_name == "aste_rest14":
+        return ASTE(dataset_path=dataset_path, dataset_name=dataset_name, shot=shot)
+    
+    if dataset_name == "asqp_rest15":
+        return ASQP(dataset_path=dataset_path, dataset_name=dataset_name, shot=shot)
 
 
 def main():
@@ -187,27 +227,57 @@ def main():
     models_file = args.models
     models = parse_models(models_file)
     print(models)
-    dataset_path = "data/" + args.task + "/" + args.lang + "/" + args.dataset
 
-    dataset_obj = get_dataset_obj(args.dataset, dataset_path, args.shot)
+    datasets = list()
 
-    if args.task == "ABSA":
-        if not os.path.isfile("results/" + args.task + "/" + args.dataset + f"/results_{args.shot}.txt"):
-            with open("results/" + args.task + "/" + args.dataset + f"/results_{args.shot}.txt", "w") as file:
-                file.write("Model, micro-F1, timestamp\n")
-        
-        for model_name in models:
-            eval_UABSA(model_name, args, dataset_obj)
+    if args.dataset == "" and args.task:
+        if args.task == "SA":
+            datasets += ["asc_rest14", "RU_movie_reviews", "ice_and_fire_SA"]
+        elif args.task == "ABSA":
+            datasets += ["uabsa_rest16", "aste_rest14", "asqp_rest15"]
+        elif args.task == "MAST":
+            # datasets += ["compsent19", "implicit", "stance", "ice_and_fire_hate", 
+            #     "ice_and_fire_irony", "ice_and_fire_offensive", "ice_and_fire_ER"]
+            datasets += ["compsent19", "implicit", "stance", 
+                "ice_and_fire_irony", "ice_and_fire_offensive", "ice_and_fire_ER"]
+        else:
+            print("Invalid options")
     else:
-        if not os.path.isfile("results/" + args.task + "/" + args.dataset + f"/results_{args.shot}.txt"):
-            with open("results/" + args.task + "/" + args.dataset + f"/results_{args.shot}.txt", "w") as file:
-                file.write("Model, Class, Accuracy, Precision, Recall, F1, timestamp\n")
+        datasets.append(args.dataset)
         
-        for model_name in models:
-            eval(model_name, args, dataset_obj)
 
+    for dataset in datasets:
 
-    
+            print("Evaluating ", dataset)
+
+            dataset_path = "data/" + args.task + "/" + args.lang + "/" + dataset
+
+            dataset_obj = get_dataset_obj(dataset, dataset_path, args.shot)
+
+            if args.task == "ABSA":
+                if not os.path.isfile("results/" + args.task + "/" + dataset + f"/results_{args.shot}.txt"):
+                    with open("results/" + args.task + "/" + dataset + f"/results_{args.shot}.txt", "w") as file:
+                        file.write("Model,Precision, Recall, Micro-F1, timestamp\n")
+                
+                for model_name in models:
+                    try:
+                        eval_UABSA(model_name, args, dataset_obj)
+                    except (InternalServerError, RateLimitError, APITimeoutError) as e:
+                        print(f"An error occurred during evaluation of {model_name}")
+                        print(e)
+            else:
+                if not os.path.isfile("results/" + args.task + "/" + dataset + f"/results_{args.shot}.txt"):
+                    with open("results/" + args.task + "/" + dataset + f"/results_{args.shot}.txt", "w") as file:
+                        file.write("Model, Class, Accuracy, Precision, Recall, F1, timestamp\n")
+                
+                for model_name in models:
+                    try:
+                        eval(model_name, args, dataset_obj)
+        
+                    except (InternalServerError, RateLimitError, APITimeoutError, APIConnectionError) as e:
+                        print(f"An error occurred during evaluation of {model_name}")
+                        print(e)
+
 
 
 if __name__ == "__main__":
