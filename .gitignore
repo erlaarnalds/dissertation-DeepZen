@@ -5,6 +5,14 @@
 **/baseline_checkpoints/
 **/results/**/*.txt
 
+**/data/talromur/**/audio/
+**/data/talromur/**/hf_db/
+tts/models/
+tts/pretrained_models/
+tts/secs_evaluation_samples/alfur/*.wav
+tts/secs_evaluation_samples/dilja/*.wav
+
+
 .DS_Store
 **/.DS_Store
 
