@@ -1,9 +1,9 @@
 # unrelated testing folder
-testing/
-logs/
-intermediate_res/
-baseline_checkpoints/
-results/**/*.txt
+**/testing/
+**/logs/
+**/intermediate_res/
+**/baseline_checkpoints/
+**/results/**/*.txt
 
 .DS_Store
 **/.DS_Store
