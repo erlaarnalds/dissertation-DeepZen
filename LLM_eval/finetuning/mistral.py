@@ -54,9 +54,10 @@ if __name__ == "__main__":
                 "learning_rate":0.0001
             },
             suffix=dataset_name,
-            auto_start=True
+            auto_start=False
         )
         print(created_jobs.id)
+        print(created_jobs)
 
         # start a fine-tuning job
         #client.fine_tuning.jobs.start(job_id = created_jobs.id)
@@ -70,7 +71,7 @@ if __name__ == "__main__":
         if verbose:
             for event in resp.events:
                 print(event)
-        print(resp.fine_tuned_model)
+        print(resp)
 
     if args.delete == "model" and args.id == "":
         model_ids = [

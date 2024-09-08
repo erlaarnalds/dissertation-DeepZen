@@ -1,16 +1,1 @@
-utterance,aspect,label
-Stjórnin var minna en greiðvikin.,Stjórnun,negative
-Tvær sóaðar steikur - þvílíkur glæpur!,steikur,negative
-Nokkuð vonbrigði vínlisti (aðeins nýir árgangar.,árgangar,negative
-Hins vegar er þjónustan alveg hræðileg.,þjónusta,negative
-15% þjórfé bætt sjálfkrafa við reikninginn.,reikning,negative
-Þar eru kertaljós og tónlist.,kertaljós,neutral
-Þeir eru bornir fram á Focacchia brauði og eru til að deyja fyrir.,Focacchia brauð,neutral
-"Í uppáhaldi allra tíma má nefna Big Mac, Chicken McNuggets, Filet-O-Fish samloku og McDonald&#39;s frægar franskar kartöflur; Léttari valkostir eins og salöt í forréttum eru einnig fáanlegir.",salöt í aðalrétti,neutral
-Það er borðað með svörtu ediki og rifnum engifer.,svart edik,neutral
-Framkvæmdastjórinn sagði okkur síðan að við gætum pantað af hvaða matseðli sem við vildum en á þeim tíma vorum við orðin svo pirruð á þjóninum og veitingahúsinu að við leyfðum og fórum eitthvað annað.,framkvæmdastjóri,neutral
-"Maturinn er í toppstandi, þjónustan alúð og andrúmsloftið frábært.",þjónusta,positive
-"Maturinn er í toppstandi, þjónustan alúð og andrúmsloftið frábært.",matur,positive
-Svo fyrir mettandi og holla máltíð skaltu prófa.,máltíð,positive
-Dóttir mín og ég fórum sátt (ekki pökkuð) og það var gott að vita að við fengum hollan hádegisverð.,hádegismatur,positive
-Þessi staður er með fallegt sushi og það er ljúffengt Ódýrt.,sushi,positive
+utterance,label

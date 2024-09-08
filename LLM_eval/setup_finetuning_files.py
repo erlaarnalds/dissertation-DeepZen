@@ -5,11 +5,21 @@ import ast
 import pandas as pd
 
 
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--task", type=str, default="MAST", help="Task to perform (SA, ABSA, MAST)")
+    parser.add_argument("--dataset", type=str, default="ice_and_fire_offensive", help="Dataset to set up")
+    return parser.parse_args()
+
+args = parse_args()
+
+
 seed = 38
 random.seed(seed)
 
-dataset_name = "ice_and_fire_offensive"
-task = "MAST"
+dataset_name = args.dataset
+task = args.task
 dataset_path = f"data/{task}/icelandic/{dataset_name}"
 dataset_obj = get_dataset_obj(dataset_name=dataset_name, dataset_path=dataset_path, shot=0)
 

@@ -14,8 +14,15 @@ def translate_text(text_inp):
     return processor.decode(output_tokens[0].tolist()[0], skip_special_tokens=True)
 
 
-task = "ABSA"
-dataset = "asqp_rest15"
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--task", type=str, default="ABSA", help="Task to perform (SA, ABSA, MAST)")
+    parser.add_argument("--dataset", type=str, default="asqp_rest15", help="Dataset to translate")
+    return parser.parse_args()
+
+args = parse_args()
+task = args.task
+dataset = args.dataset
 
 # Load the dataset with pandas
 df = pd.read_csv(f"data/{task}/english/{dataset}/test.csv")
