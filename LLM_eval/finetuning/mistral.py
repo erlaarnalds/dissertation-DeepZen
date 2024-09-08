@@ -74,16 +74,7 @@ if __name__ == "__main__":
         print(resp)
 
     if args.delete == "model" and args.id == "":
-        model_ids = [
-            "ft:open-mistral-nemo:f06c31e4:20240822:asc_rest14:e01c309f",
-            "ft:open-mistral-nemo:f06c31e4:20240822:RU_movie_reviews:fcadd50b",
-            "ft:open-mistral-nemo:f06c31e4:20240822:ice_and_fire_SA:4c7b79aa",
-            "ft:open-mistral-nemo:f06c31e4:20240823:asqp_rest15:3c3850ed",
-            "ft:open-mistral-nemo:f06c31e4:20240823:uabsa_rest16:664c20e1",
-            "ft:open-mistral-nemo:f06c31e4:20240822:asc_rest14:bf5b83dd",
-            "ft:open-mistral-nemo:f06c31e4:20240822:aste_rest14:57364921",
-
-        ]
+        model_ids = []
 
         for model_id in model_ids:
             resp = client.models.delete(model_id=model_id)
