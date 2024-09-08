@@ -1,4 +1,4 @@
-from evaluate import get_dataset_obj
+from funcs import get_dataset_obj
 import random
 import json
 import ast

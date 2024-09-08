@@ -1,4 +1,4 @@
-#Add name of model to evaluate here
+#Uncomment model name to add to evaluation
 #senticnet
 #electra
 #gpt-4o
@@ -6,7 +6,7 @@
 #gpt-3.5-turbo-0125
 #open-mistral-nemo-2407
 #mistral-large-latest
-claude-3-5-sonnet-20240620
+#claude-3-5-sonnet-20240620
 #claude-3-haiku-20240307
 #llama-3.1
 #gemma-2
