@@ -6,7 +6,10 @@ import pandas as pd
 from datasets import Dataset, load_dataset, Audio
 import os
 
-dataset_dir = "data/talromur/dilja"
+voice = "alfur"
+hf_user = "erlaka"
+
+dataset_dir = f"data/talromur/{voice}"
 create = True
 
 if create:
@@ -36,8 +39,8 @@ if create:
 
 
     dataset.save_to_disk(f"{dataset_dir}/hf_db")
-    dataset.push_to_hub("erlaka/talromur_dilja", private=True)
+    dataset.push_to_hub(f"{hf_user}/talromur_{voice}", private=True)
 
 else:
     print(f"using saved dataset: {dataset_dir}/hf_db")
-    dataset = load_dataset("erlaka/talromur_dilja")
+    dataset = load_dataset(f"{hf_user}/talromur_{voice}")

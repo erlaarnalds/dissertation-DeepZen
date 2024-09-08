@@ -123,7 +123,7 @@ if __name__ == "__main__":
     dataset_dir = "data/talromur/dilja"
     output_dir = "secs_evaluation_samples/dilja"
     client = MMSClient("erlaka/mms-tts-isl-finetuned-dilja", "mms_finetuned", 4)
-    average_similarity_mms, stddev_mms = evaluate(speaker_encoder, client, dataset_dir, output_dir, generate=False)
+    average_similarity_mms, stddev_mms = evaluate(speaker_encoder, client, dataset_dir, output_dir, generate=True)
     
     print(f"Average SECS for MMS finetuned: {average_similarity_mms}")
     print(f"Standard deviation: {stddev_mms}")
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     dataset_dir = "data/talromur/alfur"
     output_dir = "secs_evaluation_samples/alfur"
     client = TiroClient("Alfur_v2")
-    average_similarity_tiro, stddev_tiro = evaluate(speaker_encoder, client, dataset_dir, output_dir, generate=False)
+    average_similarity_tiro, stddev_tiro = evaluate(speaker_encoder, client, dataset_dir, output_dir, generate=True)
 
     print(f"Average SECS for Tiro: {average_similarity_tiro}")
     print(f"Standard deviation: {stddev_tiro}")
